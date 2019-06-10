@@ -2405,7 +2405,7 @@ padding-bottom: 12px;
   }
   #skills p {
     color: rgba(242, 242, 242, 0.4);
-    font-size: 9px;
+    font-size: 10px;
   }
     #skills .services-list .h05 {
     font-size: 1.7rem;
@@ -2458,6 +2458,32 @@ padding-bottom: 12px;
 }
 #portfolio .bricks-wrapper .brick:nth-child(2n+1) {
   clear: both;
+}
+
+@media only screen and (max-width: 240px) {
+  
+  #portfolio .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 12px;
+  }
+  #portfolio .section-intro h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  #portfolio .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 12px;
+  }
+  #portfolio p {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 9px;
+  }
+    #portfolio .services-list .h05 {
+    font-size: 1.7rem;
+    line-height: 1.765;
+    color: #FBF1EF;
+    margin-bottom: 3rem;
+  }
 }
 
 /* ------------------------------------------------------------------- 
@@ -3548,6 +3574,30 @@ padding-bottom: 12px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+  }  
+  #contact-info .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 12px;
+  }
+  #contact-info h6 {
+    font-size: 12px;
+  }
+  #contact-info .section-intro h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  #contact-info .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 12px;
+  }
+  #contact-info p {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 14px;
+  }
+    #contact-info .services-list .h05 {
+    font-size: 1.7rem;
+    line-height: 1.765;
+    color: #FBF1EF;
   }
 }
 
