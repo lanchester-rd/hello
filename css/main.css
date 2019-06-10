@@ -2785,6 +2785,40 @@ padding-bottom: 12px;
   #pumpwatch .services-list .service-item {
     padding: 0;
   }
+  #pumpwatch .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 12px;
+  }
+  #pumpwatch .section-intro h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  #pumpwatch .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 9px;
+  }
+  #pumpwatch .services-list {
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  #pumpwatch .services-list .service-item {
+    margin-bottom: 3rem;
+    padding: 0 50px;
+  }
+  #pumpwatch .services-list .service-item p {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 200px;
+  }
+  #pumpwatch .services-list .icon i {
+    font-size: 5.4rem;
+    color: #90e9ff;
+  }
+  #pumpwatch .services-list .h05 {
+    font-size: 1.7rem;
+    line-height: 1.765;
+    color: #FBF1EF;
+    margin-bottom: 3rem;
+  }
 }
 
 
@@ -2792,7 +2826,7 @@ padding-bottom: 12px;
  *  1X. ABTesting - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
- #ABTesting {
+#ABTesting {
   background-color: white;
   /*background-image: url();*/
   background-repeat: no-repeat;
@@ -2883,6 +2917,11 @@ padding-bottom: 12px;
   line-height: 1.765;
   color: #FBF1EF;
   margin-bottom: 3rem;
+}
+@media (max-width: 240px) {
+  #ABTesting {
+  display: none;
+  }
 }
 
 /* ------------------------------------------------------------------- 
