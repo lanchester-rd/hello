@@ -1517,7 +1517,7 @@ header .header-logo a {
   }
 }
 @media only screen and (max-width: 240px) {
-  #header-menu-trigger .header-menu-text {
+  header .header-logo a {
     display: none;
   }
 }
@@ -1542,6 +1542,12 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
 }
+@media only screen and (max-width: 240px) {
+  #home {
+    min-height: 240px;
+  }
+}
+
 #home .overlay {
   position: absolute;
   top: 0;
@@ -1559,6 +1565,16 @@ header .header-logo a {
   position: relative;
   text-align: center;
 }
+
+@media only screen and (max-width: 240px) {
+  .home-content-table {
+    width: 100%;
+    height: 240px;
+    display: table;
+    position: relative;
+    text-align: center;
+  }
+}  
 
 .home-content-tablecell {
   display: table-cell;
@@ -1783,6 +1799,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     min-height: 654px;
   }
 
+  @media only screen and (max-width: 240px) {
+    #home {
+      min-height: 240px;
+    }
+
   .home-content-tablecell .row {
     padding-top: 4.8rem;
     padding-bottom: 10.8rem;
@@ -1796,12 +1817,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 240px) {
   #home {
-    min-height: 320px;
+  
   }
 
   .home-content-tablecell .row {
     padding-top: 1.1rem;
     padding-bottom: 3.2rem;
+    height: 240px
   }
   .home-content-tablecell h3 {
     font-size: 0.4rem;
