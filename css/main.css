@@ -2391,6 +2391,28 @@ padding-bottom: 12px;
   #skills .services-list .service-item {
     padding: 0;
   }
+  #skills .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 12px;
+  }
+  #skills .section-intro h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+  #skills .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 12px;
+  }
+  #skills p {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 9px;
+  }
+    #skills .services-list .h05 {
+    font-size: 1.7rem;
+    line-height: 1.765;
+    color: #FBF1EF;
+    margin-bottom: 3rem;
+  }
 }
 
 
