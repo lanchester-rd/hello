@@ -176,8 +176,8 @@ p.lead {
 }
 
 em, i, strong, b {
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 20px;
+  line-height: 18px;
   font-style: normal;
   font-weight: normal;
 }
@@ -300,11 +300,10 @@ hr {
 }
 
 @media only screen and (max-width: 240px) {
-  h1, .h01 {
-    font-size: 20px;
-    letter-spacing: -.07rem;
+h1, .h01 {
+  font-size: 30px;
+  letter-spacing: -.07rem;
   }
-}
 
 h2, .h02 {
   font-size: 20px;
@@ -342,10 +341,12 @@ p img {
 
 p.lead {
   font-family: "montserrat-regular", sans-serif;
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 40px;
+  line-height: 40px;
   color: #4f4f4f;
   margin-bottom: 1.6rem;
+}
+
 }
 
 /* ------------------------------------------------------------------- 
@@ -2071,9 +2072,9 @@ padding-bottom: 12px;
 .front {
   border-radius: 4px;
 	width: 100%;
-  min-height: 320px;
-  line-height: 320px;
-  padding: 12px;
+  min-height: 240px;
+  line-height: 240px;
+  padding: 6px;
   text-align: center;
   background-color: whitesmoke;
 }
@@ -2083,9 +2084,9 @@ padding-bottom: 12px;
   border: #07617d;
   border-style: double;
 	width: 100%;
-  min-height: 320px;
-  line-height: 320px;
-  padding: 12px;
+  min-height: 240px;
+  line-height: 240px;
+  padding: 6px;
   text-align: center;
   background-color: white;
 }
@@ -2227,6 +2228,15 @@ padding-bottom: 12px;
   }
   #about .lead {
     font-size: 1.3rem;
+  }
+  #about h3 {
+    font-size: 8px;
+  }
+  #about .lead {
+    font-size: 12px;
+  }
+  #about p {
+    font-size: 10px;
   }
 }
 
