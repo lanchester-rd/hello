@@ -472,7 +472,7 @@ img.pull-left {
 }
 @media only screen and (max-width: 240px) {
   .bgrid {
-    padding: 0;
+    padding: 10px;
   }
 }
 /* ------------------------------------------------------------------- 
@@ -780,12 +780,10 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   font-family: "montserrat-bold", sans-serif;
-  font-size: 10px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 12px;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  height: 5.4rem;
-  line-height: 5.4rem;
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
   background: #A5A5A5;
@@ -874,7 +872,7 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #90e9ff;
+  border: 1px solid #90e9ff;
   color: #90e9ff;
 }
 
@@ -1270,7 +1268,6 @@ input::-moz-focus-inner {
   .section-intro h1 {
     font-size: 20px;
   }
-}
 .wide {
   max-width: 1300px;
 }
@@ -1288,6 +1285,7 @@ input::-moz-focus-inner {
 .no-cssanimations .animate-this,
 .no-cssanimations .animate-intro {
   opacity: 1;
+}
 }
 
 
@@ -1679,11 +1677,6 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
 }
-@media only screen and (max-width: 240px) {
-  #home {
-    min-height: 240px;
-  }
-}
 
 #home .overlay {
   position: absolute;
@@ -1707,10 +1700,27 @@ header .header-logo a {
   .home-content-table {
     width: 100%;
     height: 240px;
+    top: 15%;
     display: table;
     position: relative;
     text-align: center;
-  }
+}    
+  .home {
+        width: 100%;
+        height: 100%;
+        background-color: #B7ABED95;
+        background-image: url(../images/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: left 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 804px;
+        position: relative;
+      }
+    }
+
   /* home social-list */
 .home-social-list {
   position: absolute;
@@ -2101,8 +2111,8 @@ padding-bottom: 12px;
 .front {
   border-radius: 4px;
 	width: 100%;
-  max-height: 240px;
-  line-height: 240px;
+  max-height: 220px;
+  line-height: 220px;
   padding: 6px;
   text-align: center;
   background-color: whitesmoke;
@@ -2112,8 +2122,8 @@ padding-bottom: 12px;
   border: #07617d;
   border-style: double;
 	width: 100%;
-  max-height: 240px;
-  line-height: 240px;
+  max-height: 220px;
+  line-height: 220px;
   padding: 6px;
   text-align: center;
   background-color: white;
@@ -2466,17 +2476,21 @@ padding-bottom: 12px;
     color: rgba(242, 242, 242, 0.5);
     font-size: 12px;
   }
+  #portfolio h3 {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 10px;
+  }
   #portfolio .section-intro h1 {
     color: #FFFFFF;
     font-size: 12px;
   }
   #portfolio .section-intro .lead {
-    color: rgba(242, 242, 242, 0.4);
+    color: (#FFFFFF);
     font-size: 12px;
   }
-  #portfolio p {
+  #portfolio .p .a {
     color: rgba(242, 242, 242, 0.4);
-    font-size: 9px;
+    font-size: 10px;
   }
     #portfolio .services-list .h05 {
     font-size: 1.7rem;
@@ -3427,6 +3441,60 @@ padding-bottom: 12px;
   background: #90e9ff;
 }
 
+@media only screen and (max-width: 240px) {
+  #contact {
+    background-color: #111111;
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 12rem 0 12rem;
+    position: relative;
+  }
+  #contact .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    background-color: #000000;
+  }
+  #contact .section-intro h1 {
+    color: white;
+  }
+  #contact .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+  }
+  #contact .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+    font-size: 15px;
+  }
+  #contact .p {
+    font-size: 20px;
+  }
+  
+  .contact-content {
+    max-width: 1024px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    z-index: 600;
+    position: relative;
+  }
+  .contact-content h5 {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .contact-content h6 {
+    color: #555555;
+    font-size: 20px;
+  }
+
+}
+
 #message-warning, #message-success {
   display: none;
   background: #000000;
@@ -3574,25 +3642,26 @@ padding-bottom: 12px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    font-size: 20px;
   }  
   #contact-info .section-intro h3 {
     color: rgba(242, 242, 242, 0.5);
     font-size: 12px;
   }
-  #contact-info h6 {
-    font-size: 12px;
+  #contact-info h6 .h04 {
+    font-size: 24px;
   }
   #contact-info .section-intro h1 {
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 22px;
   }
   #contact-info .section-intro .lead {
     color: rgba(242, 242, 242, 0.4);
-    font-size: 12px;
+    font-size: 22px;
   }
-  #contact-info p {
+  #contact-info .p .a .h6 {
     color: rgba(242, 242, 242, 0.4);
-    font-size: 14px;
+    font-size: 18px;
   }
     #contact-info .services-list .h05 {
     font-size: 1.7rem;
@@ -3682,6 +3751,9 @@ footer h4.h05::after {
   position: absolute;
   right: 0;
   top: 0;
+}
+.footer .p {
+  font-size: 20px;
 }
 .footer-main #mc-form button:hover {
   background-color: #90e9ff;
@@ -3827,6 +3899,9 @@ footer h4.h05::after {
     left: 50%;
     margin-left: -50px;
   }
+  #footer .p {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .footer-bottom {
@@ -3837,16 +3912,22 @@ footer h4.h05::after {
   }
   .footer-bottom .copyright span::after {
     display: none;
+    
   }
 }
 @media only screen and (max-width: 240px) {
   .footer-bottom 
     padding-bottom: 0.1rem;
+    font-size: 10px;
+
+  }
   }
   .footer-bottom .copyright span {
     display: block;
+    font-size: 10px;
   }
   .footer-bottom .copyright span::after {
     display: none;
+    font-size: 10px;
   }
 }
