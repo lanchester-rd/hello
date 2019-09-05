@@ -2487,6 +2487,123 @@ padding-bottom: 12px;
   }
 }
 
+/* ===================================================================
+ *  1X. PumpWatch - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #pumpwatch {
+  background-color: #19191b;
+  background-image: url(images/AppicMockUp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  padding: 15rem 0 15rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+#pumpwatch .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.9);
+}
+#pumpwatch .whitegradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .9;
+  background: -moz-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+#pumpwatch .section-intro h3 {
+  color: rgba(242, 242, 242, 0.5);
+}
+#pumpwatch .section-intro h1 {
+  color: #FFFFFF;
+}
+#pumpwatch .section-intro .lead {
+  color: rgba(242, 242, 242, 0.4);
+}
+#pumpwatch .services-content {
+  text-align: center;
+  max-width: 1040px;
+}
+#pumpwatch .services-list {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#pumpwatch .services-list .service-item {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+}
+#pumpwatch .services-list .service-item p {
+  color: rgba(242, 242, 242, 0.5);
+}
+#pumpwatch .services-list .icon {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+#pumpwatch .services-list .icon i {
+  font-size: 5.4rem;
+  color: #90e9ff;
+}
+#pumpwatch .services-list .h05 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: #FBF1EF;
+  margin-bottom: 3rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * PumpWatch
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #pumpwatch {
+    padding: 12rem 0 12rem;
+  }
+  #pumpwatch .services-content {
+    max-width: 550px;
+  }
+  #pumpwatch .services-list .service-item {
+    padding: 0 15px;
+  }
+  #pumpwatch .services-list .icon i {
+    font-size: 5.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 10px;
+  }
+  #pumpwatch .services-list .icon i {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0;
+  }
+}
 
 /* ===================================================================
  *  1X. ABTesting - (_layout.scss)
