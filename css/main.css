@@ -2492,9 +2492,9 @@ padding-bottom: 12px;
  *
  * ------------------------------------------------------------------- */
  #UI {
-  background-color: #19191b;
-  background-image: url(..images/AppicMockUp.jpg);
-  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-image: url(../images/portfolio/bg2.jpg);
+  background-repeat: repeat-y;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2519,9 +2519,9 @@ padding-bottom: 12px;
   width: 100%;
   height: 100%;
   opacity: .9;
-  background: -moz-linear-gradient(top,  #B7ABED95, transparent 100%);
-  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
-  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
+  background: -moz-linear-gradient(top,  #BFDFAD95 , transparent 100%);
+  background: -webkit-linear-gradient(top,  #BFDFAD95 , transparent 100%);
+  background: linear-gradient(to bottom,  #BFDFAD95 , transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #UI .section-intro h3 {
@@ -2637,9 +2637,9 @@ padding-bottom: 12px;
   width: 100%;
   height: 100%;
   opacity: .4;
-  background: -moz-linear-gradient(top, #BFDFAD95, transparent 100%);
-  background: -webkit-linear-gradient(top,  #BFDFAD95, transparent 100%);
-  background: linear-gradient(to bottom,  #BFDFAD95, transparent 100%);
+  background: -moz-linear-gradient(top, #B7ABED95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #ABTesting .section-intro h3 {
