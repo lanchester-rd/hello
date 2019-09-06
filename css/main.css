@@ -2493,8 +2493,8 @@ padding-bottom: 12px;
  * ------------------------------------------------------------------- */
  #UI {
   background-color: #ffffff;
-  background-image: url(../images/portfolio/bg2.jpg);
-  background-repeat: repeat-y;
+  background-image: url(../images/bg_UI.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2569,12 +2569,12 @@ padding-bottom: 12px;
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   #UI .services-list .service-item {
-    padding: 0 40px;
+    padding: 0 80px;
   }
 }
 @media only screen and (max-width: 900px) {
   #UI .services-list .service-item {
-    padding: 0 30px;
+    padding: 0 60px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2585,7 +2585,7 @@ padding-bottom: 12px;
     max-width: 550px;
   }
   #UI .services-list .service-item {
-    padding: 0 15px;
+    padding: 0 30px;
   }
   #UI .services-list .icon i {
     font-size: 5.1rem;
@@ -2593,10 +2593,10 @@ padding-bottom: 12px;
 }
 @media only screen and (max-width: 600px) {
   #UI .services-list .service-item {
-    padding: 0 10px;
+    padding: 0 20px;
   }
   #UI .services-list .icon i {
-    font-size: 5rem;
+    font-size: 52rem;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2637,9 +2637,9 @@ padding-bottom: 12px;
   width: 100%;
   height: 100%;
   opacity: .4;
-  background: -moz-linear-gradient(top, #B7ABED95, transparent 100%);
-  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
-  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
+  background: -moz-linear-gradient(top, #EEBFAB95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #EEBFAB95, transparent 100%);
+  background: linear-gradient(to bottom,  #EEBFAB95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #ABTesting .section-intro h3 {
