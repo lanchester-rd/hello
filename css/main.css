@@ -1805,6 +1805,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .3rem;
   position: relative;
 }
+#about h4 {
+  font-family: "librebaskerville-regular", serif;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #000000;
+  letter-spacing: ;
+  position: relative;
+}
 #about h3::before {
   display: block;
   content: "";
@@ -2504,6 +2512,32 @@ padding-bottom: 12px;
   padding: 15rem 0 15rem;
   color: rgba(255, 255, 255, 0.3);
 }
+
+#UI .button {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#UI .scrolling-wrapper-UI {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#UI .card-UI {
+    height:400px;
+    width:600px;
+    display: inline-block;
+}
+
 #UI .overlay {
   position: absolute;
   top: 0;
@@ -2563,9 +2597,11 @@ padding-bottom: 12px;
   margin-bottom: 3rem;
 }
 
+
+
 /* ------------------------------------------------------------------- 
  * responsive:
- * PumpWatch
+ * UI
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   #UI .services-list .service-item {
