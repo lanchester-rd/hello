@@ -3,7 +3,7 @@
 
 Thomas David Richardson MDes - UX / UI Product Designer - Netherlands 
 <br><br>
-[Portfolio Website](https://tdr1991vr.github.io/UXPortfolio/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
+[Portfolio Website](https://tdr1991vr.github.io/hello/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
 <br>
 More links at the bottom. 
 
