@@ -2807,15 +2807,6 @@ padding-bottom: 12px;
   min-height: 804px;
   position: relative;
 }
-#figma .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .2;
-  background-color: #B7ABED95;
-}
 
 #figma .whitegradient-overlay {
   position: absolute;
