@@ -2792,7 +2792,7 @@ padding-bottom: 12px;
  *  XX. figma - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#figma {{
+#figma {
   background-color: white;
   background-image: images/portfolio/2019Styles/bg5.png;
   background-repeat: no-repeat;
