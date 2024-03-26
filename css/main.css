@@ -18,7 +18,7 @@
  *  11. about
  *  12. services
  *  13. portfolio
- *  XX. testimonials
+ *  XX. figma
  *  14. PumpWatch
  *  15. clients
  *  16. contact
@@ -2797,7 +2797,7 @@ padding-bottom: 12px;
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
-#testimonials h2 {
+#figma h2 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
@@ -2808,41 +2808,41 @@ padding-bottom: 12px;
   margin-bottom: 4.2rem;
 }
 
-#testimonials .flex-container {
+#figma .flex-container {
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
 }
 
-#testimonial-slider {
+#figma-slider {
   margin: 0 0 3rem 0;
   position: relative;
 }
-#testimonial-slider .slides {
+#figma-slider .slides {
   padding-bottom: 3rem;
 }
-#testimonial-slider p {
+#figma-slider p {
   font-family: "librebaskerville-bold", serif;
   font-size: 3rem;
   line-height: 1.8;
   color: #151515;
 }
-#testimonial-slider p::before, #testimonial-slider p::after {
+#figma-slider p::before, #figma-slider p::after {
   display: inline-block;
   font-family: "librebaskerville-bold", serif;
   font-size: 3.6rem;
   line-height: 1;
 }
-#testimonial-slider p::before {
+#figma-slider p::before {
   content: '\201C';
 }
-#testimonial-slider p::after {
+#figma-slider p::after {
   content: '\201D';
 }
-#testimonial-slider .testimonial-author {
+#figma-slider .figma-author {
   margin-top: 4.2rem;
 }
-#testimonial-slider .testimonial-author img {
+#figma-slider .figma-author img {
   width: 7.4rem;
   height: 7.4rem;
   margin: 0 auto 1.2rem auto;
@@ -2850,7 +2850,7 @@ padding-bottom: 12px;
   border-radius: 50%;
   vertical-align: middle;
 }
-#testimonial-slider .testimonial-author .author-info {
+#figma-slider .figma-author .author-info {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -2860,7 +2860,7 @@ padding-bottom: 12px;
   margin-bottom: 3rem;
   color: #151515;
 }
-#testimonial-slider .testimonial-author .author-info span {
+#figma-slider .figma-author .author-info span {
   display: block;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.6rem;
@@ -2872,20 +2872,20 @@ padding-bottom: 12px;
 }
 
 /* control nav */
-#testimonials .flex-control-nav {
+#figmas .flex-control-nav {
   width: 100%;
   text-align: center;
   display: block;
   position: absolute;
   bottom: -1.5rem;
 }
-#testimonials .flex-control-nav li {
+#figmas .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
 }
 
-#testimonials .flex-control-paging li a {
+#figmas .flex-control-paging li a {
   width: 9px;
   height: 9px;
   background-color: #959595;
@@ -2896,61 +2896,61 @@ padding-bottom: 12px;
   text-shadow: none;
   color: transparent;
 }
-#testimonials .flex-control-paging li a:hover {
+#figmas .flex-control-paging li a:hover {
   background-color: #555555;
 }
-#testimonials .flex-control-paging li a.flex-active {
+#figmas .flex-control-paging li a.flex-active {
   background-color: #000000;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * testimonials
+ * figmas
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
-  #testimonial-slider p {
+  #figma-slider p {
     font-size: 2.8rem;
   }
 }
 @media only screen and (max-width: 768px) {
-  #testimonials h2 {
+  #figmas h2 {
     font-size: 1.7rem;
   }
 
-  #testimonial-slider p {
+  #figma-slider p {
     font-size: 2.5rem;
   }
-  #testimonial-slider .testimonial-author img {
+  #figma-slider .figma-author img {
     width: 6.6rem;
     height: 6.6rem;
   }
-  #testimonial-slider .testimonial-author .author-info {
+  #figma-slider .figma-author .author-info {
     font-size: 1.8rem;
   }
-  #testimonial-slider .testimonial-author .author-info span {
+  #figma-slider .figma-author .author-info span {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  #testimonials .flex-container {
+  #figma .flex-container {
     width: 90%;
   }
 
-  #testimonial-slider p {
+  #figma-slider p {
     font-size: 2.2rem;
   }
 }
 @media only screen and (max-width: 500px) {
-  #testimonials h2 {
+  #figma h2 {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 400px) {
-  #testimonials .flex-container {
+  #figma .flex-container {
     width: 100%;
   }
 
-  #testimonial-slider p {
+  #figma-slider p {
     font-size: 2rem;
   }
 }
