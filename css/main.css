@@ -2792,8 +2792,9 @@ padding-bottom: 12px;
  *  XX. figma - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#figma {
-  /*background-color: white;*/
+
+ #figma {
+  background-color: #19191b;
   background-image: url(..images/portfolio/2019Styles/bg5.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -2803,8 +2804,29 @@ padding-bottom: 12px;
   min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 0.3);
 }
+#figma .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.9);
+}
+#figma .whitegradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .9;
+  background: -moz-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+
 #figma h2 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
