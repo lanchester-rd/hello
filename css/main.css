@@ -2792,16 +2792,24 @@ padding-bottom: 12px;
  *  XX. figma - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#figma {
-  background: #FFFFFF;
-  padding: 12rem 0 7.8rem;
-  text-align: center;
+#figma {{
+  background-color: white;
+  background-image: images/portfolio/2019Styles/bg5.png;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  padding: 15rem 0 15rem;
+  color: whitesmoke;
 }
 #figma h2 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #2e383f;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2809,15 +2817,8 @@ padding-bottom: 12px;
 }
 
 }
-#figma h3 {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.667;
+#figma .section-intro h3 {
   color: #07617d;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  position: relative;
-  margin-bottom: 4.2rem;
 }
 
 #figma .flex-container {
