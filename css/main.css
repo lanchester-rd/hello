@@ -2793,18 +2793,19 @@ padding-bottom: 12px;
  *
  * ------------------------------------------------------------------- */
 
- #figma {
-  background-color: #19191b;
-  background-image: url(..images/portfolio/2019Styles/bg5.png);
+ #figma  {
+  width: 100%;
+  height: 100%;
+  background-color: #B7ABED95;
+  background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 800px;
+  background-attachment: fixed;
+  min-height: 804px;
   position: relative;
-  padding: 15rem 0 15rem;
-  color: rgba(255, 255, 255, 0.3);
 }
 #figma .overlay {
   position: absolute;
@@ -2812,8 +2813,10 @@ padding-bottom: 12px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.9);
+  opacity: .2;
+  background-color: #B7ABED95;
 }
+
 #figma .whitegradient-overlay {
   position: absolute;
   top: 0;
