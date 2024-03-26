@@ -2834,6 +2834,12 @@ padding-bottom: 12px;
 #figma .section-intro h1 {
   color: #FFFFFF;
 }
+
+}
+#figma .section-intro p {
+  color: #07617d;
+}
+
 #figma .section-intro .lead {
   color: rgba(242, 242, 242, 0.8);
 }
