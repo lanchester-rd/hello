@@ -2797,7 +2797,7 @@ padding-bottom: 12px;
   background-color: #19191b;
   background-image: url(../images/portfolio/2019Styles/bg2.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100% left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -2827,20 +2827,17 @@ padding-bottom: 12px;
   background: linear-gradient(to bottom,  #BFDFAD95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
-
-#figma h2 {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.667;
-  color: #2e383f;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  position: relative;
-  margin-bottom: 4.2rem;
-}
-
 #figma .section-intro h3 {
-  color: #07617d;
+  color: rgba(242, 242, 242, 0.5);
+}
+#figma .section-intro h1 {
+  color: #FFFFFF;
+}
+#figma .section-intro .lead {
+  color: rgba(242, 242, 242, 0.8);
+}
+#figma .portfolio-content {
+  margin-top: -22.2rem;
 }
 
 #figma .flex-container {
