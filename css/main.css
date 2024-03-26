@@ -2794,7 +2794,7 @@ padding-bottom: 12px;
  * ------------------------------------------------------------------- */
 #figma {
   background-color: white;
-  background-image: images/portfolio/2019Styles/bg5.png;
+  background-image: url(..images/portfolio/2019Styles/bg5.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
