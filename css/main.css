@@ -2804,8 +2804,10 @@ padding-bottom: 12px;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 804px;
   position: relative;
+  padding: 15rem 0 15rem;
+  color: whitesmoke;	 
+
 }
 
 #figma .whitegradient-overlay {
