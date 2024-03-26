@@ -2793,34 +2793,76 @@ padding-bottom: 12px;
  *
  * ------------------------------------------------------------------- */
 
- #figma  {
-  width: 100%;
-  height: 100%;
-  background-color: #B7ABED95;
-  background-image: url(../images/hero-bg.jpg);
+#skills {
+  background-color: #19191b;
+  background-image: url(../images/portfolio/2019Styles/bg2.jpg);
   background-repeat: no-repeat;
-  background-position: left 100%;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
-  color: whitesmoke;	 
-
+  color: rgba(255, 255, 255, 0.3);
 }
-
-#figma .whitegradient-overlay {
+#skills .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.7);
+}
+#skills .gradient-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .9;
-  background: -moz-linear-gradient(top,  #BFDFAD95, transparent 100%);
+  opacity: .4;
+  background: -moz-linear-gradient(top, #BFDFAD95, transparent 100%);
   background: -webkit-linear-gradient(top,  #BFDFAD95, transparent 100%);
   background: linear-gradient(to bottom,  #BFDFAD95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+#skills .section-intro h3 {
+  color: rgba(242, 242, 242, 0.5);
+}
+#skills .section-intro h1 {
+  color: #FFFFFF;
+}
+#skills .section-intro .lead {
+  color: rgba(242, 242, 242, 0.4);
+}
+#skills .services-content {
+  text-align: center;
+  max-width: 1040px;
+}
+#skills .services-list {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#skills .services-list .service-item {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+}
+#skills .services-list .service-item p {
+  color: rgba(242, 242, 242, 0.5);
+}
+#skills .services-list .icon {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+#skills .services-list .icon i {
+  font-size: 5.4rem;
+  color: #FBF1EF;
+}
+#skills .services-list .h05 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: #FBF1EF;
+  margin-bottom: 3rem;
 }
 
 #figma h2 {
