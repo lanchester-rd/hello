@@ -1,7 +1,7 @@
 # Product Owner Thomas D Richardson
-# UX / UI Product Design Portfolio
+# Portfolio
 
-Thomas David Richardson MDes - UX / UI Product Designer - Netherlands 
+Thomas David Richardson MDes - Netherlands 
 <br><br>
 [Portfolio Website](https://tdr1991vr.github.io/hello/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
 <br>
