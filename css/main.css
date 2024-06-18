@@ -2805,8 +2805,7 @@ padding-bottom: 12px;
   min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
-  color: rgba(255, 255, 255, 0.3);
-  font-colour: #555444;
+  colour: #555444;
 }
 #figma .overlay {
   position: absolute;
