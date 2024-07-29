@@ -1,9 +1,8 @@
-# Product Owner Thomas D Richardson
 # Portfolio
 
-Thomas David Richardson MDes - Netherlands 
+Master of Design (MDes) - Amsterdam, Netherlands 
 <br><br>
-[Portfolio Website](https://tdr1991vr.github.io/hello/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
+[Portfolio Website](https://lanchester-rd.github.io/hello/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
 <br>
 More links at the bottom. 
 
@@ -34,23 +33,6 @@ Cambridge UK
 ```
 Design and Testing my own product - User & Market Research, prototyping and testing. 
 ```
-
-#### Bloomon - Product Owner: AB Testing
-Amsterdam NL 
-
-```
-Responsible for growth through AB testing, working with all departments to optimise processes and promote alternative thinking to be tested.  
-```
-
-#### BigBrother International - UX Designer (Creative Conscious for R&D)
-Ede NL <br>
-[PumpWatch](http://www.pumpwatch.nl) - Learn more about the product was the UX designer for here
-
-```
-Responsible for design, development, testing and marketing for largest security company in Petrol Market. Working closely with Shell, BP and other multinational companies to develop cost saving solutions for fuel and retail markets. 
-```
-
-Now looking for a new and exciting role to keep learning new skills and contribute to a driven and motivated team.
 
 
 ## Design Skills
@@ -110,16 +92,6 @@ Now looking for a new and exciting role to keep learning new skills and contribu
 I attended the Royal Navy School of Leadership and Management and I enjoy being a team leader and having responsibilities outside of design.
 ```
 
-## Personal Life
-
-I'm a nice, enthusiastic, typical Englishman. Over polite, demands authority and works harder than he plays... and I play real hard. You can learn more about me by inviting me for a coffee, or if you are inclined [facebook](http://www.facebook.com/tdrichardson).
-
-## Other Sites
-
-* [Thomas D Richardson Portfolio Website](http://thomasdrichardson.strikingly.com) - Portfolio from 2017
-* [Git Portfolio Website](https://tdr1991vr.github.io/UXPortfolio/) - Showcasing my HTML, CSS and Java.
-* [LinkedIn](www.linkedin.com/in/thomasdrichardson) - Connect with me? 
-* [YouTube](https://www.youtube.com/channel/UCt_LYcFwPx7HT1RXS7JNR-g/) - My YouTube 
 
 
 
