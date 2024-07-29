@@ -494,8 +494,16 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;	
-  background-image: url(../images/hero-bg.jpg);	
-  background: #B7ABED;
+  background-color: #B7ABED95;
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 804px;
+  position: relative;
   z-index: 800;
   height: 100%;
   width: 100%;
