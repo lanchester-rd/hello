@@ -681,88 +681,130 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
           <>
             <section className="py-20 bg-white">
               <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Overview</h3>
-                <p className="mt-4 text-gray-600">IRU-Assistant is an AI-supported shoot cost and production planning tool — a client-facing dynamic calculator paired with a backend-configurable pricing engine for production teams.</p>
-              </div>
-            </section>
-
-            <section className="py-20">
-              <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Core Product Architecture</h3>
-                <p className="mt-4 text-gray-600">IRU-Assistant is organised into two principal surfaces: the Calculator (user-facing) and the Admin Panel (configuration engine).</p>
-
-                <h4 className="mt-6 font-semibold">1. Calculator Page (/)</h4>
-                <p className="mt-2 text-gray-600">A dynamic cost builder that renders services from structured definitions. Key capabilities:</p>
-                <ul className="mt-2 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Toggle between Model Shoot and Product Shoot</li>
-                  <li>Select photo and video deliverables</li>
-                  <li>Add services by category: deliverables, team roles (per day / per person), post-production, distribution, add-ons</li>
-                  <li>Auto total calculation with usage multipliers and model-specific adjustments</li>
-                  <li>Dynamic rendering driven entirely by structured service definitions — no hardcoded pricing logic</li>
-                </ul>
-
-                <h4 className="mt-6 font-semibold">2. Admin Panel (/admin)</h4>
-                <p className="mt-2 text-gray-600">Internal configuration interface for non-developers to CRUD service definitions and pricing rules without redeploys.</p>
-                <ul className="mt-2 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Add / edit / soft-delete services</li>
-                  <li>Configure billing type (flat, per day, per person), base price, flags and visibility rules</li>
-                  <li>Define multipliers and usage rights logic to be applied at calculation time</li>
-                </ul>
-              </div>
-            </section>
-
-            <section className="py-20 bg-gray-50">
-              <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Product Capabilities</h3>
+                <h3 className="text-2xl font-semibold">Market Context</h3>
                 <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Client-facing calculator with instant quote preview</li>
-                  <li>Admin-configurable pricing engine with zero-deploy updates</li>
-                  <li>Support for flat fees, per-day and per-person billing, and usage multipliers</li>
-                  <li>Role-based deliverable configuration and model-specific pricing adjustments</li>
-                  <li>Clear separation between calculation engine and presentation layer</li>
+                  <li>Hotel staff are expected to deliver personalised service but are rarely equipped with the guest context needed to do so consistently.</li>
+                  <li>Guest preferences, past stays and service history are siloed in PMS databases that are impractical to query at point of interaction.</li>
+                  <li>Front-line staff turnover means institutional knowledge about guests is frequently lost.</li>
+                  <li>High-end properties compete on personalisation but lack the operational tooling to deliver it at scale without manual briefing overhead.</li>
                 </ul>
               </div>
             </section>
 
             <section className="py-20">
               <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">My Role</h3>
-                <p className="mt-4 text-gray-600"><strong>Product Design Leader / Product Manager</strong></p>
+                <h3 className="text-2xl font-semibold">The Problem</h3>
                 <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Defined the data-driven UI architecture and service model</li>
-                  <li>Designed the admin UX for non-technical pricing management</li>
-                  <li>Scoped calculation engine and multiplier semantics</li>
-                  <li>Led product decisions to separate presentation, config and calculation concerns</li>
+                  <li>Staff have no quick way to recall guest preferences or prior context before or during an interaction.</li>
+                  <li>Service opportunities (upsells, proactive gestures, issue resolution) are missed because staff lack timely intelligence.</li>
+                  <li>Briefing workflows are manual, inconsistent and non-scalable across large or multi-property operations.</li>
+                  <li>Without contextual signals, every guest interaction starts from scratch — eroding the experience that justifies premium pricing.</li>
                 </ul>
               </div>
             </section>
 
             <section className="py-20 bg-gray-50">
               <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Tech Stack</h3>
-                <p className="mt-4 text-gray-600">React, React Router, Vite, TypeScript with an optional Supabase backend for persistence. The app is fully componentized and driven by structured service definitions.</p>
+                <h3 className="text-2xl font-semibold">Strategic Hypothesis</h3>
+                <p className="mt-4 text-gray-600">If hotel staff are given a real-time AI companion that surfaces the right guest context at the right moment, personalised service delivery becomes consistent and scalable — without requiring manual briefings or PMS expertise from front-line staff.</p>
+              </div>
+            </section>
+
+            <section className="py-20">
+              <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-semibold">System Architecture</h4>
+                  <p className="mt-3 text-gray-600">A staff-facing AI companion that aggregates guest data from the PMS and service history, distils it into actionable context, and surfaces it via a lightweight, always-available interface.</p>
+
+                  <div className="mt-4 space-y-3">
+                    <div>
+                      <h5 className="font-semibold">Guest context engine</h5>
+                      <p className="mt-1 text-gray-600">Aggregates preferences, prior stays, complaints, upsell history and loyalty signals into a per-guest profile updated in real time.</p>
+                    </div>
+
+                    <div>
+                      <h5 className="font-semibold">PMS integration layer</h5>
+                      <p className="mt-1 text-gray-600">Reads from property management systems to synchronise check-in/out data, room assignments and special requests without duplicating data entry.</p>
+                    </div>
+
+                    <div>
+                      <h5 className="font-semibold">Staff-facing companion UI</h5>
+                      <p className="mt-1 text-gray-600">A minimal, glanceable interface designed for front-line staff — surfaces the most relevant guest signals for the current interaction without cognitive overload.</p>
+                    </div>
+
+                    <div>
+                      <h5 className="font-semibold">Service opportunity signals</h5>
+                      <p className="mt-1 text-gray-600">AI-generated prompts that flag upsell moments, complaint risks and proactive gesture opportunities based on guest context and historical patterns.</p>
+                    </div>
+
+                    <div>
+                      <h5 className="font-semibold">Interaction logging</h5>
+                      <p className="mt-1 text-gray-600">Records staff-guest interactions to enrich the guest profile over time and provide service managers with quality-assurance visibility.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="h-56 bg-gray-100 rounded-md flex items-center justify-center">
+                  <div className="w-full px-6">
+                    <div className="space-y-4">
+                      <SystemDiagram type="layered" complexity="medium" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="py-20 bg-white">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Execution Pillars</h3>
+                <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
+                  <div className="p-4 border border-gray-100 rounded-md">
+                    <h5 className="font-semibold">Contextual relevance</h5>
+                    <p className="mt-2 text-gray-600">Surface only the most actionable signals for the specific interaction — reduce information overload so staff can act with confidence, not confusion.</p>
+                  </div>
+
+                  <div className="p-4 border border-gray-100 rounded-md">
+                    <h5 className="font-semibold">Staff UX clarity</h5>
+                    <p className="mt-2 text-gray-600">Design for glanceability: distil guest profiles into quick-read cards available at counter, table or door without requiring app navigation.</p>
+                  </div>
+
+                  <div className="p-4 border border-gray-100 rounded-md">
+                    <h5 className="font-semibold">Hospitality data model</h5>
+                    <p className="mt-2 text-gray-600">Define a guest data model that captures preference, history and sentiment in a structured, interoperable format across properties.</p>
+                  </div>
+                </div>
+
+                <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div className="p-4 border border-gray-100 rounded-md">
+                    <h5 className="font-semibold">PMS integration strategy</h5>
+                    <p className="mt-2 text-gray-600">Standardise read-only API adapters for common PMS platforms (Opera, Mews, etc.) to enable rapid deployment without workflow disruption.</p>
+                  </div>
+
+                  <div className="p-4 border border-gray-100 rounded-md">
+                    <h5 className="font-semibold">Measurement & outcomes</h5>
+                    <p className="mt-2 text-gray-600">Track personalisation delivery rate, service opportunity conversion and guest satisfaction deltas to demonstrate ROI to property operators.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="py-20 bg-gray-50">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Outcomes</h3>
+                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Consistent, personalised service delivery without relying on staff memory or manual briefings.</li>
+                  <li>Measurable uplift in service opportunity conversion and guest satisfaction scores.</li>
+                  <li>Operational model that scales personalisation across properties without proportional staff overhead.</li>
+                </ul>
               </div>
             </section>
 
             <section className="py-20">
               <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Product Thinking Highlights</h3>
+                <h3 className="text-2xl font-semibold">What's Next</h3>
                 <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Data-driven UI architecture: UI renders from service configuration rather than static form logic</li>
-                  <li>Scalable pricing logic: handles flat, per-day, per-person, and usage multipliers via metadata</li>
-                  <li>Separation of concerns: admin config layer, calculation engine, presentation layer</li>
-                  <li>Real business utility: replaces fragile spreadsheets with a transparent, auditable calculator</li>
-                </ul>
-              </div>
-            </section>
-
-            <section className="py-20 bg-gray-50">
-              <div className="max-w-5xl mx-auto">
-                <h3 className="text-2xl font-semibold">Outcome / Portfolio Value</h3>
-                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
-                  <li>Demonstrates end-to-end product thinking and systems design</li>
-                  <li>Showcases admin architecture that removes the need for redeploys to change pricing</li>
-                  <li>Positions the product owner as a PM and design leader capable of translating operational workflows into scalable software</li>
+                  <li>Multi-property profiles to synchronise guest context across hotel groups and loyalty programmes.</li>
+                  <li>Sentiment analysis from review and feedback data to enrich real-time staff signals.</li>
+                  <li>Voice-activated companion mode for hands-free access during service interactions.</li>
                 </ul>
               </div>
             </section>
