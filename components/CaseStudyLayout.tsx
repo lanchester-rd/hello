@@ -677,6 +677,96 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
               </div>
             </section>
           </>
+        ) : slug === 'iru-assistant' ? (
+          <>
+            <section className="py-20 bg-white">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Overview</h3>
+                <p className="mt-4 text-gray-600">IRU-Assistant is an AI-supported shoot cost and production planning tool — a client-facing dynamic calculator paired with a backend-configurable pricing engine for production teams.</p>
+              </div>
+            </section>
+
+            <section className="py-20">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Core Product Architecture</h3>
+                <p className="mt-4 text-gray-600">IRU-Assistant is organised into two principal surfaces: the Calculator (user-facing) and the Admin Panel (configuration engine).</p>
+
+                <h4 className="mt-6 font-semibold">1. Calculator Page (/)</h4>
+                <p className="mt-2 text-gray-600">A dynamic cost builder that renders services from structured definitions. Key capabilities:</p>
+                <ul className="mt-2 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Toggle between Model Shoot and Product Shoot</li>
+                  <li>Select photo and video deliverables</li>
+                  <li>Add services by category: deliverables, team roles (per day / per person), post-production, distribution, add-ons</li>
+                  <li>Auto total calculation with usage multipliers and model-specific adjustments</li>
+                  <li>Dynamic rendering driven entirely by structured service definitions — no hardcoded pricing logic</li>
+                </ul>
+
+                <h4 className="mt-6 font-semibold">2. Admin Panel (/admin)</h4>
+                <p className="mt-2 text-gray-600">Internal configuration interface for non-developers to CRUD service definitions and pricing rules without redeploys.</p>
+                <ul className="mt-2 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Add / edit / soft-delete services</li>
+                  <li>Configure billing type (flat, per day, per person), base price, flags and visibility rules</li>
+                  <li>Define multipliers and usage rights logic to be applied at calculation time</li>
+                </ul>
+              </div>
+            </section>
+
+            <section className="py-20 bg-gray-50">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Product Capabilities</h3>
+                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Client-facing calculator with instant quote preview</li>
+                  <li>Admin-configurable pricing engine with zero-deploy updates</li>
+                  <li>Support for flat fees, per-day and per-person billing, and usage multipliers</li>
+                  <li>Role-based deliverable configuration and model-specific pricing adjustments</li>
+                  <li>Clear separation between calculation engine and presentation layer</li>
+                </ul>
+              </div>
+            </section>
+
+            <section className="py-20">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">My Role</h3>
+                <p className="mt-4 text-gray-600"><strong>Product Design Leader / Product Manager</strong></p>
+                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Defined the data-driven UI architecture and service model</li>
+                  <li>Designed the admin UX for non-technical pricing management</li>
+                  <li>Scoped calculation engine and multiplier semantics</li>
+                  <li>Led product decisions to separate presentation, config and calculation concerns</li>
+                </ul>
+              </div>
+            </section>
+
+            <section className="py-20 bg-gray-50">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Tech Stack</h3>
+                <p className="mt-4 text-gray-600">React, React Router, Vite, TypeScript with an optional Supabase backend for persistence. The app is fully componentized and driven by structured service definitions.</p>
+              </div>
+            </section>
+
+            <section className="py-20">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Product Thinking Highlights</h3>
+                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Data-driven UI architecture: UI renders from service configuration rather than static form logic</li>
+                  <li>Scalable pricing logic: handles flat, per-day, per-person, and usage multipliers via metadata</li>
+                  <li>Separation of concerns: admin config layer, calculation engine, presentation layer</li>
+                  <li>Real business utility: replaces fragile spreadsheets with a transparent, auditable calculator</li>
+                </ul>
+              </div>
+            </section>
+
+            <section className="py-20 bg-gray-50">
+              <div className="max-w-5xl mx-auto">
+                <h3 className="text-2xl font-semibold">Outcome / Portfolio Value</h3>
+                <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                  <li>Demonstrates end-to-end product thinking and systems design</li>
+                  <li>Showcases admin architecture that removes the need for redeploys to change pricing</li>
+                  <li>Positions the product owner as a PM and design leader capable of translating operational workflows into scalable software</li>
+                </ul>
+              </div>
+            </section>
+          </>
         ) : slug === 'leaf' ? (
           <>
             <section className="py-20 bg-white">

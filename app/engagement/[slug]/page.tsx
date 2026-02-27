@@ -7,7 +7,7 @@ import { projects } from '../../../data/projects'
 import ContactCTA from '../../../components/ContactCTA'
 import { notFound } from 'next/navigation'
 
-type Props = { params: { slug: string } }
+type Props = { params: Promise<{ slug: string }> | { slug: string } }
 
 const modeMap: Record<string, { title: string; description: string }> = {
   'venture-builder': {
@@ -28,8 +28,9 @@ const modeMap: Record<string, { title: string; description: string }> = {
   }
 }
 
-export default function EngagementPage({ params }: Props) {
-  const slug = params?.slug
+export default async function EngagementPage({ params }: Props) {
+  const resolved = await params
+  const { slug } = resolved
   if (!slug) return notFound()
   const mode = modeMap[slug] || { title: slug.replace(/-/g, ' '), description: '' }
   const related = projects.filter(p => p.engagementModes.includes(slug))

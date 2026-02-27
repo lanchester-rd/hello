@@ -46,6 +46,14 @@
       "namedRegex": "^/engagements/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/insights/[slug]",
+      "regex": "^/insights/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/insights/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/work/[slug]",
       "regex": "^/work/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -96,6 +104,12 @@
       "regex": "^/engagements(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/engagements(?:/)?$"
+    },
+    {
+      "page": "/insights",
+      "regex": "^/insights(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/insights(?:/)?$"
     },
     {
       "page": "/work",

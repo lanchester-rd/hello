@@ -8,6 +8,8 @@
   "/engagement/[slug]/page": "app/engagement/[slug]/page.js",
   "/engagements/[slug]/page": "app/engagements/[slug]/page.js",
   "/engagements/page": "app/engagements/page.js",
+  "/insights/[slug]/page": "app/insights/[slug]/page.js",
+  "/insights/page": "app/insights/page.js",
   "/page": "app/page.js",
   "/work/[slug]/page": "app/work/[slug]/page.js",
   "/work/page": "app/work/page.js"

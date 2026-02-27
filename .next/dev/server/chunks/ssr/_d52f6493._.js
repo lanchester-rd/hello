@@ -324,9 +324,9 @@ __turbopack_context__.s([
 const projects = [
     {
         slug: 'imediate',
-        title: 'iMediate',
-        category: 'Regulated Mediation',
-        shortDescription: 'iMediate is a co-parenting infrastructure layer built on WhatsApp that integrates behavioral guidance (NVC), automatic calendar extraction, court-ready documentation, and child activity ecosystem coordination into a structured, defensible system.',
+        title: 'iMediate App',
+        category: 'Digital Mediation Platform',
+        shortDescription: 'A digital mediation platform applying Non-Violent Communication (NVC), structured co-parenting tools, automatic calendar extraction, and integrations with local parenting communities (e.g. WipWap / Amsterdam Parent Project).',
         engagementModes: [
             'venture-builder',
             'product-leadership-partner',
@@ -340,7 +340,8 @@ const projects = [
         complexityTags: [
             'Regulatory',
             'Traceability',
-            'Behavioral Design'
+            'Behavioral Design',
+            'NVC'
         ],
         industry: 'Legal / Dispute Resolution',
         scaleStage: 'Regulated',
@@ -351,11 +352,48 @@ const projects = [
             },
             {
                 label: 'System Complexity',
-                value: 'Court-ready documentation and evidence traceability'
+                value: 'NVC-guided communication, calendar extraction, and court-ready documentation'
             },
             {
                 label: 'Operational Impact',
-                value: 'Defined case-handling workflows that reduce manual reconciliation'
+                value: 'Structured co-parenting coordination integrated with local community ecosystems'
+            }
+        ]
+    },
+    {
+        slug: 'imediate-whatsapp',
+        title: 'iMediate — WhatsApp Layer',
+        category: 'Conversational Mediation / Messaging',
+        shortDescription: 'A WhatsApp-based mediation layer that parses co-parenting messages, applies NVC framing, extracts structured event data, and logs interactions for court-ready traceability.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_cover.webp',
+        thumbnail: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_thumbnail.webp',
+        cover: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_cover.webp',
+        hero: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_hero.webp',
+        complexityTags: [
+            'Regulatory',
+            'Traceability',
+            'NLP',
+            'Conversational AI'
+        ],
+        industry: 'Legal / Dispute Resolution',
+        scaleStage: 'Regulated',
+        metrics: [
+            {
+                label: 'Channel Scope',
+                value: 'WhatsApp as the primary mediation surface with zero-friction adoption'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Message parsing, NVC reframing engine, calendar extraction and structured audit logs'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Court-admissible interaction logs generated passively from natural conversation'
             }
         ]
     },
@@ -368,7 +406,10 @@ const projects = [
             'product-leadership-partner',
             'design-systems'
         ],
-        image: '/images/portfolio/placeholder.svg',
+        image: '/images/highres/shootatlas_hero.png',
+        thumbnail: '/images/highres/shootatlas_hero.png',
+        cover: '/images/highres/shootatlas_hero.png',
+        hero: '/images/highres/shootatlas_hero.png',
         complexityTags: [
             'Field Production',
             'AI-Augmented',
@@ -429,8 +470,8 @@ const projects = [
     {
         slug: 'a2x-global',
         title: 'A2X Global',
-        category: 'Cross-border Platform',
-        shortDescription: 'Platform work to coordinate cross-border data flows and product adaptations for varied regulatory constraints.',
+        category: 'Onboard Courier & Personnel Logistics',
+        shortDescription: 'Platform for managing onboard courier packages and personnel logistics — coordinating package tracking, customs compliance, and crew assignments across international routes.',
         engagementModes: [
             'product-leadership-partner',
             'regulated-systems'
@@ -441,31 +482,32 @@ const projects = [
         hero: '/images/portfolio/a2x-global/a2x-global_hero.webp',
         complexityTags: [
             'Multi-Market',
-            'Cross-Market Adaptability',
-            'Enterprise Workflow'
+            'Logistics',
+            'Personnel Management',
+            'Regulatory'
         ],
-        industry: 'Logistics / Cross-border Services',
+        industry: 'Logistics / Aviation',
         scaleStage: 'Growth',
         metrics: [
             {
                 label: 'Market Scope',
-                value: 'Adaptation patterns defined for jurisdictional differences'
+                value: 'Cross-border package and personnel coordination across international routes'
             },
             {
                 label: 'System Complexity',
-                value: 'Data-mapping and transformation strategy for multi-market flows'
+                value: 'Customs compliance, package tracking and crew assignment workflows'
             },
             {
                 label: 'Operational Impact',
-                value: 'Clear handoffs between local ops and central product teams'
+                value: 'Reduced manual coordination overhead for onboard courier operations'
             }
         ]
     },
     {
         slug: 'extra-ticket',
         title: 'Extra Ticket',
-        category: 'Event Marketplace',
-        shortDescription: 'A ticketing marketplace optimised for secondary transactions and user trust across informal networks.',
+        category: 'Social / Events',
+        shortDescription: 'A dating app concept where users post their extra tickets to events to find someone to attend with — turning spare tickets into a social discovery mechanic.',
         engagementModes: [
             'venture-builder',
             'design-systems'
@@ -475,32 +517,32 @@ const projects = [
         cover: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
         hero: '/images/portfolio/extra-ticket/extra-ticket_hero.webp',
         complexityTags: [
-            'Marketplace Dynamics',
+            'Consumer Social',
             'Behavioral Design',
-            'Consumer Social'
+            'Matching'
         ],
-        industry: 'Events / Marketplace',
+        industry: 'Events / Social',
         scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Two-sided marketplace dynamics scoped with trust mechanisms'
+                label: 'Concept Scope',
+                value: 'Event-based social discovery — connecting people through shared cultural experiences'
             },
             {
                 label: 'System Complexity',
-                value: 'Listing, matching and dispute workflows with lightweight verification'
+                value: 'Ticket posting, match-making and trust flows for strangers meeting at events'
             },
             {
-                label: 'Operational Impact',
-                value: 'Reduced dispute resolution overhead through clearer flows'
+                label: 'User Insight',
+                value: 'Reduces entry friction for solo attendees while filling otherwise wasted seats'
             }
         ]
     },
     {
         slug: 'leaf',
         title: 'Leaf',
-        category: 'Consumer Energy App',
-        shortDescription: 'A consumer-facing energy app focused on behavioural nudges to reduce consumption and coordinate community programs.',
+        category: 'Messaging / Consumer Social',
+        shortDescription: 'A messaging app where users highlight segments of messages to create branching conversation threads — enabling non-linear, context-anchored replies.',
         engagementModes: [
             'venture-builder',
             'design-systems'
@@ -510,33 +552,34 @@ const projects = [
         cover: '/images/portfolio/leaf/leaf_cover.webp',
         hero: '/images/portfolio/leaf/leaf_hero.webp',
         complexityTags: [
-            'Behavioral Design',
-            'Community Infrastructure',
-            'AI-Enabled'
+            'Consumer Social',
+            'Conversation Design',
+            'Branching UX'
         ],
-        industry: 'Energy / Consumer',
+        industry: 'Messaging / Social',
         scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Pilot programs defined for community cohorts'
+                label: 'Concept Scope',
+                value: 'Branching thread model anchored to specific message segments'
             },
             {
                 label: 'System Complexity',
-                value: 'Interaction architecture for persuasive incentives'
+                value: 'Non-linear conversation graph with contextual highlight states'
             },
             {
-                label: 'Operational Impact',
-                value: 'Operational patterns for program rollouts'
+                label: 'User Insight',
+                value: 'Reduces derailment in group discussions by preserving context per thread'
             }
         ]
     },
     {
         slug: 'fluffybutt',
-        title: 'FluffyButt',
-        category: 'Design System',
-        shortDescription: 'Design system work to unify visual and interaction patterns across consumer products and reduce fragmentation.',
+        title: 'Fluffybutt',
+        category: 'Pet Care / Consumer Social',
+        shortDescription: 'Dog care and foster management app with daily routines, health tracking, training progress, and social elements — designed for both individual dog owners and shelter foster networks.',
         engagementModes: [
+            'venture-builder',
             'design-systems'
         ],
         image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
@@ -544,31 +587,32 @@ const projects = [
         cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
         hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
         complexityTags: [
-            'Design Governance',
-            'Consumer Social'
+            'Consumer Social',
+            'Health Tracking',
+            'Community Infrastructure'
         ],
-        industry: 'Consumer Apps',
-        scaleStage: 'Growth',
+        industry: 'Pet Care / Consumer',
+        scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Component library and usage patterns documented across products'
+                label: 'Product Scope',
+                value: 'Routines, health logs, training tracker and social sharing for dog owners and fosters'
             },
             {
                 label: 'System Complexity',
-                value: 'Design governance and contribution model defined'
+                value: 'Foster network syncing, care handoff flows and health history portability'
             },
             {
-                label: 'Operational Impact',
-                value: 'Reduced visual inconsistency and faster feature delivery'
+                label: 'User Insight',
+                value: 'Bridges casual pet owners and shelter foster carers in a shared care ecosystem'
             }
         ]
     },
     {
         slug: 'gk-mvp',
-        title: 'GK-MVP',
-        category: 'Food Logistics MVP',
-        shortDescription: 'A lightweight logistics and ordering MVP for community kitchens to coordinate supply and deliveries efficiently.',
+        title: 'GuerillaKitchen.org',
+        category: 'Community Engagement / Food Waste',
+        shortDescription: 'Community engagement platform focused on food waste reduction — connecting surplus food producers with community kitchens and local distribution networks.',
         engagementModes: [
             'venture-builder',
             'design-systems'
@@ -579,65 +623,101 @@ const projects = [
         hero: '/images/portfolio/gk-mvp/gk-mvp_hero.webp',
         complexityTags: [
             'Community Infrastructure',
-            'Enterprise Workflow'
+            'Food Systems',
+            'Circular Economy'
         ],
-        industry: 'Logistics / Food Services',
+        industry: 'Food / Community',
         scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Local market pilots and operational constraints scoped'
+                label: 'Mission Scope',
+                value: 'Surplus food redistribution coordinated through community kitchen networks'
             },
             {
                 label: 'System Complexity',
-                value: 'Order-to-delivery workflow defined for low-friction ops'
+                value: 'Supply matching, contributor onboarding and local distribution flows'
             },
             {
                 label: 'Operational Impact',
-                value: 'Clear coordination rules for kitchen operators'
+                value: 'Measurable reduction in food waste through structured community coordination'
             }
         ]
     },
     {
         slug: 'photosell',
-        title: 'PhotoSell',
-        category: 'Insurance-integrated Commerce',
-        shortDescription: 'Commerce platform for selling photographic assets with embedded insurance and licensing workflows.',
+        title: 'Photosell',
+        category: 'AI-Powered Decluttering & Valuation',
+        shortDescription: 'AI-powered decluttering and home valuation app — identifies high-value household possessions from photos, provides valuations, and surfaces the best resale channels.',
         engagementModes: [
-            'product-leadership-partner',
-            'regulated-systems'
+            'venture-builder',
+            'design-systems'
         ],
         image: '/images/portfolio/photosell/photosell_cover.webp',
         thumbnail: '/images/portfolio/photosell/photosell_thumbnail.webp',
         cover: '/images/portfolio/photosell/photosell_cover.webp',
         hero: '/images/portfolio/photosell/photosell_hero.webp',
         complexityTags: [
-            'Marketplace Dynamics',
-            'Regulatory',
-            'AI-Enabled'
+            'AI-Enabled',
+            'Computer Vision',
+            'Consumer Commerce'
         ],
-        industry: 'Commerce / Media',
-        scaleStage: 'Growth',
+        industry: 'Consumer / Resale',
+        scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Insurance integration patterns and partner models documented'
+                label: 'Product Scope',
+                value: 'Photo-based item identification, valuation and resale channel recommendations'
             },
             {
                 label: 'System Complexity',
-                value: 'Licensing, claims and settlement workflows articulated'
+                value: 'Computer vision pipeline, pricing models and marketplace integrations'
+            },
+            {
+                label: 'User Insight',
+                value: 'Dramatically lowers the effort barrier for converting clutter into cash'
+            }
+        ]
+    },
+    {
+        slug: 'fluffybutt-shelter',
+        title: 'Fluffybutt — Shelter Web Extension',
+        category: 'Animal Welfare / Web Management',
+        shortDescription: 'Web relay tool for shelters to monitor fostered dogs in real time via synced app data — giving shelter coordinators live visibility into foster home activity without requiring direct contact.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.webp',
+        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
+        complexityTags: [
+            'Real-Time Sync',
+            'Shelter Operations',
+            'Foster Management'
+        ],
+        industry: 'Animal Welfare / Non-profit',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Live dashboard for shelter staff to track foster dog health, routines and milestones'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Real-time sync between app (foster carer) and web (shelter coordinator)'
             },
             {
                 label: 'Operational Impact',
-                value: 'Defined operations for content verification and claims handling'
+                value: 'Reduces check-in overhead and gives shelters confidence in foster placements'
             }
         ]
     },
     {
         slug: 'supergramp',
         title: 'SuperGramp',
-        category: 'Community Care Platform',
-        shortDescription: 'A platform connecting elder-care volunteers to local services with robust scheduling and verification.',
+        category: 'Family / Consumer Utility',
+        shortDescription: 'A "quick look" babysitting availability widget for grandparents — letting family members instantly see when grandparents are free without back-and-forth coordination.',
         engagementModes: [
             'venture-builder'
         ],
@@ -646,23 +726,24 @@ const projects = [
         cover: '/images/portfolio/supergramp/supergramp_cover.webp',
         hero: '/images/portfolio/supergramp/supergramp_hero.webp',
         complexityTags: [
-            'Community Infrastructure',
-            'Enterprise Workflow'
+            'Consumer Utility',
+            'Widget UX',
+            'Family Tech'
         ],
-        industry: 'Community / Social Services',
+        industry: 'Family / Consumer',
         scaleStage: 'Early',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Local service networks defined with onboarding patterns'
+                label: 'Product Scope',
+                value: 'Glanceable availability widget for real-time babysitting coordination'
             },
             {
                 label: 'System Complexity',
-                value: 'Scheduling and verification architecture'
+                value: 'Calendar sync, availability state and low-friction family sharing'
             },
             {
-                label: 'Operational Impact',
-                value: 'Clear volunteer coordination flows'
+                label: 'User Insight',
+                value: 'Eliminates coordination overhead for informal childcare arrangements'
             }
         ]
     },
@@ -734,6 +815,41 @@ const projects = [
             {
                 label: 'Business Impact',
                 value: 'Faster inspections and higher estimate accuracy'
+            }
+        ]
+    },
+    {
+        slug: 'iru-assistant',
+        title: 'IRU Assistant',
+        category: 'Hospitality / AI Staff Companion',
+        shortDescription: 'AI-powered hotel staff companion that surfaces guest context, preferences, and service opportunities in real time — helping staff deliver proactive, personalised hospitality at scale.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/highres/iru-assisant_hero.png',
+        thumbnail: '/images/highres/iru-assisant_hero.png',
+        cover: '/images/highres/iru-assisant_hero.png',
+        hero: '/images/highres/iru-assisant_hero.png',
+        complexityTags: [
+            'AI-Augmented',
+            'Hospitality',
+            'Real-Time Context'
+        ],
+        industry: 'Hospitality / Hotel Tech',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Real-time guest intelligence surfaced to hotel staff at point of interaction'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Guest preference modeling, PMS integration and staff-facing contextual UI'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Enables consistent, personalised service delivery without manual briefing overhead'
             }
         ]
     }

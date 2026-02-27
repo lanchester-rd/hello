@@ -8,6 +8,8 @@
   "/engagement/[slug]/page": "/engagement/[slug]",
   "/engagements/[slug]/page": "/engagements/[slug]",
   "/engagements/page": "/engagements",
+  "/insights/[slug]/page": "/insights/[slug]",
+  "/insights/page": "/insights",
   "/page": "/",
   "/work/[slug]/page": "/work/[slug]",
   "/work/page": "/work"
