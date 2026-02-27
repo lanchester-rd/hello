@@ -1,80 +1,50 @@
-[00:00:00.723] Server  LOG     ✓ Ready in 467ms
-[00:00:29.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:08.479] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:08.487] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:01:08.633] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:01:14.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:31.933] Server  LOG     ✓ Compiled in 140ms
-[00:13:35.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:31.803] Server  LOG     ✓ Compiled in 174ms
-[00:17:33.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:35.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:27.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:58.361] Server  ERROR   ⨯ ./styles/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
-
-Import trace:
-  Client Component Browser:
-    ./styles/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-
-
-[00:29:58.405] Server  ERROR   ModuleBuildError: ./styles/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
-
-Import trace:
-  Client Component Browser:
-    ./styles/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-
-
-[00:29:58.423] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/tdr/Documents/GitHub/hello/.next/dev/server/pages/_app/build-manifest.json'
-[00:30:00.312] Server  ERROR   ⨯ ./styles/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
-
-Import trace:
-  Client Component Browser:
-    ./styles/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-
-
-[00:30:00.339] Server  ERROR   ModuleBuildError: ./styles/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
-
-Import trace:
-  Client Component Browser:
-    ./styles/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-
-
-[00:30:00.359] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/tdr/Documents/GitHub/hello/.next/dev/server/pages/_app/build-manifest.json'
-[00:22:33.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:34.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.926] Server  LOG     ✓ Ready in 649ms
+[00:00:09.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.880] Server  LOG     ✓ Compiled in 49ms
+[00:03:07.259] Server  LOG     ✓ Compiled in 134ms
+[00:03:19.712] Server  LOG     ✓ Compiled in 41ms
+[00:03:51.591] Server  LOG     ✓ Compiled in 43ms
+[00:06:45.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:51.738] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:51.746] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:06:51.872] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:06:54.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:57.012] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:57.016] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:06:57.129] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:06:59.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:59.870] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:59.875] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:06:59.998] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:07:03.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:42.781] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:42.789] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:07:42.905] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:07:46.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:51.979] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:07:51.985] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:07:52.106] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:18.784] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:18.792] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:18.809] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:18.814] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:18.939] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:18.949] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:18.954] Server  LOG     ✓ Compiled in 1ms
+[00:08:19.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:19.265] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:21.810] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:21.818] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:21.845] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:21.850] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:22.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:22.240] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:28.076] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:28.092] Server  LOG     ✓ Compiled in 81ms
+[00:08:28.206] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:08:28.217] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
+[00:08:28.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:28.479] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
+[00:09:48.685] Server  LOG     ✓ Compiled in 166ms
+[00:09:48.768] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:09:48.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
