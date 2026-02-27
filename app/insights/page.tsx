@@ -6,7 +6,7 @@ import PageHero from '../../components/PageHero'
 export default function InsightsIndex() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-6">
-      <PageHero title="Insights" subtitle="Short essays on systems, governance and product architecture." />
+      <PageHero title="Insights" description="Short essays on systems, governance and product architecture." />
       <div className="mt-8 space-y-6">
         {articles.map((a) => (
           <article key={a.slug} className="border-b pb-4">
