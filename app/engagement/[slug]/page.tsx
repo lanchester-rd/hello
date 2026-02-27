@@ -56,10 +56,19 @@ export default function EngagementPage({ params }: Props) {
 
   const blocks = blocksBySlug[slug] || blocksBySlug['venture-builder']
 
+  const philosophyMap: Record<string, string> = {
+    'venture-builder': 'Every product begins as a system hypothesis.',
+    'product-leadership-partner': 'Alignment is a system, not a meeting.',
+    'design-systems': 'Coherence scales trust.',
+    'regulated-systems': 'Compliance is a design constraint, not a blocker.'
+  }
+  const microPhilosophy = philosophyMap[slug]
+
   return (
     <>
       <SectionContainer className="py-20">
         <PageHero title={mode.title} description={mode.description} />
+        {microPhilosophy && <div className="mt-4 text-center max-w-3xl mx-auto text-sm text-gray-500">{microPhilosophy}</div>}
         <div className="mt-8"><AnimatedDivider /></div>
       </SectionContainer>
 

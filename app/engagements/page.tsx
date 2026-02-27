@@ -5,6 +5,7 @@ export default function Engagements() {
     <div className="max-w-5xl mx-auto px-6 py-32">
       <h1 className="text-4xl font-semibold">Engagement Models</h1>
       <p className="mt-4 text-lg text-gray-600">Structured partnerships for defining strategy, aligning execution, and maintaining product integrity across complex domains.</p>
+      <p className="mt-3 text-sm text-gray-500">Systems-first partnerships that prioritise operational clarity and defensible workflows.</p>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
         <Link href="/engagement/venture-builder" className="block p-6 border rounded-md hover:shadow-sm">

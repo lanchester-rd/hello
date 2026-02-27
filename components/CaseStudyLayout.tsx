@@ -2,6 +2,7 @@ import { Project } from '../data/projects'
 import AnimatedDivider from './AnimatedDivider'
 import ContactCTA from './ContactCTA'
 import ComplexityTag from './ComplexityTag'
+import SystemDiagram from './SystemDiagram'
 
 export default function CaseStudyLayout({ project, children }: { project: Project; children?: React.ReactNode }) {
   const slug = project.slug
@@ -21,7 +22,12 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
             </div>
           )}
 
-          <div className="mt-8 h-64 bg-gray-100 rounded-lg flex items-center justify-center">Large visual placeholder</div>
+          <div className="mt-8">
+            <div className="h-64 rounded-lg overflow-hidden">
+              {/* keep a neutral visual for general projects */}
+              <div className="h-64 bg-gray-100 rounded-lg flex items-center justify-center">Large visual placeholder</div>
+            </div>
+          </div>
         </div>
         <div className="mt-8"><AnimatedDivider /></div>
       </section>
@@ -39,6 +45,18 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
                 <li>Lack of structured documentation systems suitable for evidentiary use.</li>
                 <li>Court backlog coinciding with broader digital transformation of legal services.</li>
               </ul>
+            </div>
+          </section>
+
+          {/* Structural depth metadata */}
+          <section className="py-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="flex flex-wrap gap-3 text-xs uppercase text-gray-500 tracking-wider">
+                <div>Legal / Dispute Resolution</div>
+                <div>Communication Infrastructure</div>
+                <div>High Complexity</div>
+                <div>Regulated Scale</div>
+              </div>
             </div>
           </section>
 
@@ -90,7 +108,14 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
                   </div>
                 </div>
               </div>
-              <div className="h-56 bg-gray-100 rounded-md flex items-center justify-center">Diagram placeholder</div>
+              <div className="h-56 bg-gray-100 rounded-md flex items-center justify-center">
+                <div className="w-full px-6">
+                  <div className="space-y-4">
+                    <SystemDiagram type="linear" complexity="high" />
+                    <SystemDiagram type="layered" complexity="medium" />
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -112,6 +137,18 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
                 <li>Enterprises require audit-ready proof of procurement and certificate allocation.</li>
                 <li>Cross-jurisdiction reporting and certificate matching introduce operational friction.</li>
               </ul>
+            </div>
+          </section>
+
+          {/* Structural depth metadata */}
+          <section className="py-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="flex flex-wrap gap-3 text-xs uppercase text-gray-500 tracking-wider">
+                <div>Energy / Utilities</div>
+                <div>Multi-Market Compliance</div>
+                <div>High Complexity</div>
+                <div>Enterprise Scale</div>
+              </div>
             </div>
           </section>
 
@@ -156,7 +193,14 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
                   </div>
                 </div>
               </div>
-              <div className="h-56 bg-gray-100 rounded-md flex items-center justify-center">Diagram placeholder</div>
+              <div className="h-56 bg-gray-100 rounded-md flex items-center justify-center">
+                <div className="w-full px-6">
+                  <div className="space-y-4">
+                    <SystemDiagram type="linear" complexity="high" />
+                    <SystemDiagram type="network" complexity="high" />
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
