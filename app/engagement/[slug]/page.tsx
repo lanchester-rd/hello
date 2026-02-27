@@ -9,16 +9,52 @@ import ContactCTA from '../../../components/ContactCTA'
 type Props = { params: { slug: string } }
 
 const modeMap: Record<string, { title: string; description: string }> = {
-  'venture-builder': { title: 'Venture Builder', description: 'Placeholder positioning for Venture Builder.' },
-  'product-leadership-partner': { title: 'Product Leadership Partner', description: 'Placeholder positioning for Product Leadership Partner.' },
-  'design-systems': { title: 'Design Systems & Coherence', description: 'Placeholder positioning for Design Systems.' },
-  'regulated-systems': { title: 'Regulated Systems Strategy', description: 'Placeholder positioning for Regulated Systems.' }
+  'venture-builder': {
+    title: 'Venture Builder',
+    description: 'We work with founding teams to turn ambiguity into structured, testable product strategy.'
+  },
+  'product-leadership-partner': {
+    title: 'Product Leadership Partner',
+    description: 'We support scaling organisations with structured product governance and execution clarity.'
+  },
+  'design-systems': {
+    title: 'Design Systems & Product Coherence',
+    description: 'We create product systems that scale without fragmenting.'
+  },
+  'regulated-systems': {
+    title: 'Regulated Systems Strategy',
+    description: 'We design product infrastructure that operates inside legal, compliance, and operational constraints.'
+  }
 }
 
 export default function EngagementPage({ params }: Props) {
   const { slug } = params
   const mode = modeMap[slug] || { title: slug.replace('-', ' '), description: '' }
   const related = projects.filter(p => p.engagementModes.includes(slug))
+  const blocksBySlug: Record<string, { title: string; body: string }[]> = {
+    'venture-builder': [
+      { title: 'Strategic Framing', body: 'We clarify the real problem, identify the leverage point, and define a product hypothesis worth building.' },
+      { title: 'Execution Model', body: 'We scope intelligent MVPs that validate learning without overbuilding.' },
+      { title: 'Outcomes', body: 'Clear product direction, faster iteration cycles, aligned founder–product–market narrative.' }
+    ],
+    'product-leadership-partner': [
+      { title: 'Roadmap Alignment', body: 'Align product direction with revenue, expansion, and operational realities.' },
+      { title: 'Organizational Design', body: 'Clarify roles, decision-making systems, and product rituals.' },
+      { title: 'Expansion Strategy', body: 'Structure product for multi-market and regulatory growth.' }
+    ],
+    'design-systems': [
+      { title: 'Interaction Architecture', body: 'Define interaction models that reduce cognitive load.' },
+      { title: 'Design Governance', body: 'Create scalable design frameworks and principles.' },
+      { title: 'Emotional Clarity', body: 'Ensure products communicate stability, clarity, and trust.' }
+    ],
+    'regulated-systems': [
+      { title: 'Compliance-Aware Architecture', body: 'Structure systems that anticipate audit and documentation needs.' },
+      { title: 'Traceable Workflows', body: 'Design flows that produce defensible records.' },
+      { title: 'Cross-Market Adaptability', body: 'Build systems that survive jurisdictional differences.' }
+    ]
+  }
+
+  const blocks = blocksBySlug[slug] || blocksBySlug['venture-builder']
 
   return (
     <>
@@ -29,21 +65,13 @@ export default function EngagementPage({ params }: Props) {
 
       <SectionContainer className="py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="text-center md:text-left">
-            <div className="h-12 w-12 bg-gray-100 rounded-md mb-4 flex items-center justify-center">Icon</div>
-            <h4 className="font-semibold">Strategic Framing</h4>
-            <p className="mt-2 text-gray-600">Placeholder text describing strategic framing.</p>
-          </div>
-          <div className="text-center md:text-left">
-            <div className="h-12 w-12 bg-gray-100 rounded-md mb-4 flex items-center justify-center">Icon</div>
-            <h4 className="font-semibold">Execution Model</h4>
-            <p className="mt-2 text-gray-600">Placeholder for execution model description.</p>
-          </div>
-          <div className="text-center md:text-left">
-            <div className="h-12 w-12 bg-gray-100 rounded-md mb-4 flex items-center justify-center">Icon</div>
-            <h4 className="font-semibold">Outcomes</h4>
-            <p className="mt-2 text-gray-600">Placeholder for measurable outcomes and signals of success.</p>
-          </div>
+          {blocks.map((b) => (
+            <div key={b.title} className="text-center md:text-left">
+              <div className="h-12 w-12 bg-gray-100 rounded-md mb-4 flex items-center justify-center">Icon</div>
+              <h4 className="font-semibold">{b.title}</h4>
+              <p className="mt-2 text-gray-600">{b.body}</p>
+            </div>
+          ))}
         </div>
       </SectionContainer>
 
@@ -57,18 +85,29 @@ export default function EngagementPage({ params }: Props) {
       </section>
 
       <SectionContainer className="py-20">
-        <h3 className="text-2xl font-semibold">Measurable Outcomes</h3>
+        <h3 className="text-2xl font-semibold">Outcomes & Signals</h3>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
-          <MetricBlock value="+X%" label="Efficiency" />
-          <MetricBlock value="-X%" label="Reduced Cost" />
-          <MetricBlock value="X" label="Launched Markets" />
+          <div className="p-6 border rounded-md">
+            <h5 className="font-semibold">Direction</h5>
+            <p className="mt-2 text-gray-600">A documented product direction and hypothesis that guides trade-offs and prioritisation.</p>
+          </div>
+
+          <div className="p-6 border rounded-md">
+            <h5 className="font-semibold">Velocity</h5>
+            <p className="mt-2 text-gray-600">Faster, safer iteration cycles with clear learning goals and criteria for continuation.</p>
+          </div>
+
+          <div className="p-6 border rounded-md">
+            <h5 className="font-semibold">Alignment</h5>
+            <p className="mt-2 text-gray-600">Shared narratives and governance that reduce cross-functional friction and improve decision clarity.</p>
+          </div>
         </div>
       </SectionContainer>
 
       <SectionContainer className="py-20">
         <div className="max-w-2xl mx-auto text-center">
           <h4 className="text-lg font-semibold">Start a Conversation</h4>
-          <p className="mt-4 text-gray-600">Minimal CTA placeholder — contact flow to be wired later.</p>
+          <p className="mt-4 text-gray-600">If you would like to explore an engagement, we can outline a concise scope and the initial decision milestones required to learn and reduce risk.</p>
         </div>
       </SectionContainer>
   

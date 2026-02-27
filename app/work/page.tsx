@@ -20,7 +20,7 @@ export default function WorkIndex() {
   return (
     <SectionContainer className="py-20">
       <h1 className="text-3xl font-semibold">Case Studies</h1>
-      <p className="mt-4 text-gray-600">Placeholder index of projects.</p>
+      <p className="mt-4 text-gray-600">Selected case studies demonstrate how Lanchester R&D applies structured thinking across consumer platforms, regulated systems, logistics, energy, and community infrastructure. Each project represents a different leverage point inside a product ecosystem.</p>
 
       <div className="mt-8 flex gap-3 items-center flex-wrap">
         {modes.map(m => (

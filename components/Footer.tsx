@@ -9,6 +9,7 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-auto mt-3 md:mt-0 text-xs text-gray-400">© {new Date().getFullYear()} Lanchester R&D</div>
       </div>
+      <div className="max-w-7xl mx-auto px-6 py-4 text-center text-xs text-gray-500">Lanchester R&D — Strategy. Systems. Execution.</div>
     </footer>
   )
 }
