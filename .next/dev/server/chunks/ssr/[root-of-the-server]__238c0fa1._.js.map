@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/case-studies/%5Bslug%5D/page.tsx"],"sourcesContent":["import { notFound } from 'next/navigation'\n\ninterface Props {\n  params: Promise<{ slug: string }> | { slug: string }\n}\n\nexport default async function CaseStudyPage({ params }: Props) {\n  const resolved = await params\n  const { slug } = resolved\n  if (!slug) notFound()\n\n  return (\n    <div className=\"max-w-4xl mx-auto px-6 py-40\">\n      <h1 className=\"text-3xl font-semibold\">{slug.replace('-', ' ')}</h1>\n      <p className=\"mt-4 text-gray-600\">Placeholder case study scaffold.</p>\n    </div>\n  )\n}\n"],"names":["notFound","CaseStudyPage","params","resolved","slug","replace"],"mappings":";;;;;;AAAA,SAASA,QAAQ,QAAQ,iBAAiB;;;AAM3B,eAAeC,aAAaA,CAAC,EAAEC,MAAAA,EAAe,EAAE;IAC7D,MAAMC,QAAQ,GAAG,MAAMD,MAAM;IAC7B,MAAM,EAAEE,IAAAA,EAAM,GAAGD,QAAQ;IACzB,IAAI,CAACC,IAAI,MAAEJ,iMAAQ,CAAC,CAAC;IAErB,qBACE,8OAAC,GAAG;QAAC,SAAS,EAAC,8BAA8B;;0BAC3C,8OAAC,EAAE;gBAAC,SAAS,EAAC,wBAAwB,CAAC;0BAACI,IAAI,CAACC,OAAO,CAAC,GAAG,EAAE,GAAG,CAAC,CAAC,EAAE,EAAE;;;;;;0BACnE,8OAAC,CAAC;gBAAC,SAAS,EAAC,oBAAoB;0BAAC,gCAAgC,EAAE,CAAC;;;;;;;;;;;;AAG3E","ignoreList":[]}}]
+}

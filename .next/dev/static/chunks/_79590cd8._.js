@@ -13,9 +13,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 function PageHero({ title, description }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20",
+        className: "page-hero",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-5xl mx-auto text-center",
+            className: "page-hero-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
                     initial: {
@@ -29,7 +29,7 @@ function PageHero({ title, description }) {
                     transition: {
                         duration: 0.6
                     },
-                    className: "text-4xl md:text-5xl font-semibold",
+                    className: "page-hero-title",
                     children: title
                 }, void 0, false, {
                     fileName: "[project]/components/PageHero.tsx",
@@ -37,7 +37,7 @@ function PageHero({ title, description }) {
                     columnNumber: 9
                 }, this),
                 description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-4 text-gray-600 max-w-3xl mx-auto",
+                    className: "page-hero-desc",
                     children: description
                 }, void 0, false, {
                     fileName: "[project]/components/PageHero.tsx",
@@ -119,7 +119,7 @@ const projects = [
         slug: 'imediate',
         title: 'iMediate',
         category: 'Regulated Mediation',
-        shortDescription: 'A mediation platform that brings structured pathways to dispute resolution while producing defensible records for legal contexts.',
+        shortDescription: 'iMediate is a co-parenting infrastructure layer built on WhatsApp that integrates behavioral guidance (NVC), automatic calendar extraction, court-ready documentation, and child activity ecosystem coordination into a structured, defensible system.',
         engagementModes: [
             'venture-builder',
             'product-leadership-partner',

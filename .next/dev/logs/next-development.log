@@ -1,50 +1,60 @@
-[00:00:00.926] Server  LOG     ✓ Ready in 649ms
-[00:00:09.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:29.880] Server  LOG     ✓ Compiled in 49ms
-[00:03:07.259] Server  LOG     ✓ Compiled in 134ms
-[00:03:19.712] Server  LOG     ✓ Compiled in 41ms
-[00:03:51.591] Server  LOG     ✓ Compiled in 43ms
-[00:06:45.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:51.738] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:51.746] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:06:51.872] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:06:54.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:57.012] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:57.016] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:06:57.129] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:06:59.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:59.870] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:06:59.875] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:06:59.998] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:07:03.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:42.781] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:07:42.789] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:07:42.905] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:07:46.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:51.979] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:07:51.985] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:07:52.106] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:18.784] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:18.792] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:18.809] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:18.814] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:18.939] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:18.949] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:18.954] Server  LOG     ✓ Compiled in 1ms
-[00:08:19.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:19.265] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:21.810] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:21.818] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:21.845] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:21.850] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:22.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:22.240] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:28.076] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:28.092] Server  LOG     ✓ Compiled in 81ms
-[00:08:28.206] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:08:28.217] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
-[00:08:28.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:28.479] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
-[00:09:48.685] Server  LOG     ✓ Compiled in 166ms
-[00:09:48.768] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:09:48.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.693] Server  LOG     ✓ Ready in 424ms
+[00:00:06.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.360] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:01.000] Server  LOG     ✓ Compiled in 558ms
+[00:03:09.166] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:08.047] Server  WARN    Error: Route "/case-studies/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:29.893] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:29.906] Server  LOG     ✓ Compiled in 43ms
+[00:04:50.789] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:04:50.797] Server  LOG     ✓ Compiled in 52ms
+[00:05:03.808] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:04.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:18.408] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:18.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:19.394] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:19.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:21.478] Server  WARN    Error: Route "/work/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:05:21.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:33.591] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:13.670] Server  LOG     ✓ Compiled in 171ms
+[00:12:59.256] Server  LOG     ✓ Compiled in 258ms
+[00:23:16.039] Server  LOG     ✓ Compiled in 99ms
+[00:25:43.284] Server  LOG     ✓ Compiled in 135ms
+[00:27:55.261] Server  LOG     ✓ Compiled in 84ms
+[00:28:25.769] Server  LOG     ✓ Compiled in 263ms
+[00:30:10.763] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:15.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:15.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:07.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:21.715] Server  WARN    Error: Route "/insights/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:34:53.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:17.797] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:35:27.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:21.047] Server  LOG     ✓ Compiled in 53ms
+[00:42:23.166] Server  LOG     ✓ Compiled in 56ms
+[00:42:33.109] Server  LOG     ✓ Compiled in 43ms
+[01:02:46.787] Server  LOG     ✓ Compiled in 215ms
+[01:04:11.458] Server  LOG     ✓ Compiled in 185ms
+[01:06:34.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:57.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:13.816] Server  LOG     ✓ Compiled in 166ms
+[01:17:29.534] Server  LOG     ✓ Compiled in 61ms
+[01:17:37.124] Server  LOG     ✓ Compiled in 73ms
+[01:18:26.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:16.387] Server  LOG     ✓ Compiled in 39ms
+[01:19:36.995] Server  LOG     ✓ Compiled in 23ms
+[01:19:51.771] Server  LOG     ✓ Compiled in 103ms
+[01:21:19.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:21.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:25.398] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:21:26.209] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:21:26.695] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:21:27.093] Server  WARN    Error: Route "/engagement/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:21:46.803] Server  LOG     ✓ Compiled in 73ms
+[01:21:55.275] Server  LOG     ✓ Compiled in 30ms
+[01:22:02.673] Server  LOG     ✓ Compiled in 145ms
+[01:23:10.991] Server  LOG     ✓ Compiled in 56ms
+[01:23:37.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:39.636] Server  LOG     ✓ Compiled in 136ms
+[01:23:41.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

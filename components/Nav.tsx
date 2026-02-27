@@ -21,9 +21,9 @@ export default function Nav() {
   }, [])
 
   return (
-    <header className="sticky top-0 z-40 bg-white/60 backdrop-blur-sm border-b border-gray-100">
+    <header className="sticky top-0 z-40 glass">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-lg font-semibold">Lanchester R&D</div>
+        <div className="text-lg nav-title">Lanchester R&D</div>
         <nav className="hidden md:flex gap-6 items-center text-sm">
           <div className="relative">
             <button onMouseEnter={() => setOpenDropdown(true)} onMouseLeave={() => setOpenDropdown(false)} className="flex items-center gap-2">
@@ -31,21 +31,21 @@ export default function Nav() {
             </button>
             <AnimatePresence>
               {openDropdown && (
-                <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 6 }} transition={{ duration: 0.18 }} onMouseEnter={() => setOpenDropdown(true)} onMouseLeave={() => setOpenDropdown(false)} className="absolute right-0 mt-3 w-64 bg-white border border-gray-100 rounded-md shadow-sm p-3">
+                <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 6 }} transition={{ duration: 0.18 }} onMouseEnter={() => setOpenDropdown(true)} onMouseLeave={() => setOpenDropdown(false)} className="absolute right-0 mt-3 w-64 card">
                   <div className="flex flex-col gap-2">
                     {engagementItems.map(i => (
-                      <Link key={i.href} href={i.href} className="text-sm text-gray-800 hover:text-accent">{i.label}</Link>
+                      <Link key={i.href} href={i.href} className="nav-link">{i.label}</Link>
                     ))}
                   </div>
                 </motion.div>
               )}
             </AnimatePresence>
           </div>
-          <Link href="/work">Work</Link>
+          <Link href="/work" className="nav-link">Work</Link>
             <Link href="/insights" className="nav-link">Insights</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/contact" className="ml-4 px-3 py-2 bg-accent text-white rounded-md text-sm">Start a conversation</Link>
+          <Link href="/about" className="nav-link">About</Link>
+          <Link href="/contact" className="nav-link">Contact</Link>
+          <Link href="/contact" className="ml-4 nav-cta">Start a conversation</Link>
         </nav>
         <button className="md:hidden" onClick={() => setOpen(!open)} aria-label="Toggle navigation">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -54,18 +54,18 @@ export default function Nav() {
         </button>
       </div>
       {open && (
-        <div className="md:hidden border-t border-gray-100">
+        <div className="md:hidden mobile-menu">
             <div className="px-6 py-4 space-y-3">
             <div className="flex flex-col">
               {engagementItems.map(i => (
-                <Link key={i.href} href={i.href}>{i.label}</Link>
+                <Link key={i.href} href={i.href} className="nav-link">{i.label}</Link>
               ))}
             </div>
-            <Link href="/work">Work</Link>
+            <Link href="/work" className="nav-link">Work</Link>
               <Link href="/insights" className="nav-link">Insights</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
-            <Link href="/contact" className="inline-block mt-2 px-3 py-2 bg-accent text-white rounded-md">Start a conversation</Link>
+            <Link href="/about" className="nav-link">About</Link>
+            <Link href="/contact" className="nav-link">Contact</Link>
+            <Link href="/contact" className="inline-block mt-2 nav-cta">Start a conversation</Link>
           </div>
         </div>
       )}

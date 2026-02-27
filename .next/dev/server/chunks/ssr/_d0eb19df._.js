@@ -30,7 +30,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function ComplexityTag({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-        className: "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs text-gray-600 bg-gray-100 border border-gray-100",
+        className: "badge",
         children: children
     }, void 0, false, {
         fileName: "[project]/components/ComplexityTag.tsx",
@@ -55,10 +55,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ComplexityTag$
 function ProjectCard({ project }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
         href: `/work/${project.slug}`,
-        className: "block rounded-xl overflow-hidden border border-gray-100 bg-white hover:shadow-md transition-shadow",
+        className: "project-card card hover:shadow-lg transition-transform transform hover:-translate-y-2",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-40 bg-gray-100 flex items-center justify-center",
+                className: "project-card-image",
                 children: "Image placeholder"
             }, void 0, false, {
                 fileName: "[project]/components/ProjectCard.tsx",
@@ -69,7 +69,7 @@ function ProjectCard({ project }) {
                 className: "p-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-medium",
+                        className: "project-card-title",
                         children: project.title
                     }, void 0, false, {
                         fileName: "[project]/components/ProjectCard.tsx",
@@ -77,7 +77,7 @@ function ProjectCard({ project }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-2 text-sm text-gray-600",
+                        className: "mt-2 project-card-desc",
                         children: project.shortDescription
                     }, void 0, false, {
                         fileName: "[project]/components/ProjectCard.tsx",
@@ -126,7 +126,7 @@ const projects = [
         slug: 'imediate',
         title: 'iMediate',
         category: 'Regulated Mediation',
-        shortDescription: 'A mediation platform that brings structured pathways to dispute resolution while producing defensible records for legal contexts.',
+        shortDescription: 'iMediate is a co-parenting infrastructure layer built on WhatsApp that integrates behavioral guidance (NVC), automatic calendar extraction, court-ready documentation, and child activity ecosystem coordination into a structured, defensible system.',
         engagementModes: [
             'venture-builder',
             'product-leadership-partner',
@@ -404,6 +404,71 @@ const projects = [
             {
                 label: 'Operational Impact',
                 value: 'Clear volunteer coordination flows'
+            }
+        ]
+    },
+    {
+        slug: 'five-things',
+        title: 'Five Things',
+        category: 'Mindfulness / Mental Clarity',
+        shortDescription: 'A mindful reset in under 60 seconds — designed as a native iOS experience that surfaces brief, repeatable cognitive grounding.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/portfolio/five-things.png',
+        complexityTags: [
+            'Behavioral Design',
+            'Mobile Native',
+            'Privacy-First'
+        ],
+        industry: 'Wellness / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'One-screen micro-habit for daily cognitive resets'
+            },
+            {
+                label: 'System Complexity',
+                value: 'On-device processing and minimal backend for analytics'
+            },
+            {
+                label: 'User Impact',
+                value: 'Low-friction completion flows suited for busy users'
+            }
+        ]
+    },
+    {
+        slug: 'roofdraft',
+        title: 'RoofDraft',
+        category: 'Construction Tech / Field Operations',
+        shortDescription: 'An iOS LiDAR-enabled workflow that scans roofs, detects defects, and auto-generates AI-assisted work orders for field teams.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/roofdraft.png',
+        complexityTags: [
+            'LiDAR',
+            'AI-Enabled',
+            'Field Operations'
+        ],
+        industry: 'Construction / Insurance',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Operational Scope',
+                value: 'On-device model generation, defect detection and structured exports'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Hardware integration with AI inference and CRM pipelines'
+            },
+            {
+                label: 'Business Impact',
+                value: 'Faster inspections and higher estimate accuracy'
             }
         ]
     }

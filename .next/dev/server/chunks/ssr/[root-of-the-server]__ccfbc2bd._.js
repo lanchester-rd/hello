@@ -151,7 +151,7 @@ const projects = [
         slug: 'imediate',
         title: 'iMediate',
         category: 'Regulated Mediation',
-        shortDescription: 'A mediation platform that brings structured pathways to dispute resolution while producing defensible records for legal contexts.',
+        shortDescription: 'iMediate is a co-parenting infrastructure layer built on WhatsApp that integrates behavioral guidance (NVC), automatic calendar extraction, court-ready documentation, and child activity ecosystem coordination into a structured, defensible system.',
         engagementModes: [
             'venture-builder',
             'product-leadership-partner',
@@ -429,6 +429,71 @@ const projects = [
             {
                 label: 'Operational Impact',
                 value: 'Clear volunteer coordination flows'
+            }
+        ]
+    },
+    {
+        slug: 'five-things',
+        title: 'Five Things',
+        category: 'Mindfulness / Mental Clarity',
+        shortDescription: 'A mindful reset in under 60 seconds — designed as a native iOS experience that surfaces brief, repeatable cognitive grounding.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/portfolio/five-things.png',
+        complexityTags: [
+            'Behavioral Design',
+            'Mobile Native',
+            'Privacy-First'
+        ],
+        industry: 'Wellness / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'One-screen micro-habit for daily cognitive resets'
+            },
+            {
+                label: 'System Complexity',
+                value: 'On-device processing and minimal backend for analytics'
+            },
+            {
+                label: 'User Impact',
+                value: 'Low-friction completion flows suited for busy users'
+            }
+        ]
+    },
+    {
+        slug: 'roofdraft',
+        title: 'RoofDraft',
+        category: 'Construction Tech / Field Operations',
+        shortDescription: 'An iOS LiDAR-enabled workflow that scans roofs, detects defects, and auto-generates AI-assisted work orders for field teams.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/roofdraft.png',
+        complexityTags: [
+            'LiDAR',
+            'AI-Enabled',
+            'Field Operations'
+        ],
+        industry: 'Construction / Insurance',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Operational Scope',
+                value: 'On-device model generation, defect detection and structured exports'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Hardware integration with AI inference and CRM pipelines'
+            },
+            {
+                label: 'Business Impact',
+                value: 'Faster inspections and higher estimate accuracy'
             }
         ]
     }

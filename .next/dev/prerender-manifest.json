@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "dfb03b8bbea667c4444d76823f52c434",
-    "previewModeSigningKey": "9f14a210bdfbeadc1f1f9e167104ff511859f452924d2d0e52171e239750ba6c",
-    "previewModeEncryptionKey": "8d8d79f2bddc87adbde82f086c3f5c2cd1b0e88529506ca114611520219b6b44"
-  }
-}
+{"version":4,"routes":{"/insights/compliance-is-a-design-constraint":{},"/insights/why-most-product-roadmaps-fail-at-scale":{},"/insights/messaging-platforms-are-infrastructure":{},"/insights/marketplace-dynamics-begin-with-trust-architecture":{},"/insights/design-systems-are-governance-systems":{}},"dynamicRoutes":{"/insights/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/insights/[slug]","routeRegex":"^\\/insights\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"6111d3bfbd30ab725b0116357e188440","previewModeSigningKey":"2746fd5b415d112dbc772d9ba4a91b82e58614d2f247879eb3c4dec5b197e04f","previewModeEncryptionKey":"2dd081b86fee77c099d7f530dbd07d22fe61e7e38c619ec69ee1f1c84b2ec24e"}}

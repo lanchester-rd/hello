@@ -1,17 +1,18 @@
 import { notFound } from 'next/navigation'
+import CaseStudyLayout from '../../../components/CaseStudyLayout'
+import projects from '../../../data/projects'
 
 interface Props {
-  params: { slug: string }
+  params: Promise<{ slug: string }> | { slug: string }
 }
 
-export default function CaseStudyPage({ params }: Props) {
-  const { slug } = params
+export default async function CaseStudyPage({ params }: Props) {
+  const resolved = await params
+  const { slug } = resolved
   if (!slug) notFound()
 
-  return (
-    <div className="max-w-4xl mx-auto px-6 py-40">
-      <h1 className="text-3xl font-semibold">{slug.replace('-', ' ')}</h1>
-      <p className="mt-4 text-gray-600">Placeholder case study scaffold.</p>
-    </div>
-  )
+  const project = projects.find((p) => p.slug === slug)
+  if (!project) notFound()
+
+  return <CaseStudyLayout project={project} />
 }
