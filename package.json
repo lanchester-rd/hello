@@ -1,0 +1,35 @@
+{
+  "name": "lanchester-rd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "sb dev -p 6006",
+    "build-storybook": "sb build"
+  },
+  "dependencies": {
+    "@types/node": "^25.3.2",
+    "@types/react": "^19.2.14",
+    "autoprefixer": "^10.4.27",
+    "framer-motion": "^12.34.3",
+    "next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+  ,
+  "devDependencies": {
+    "@storybook/cli": "^7.0.0",
+    "@storybook/react-webpack5": "^7.0.0",
+    "@storybook/react": "^7.0.0",
+    "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/addon-interactions": "^7.0.0",
+    "@storybook/testing-library": "^0.1.0",
+    "@babel/preset-typescript": "^7.22.5"
+  }
+}

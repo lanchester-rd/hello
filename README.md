@@ -1,3 +1,68 @@
+# Lanchester R&D — Scaffold
+
+This repository contains a scaffold for a premium, minimal product strategy lab built with Next.js (App Router), TypeScript, Tailwind CSS, and Framer Motion.
+
+Next steps:
+
+- Install dependencies (see commands below).
+- Run `npm run dev` to start the dev server.
+
+Installation
+
+1. Install production dependencies:
+
+```bash
+npm install next react react-dom framer-motion tailwindcss postcss autoprefixer typescript
+```
+
+2. Install dev dependencies (types + Storybook):
+
+```bash
+npm install -D @types/react @types/node @storybook/nextjs @storybook/addon-essentials @storybook/addon-interactions @storybook/testing-library
+```
+
+3. Initialize Tailwind (if you didn't already run it):
+
+```bash
+npx tailwindcss init -p
+```
+
+Run
+
+```bash
+# development Next.js app
+npm run dev
+
+# Storybook (component dev)
+npm run storybook
+
+# build production
+npm run build
+npm run start
+```
+
+Fonts:
+
+- This scaffold uses the Inter font via `next/font/google` in `app/layout.tsx`.
+
+Storybook:
+
+- I can add Storybook next (component-driven dev setup). Let me know if you want it included now and I'll scaffold `/.storybook` and the necessary scripts.
+Storybook:
+
+1. Install Storybook dev dependencies:
+
+```bash
+npm install -D @storybook/nextjs @storybook/addon-essentials @storybook/addon-interactions @storybook/testing-library
+```
+
+2. Run Storybook (dev):
+
+```bash
+npm run storybook
+```
+
+This project includes a minimal `.storybook` config and example stories for `PageHero`, `ProjectCard`, and `MetricBlock`.
 # Portfolio
 
 Master of Design (MDes) - Amsterdam, Netherlands 
