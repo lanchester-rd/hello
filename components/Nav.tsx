@@ -43,6 +43,7 @@ export default function Nav() {
           </div>
           <Link href="/work">Work</Link>
           <Link href="/about">About</Link>
+          <a href="/index.legacy.html" target="_blank" rel="noopener noreferrer">2017 - 2024</a>
           <Link href="/contact">Contact</Link>
           <Link href="/contact" className="ml-4 px-3 py-2 bg-accent text-white rounded-md text-sm">Start a conversation</Link>
         </nav>
@@ -62,6 +63,7 @@ export default function Nav() {
             </div>
             <Link href="/work">Work</Link>
             <Link href="/about">About</Link>
+            <a href="/index.legacy.html" target="_blank" rel="noopener noreferrer">2017 - 2024</a>
             <Link href="/contact">Contact</Link>
             <Link href="/contact" className="inline-block mt-2 px-3 py-2 bg-accent text-white rounded-md">Start a conversation</Link>
           </div>

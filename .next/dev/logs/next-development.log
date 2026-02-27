@@ -4,3 +4,6 @@
 [00:01:08.487] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'replace')
 [00:01:08.633] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'replace')
 [00:01:14.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:31.933] Server  LOG     ✓ Compiled in 140ms
+[00:13:35.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:31.803] Server  LOG     ✓ Compiled in 174ms
