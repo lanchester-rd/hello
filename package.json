@@ -19,17 +19,16 @@
     "postcss": "^8.5.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "tailwindcss": "^4.2.1",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3"
-  }
-  ,
+  },
   "devDependencies": {
-    "@storybook/cli": "^7.0.0",
-    "@storybook/react-webpack5": "^7.0.0",
-    "@storybook/react": "^7.0.0",
+    "@babel/preset-typescript": "^7.22.5",
     "@storybook/addon-essentials": "^7.0.0",
     "@storybook/addon-interactions": "^7.0.0",
-    "@storybook/testing-library": "^0.1.0",
-    "@babel/preset-typescript": "^7.22.5"
+    "@storybook/cli": "^7.0.0",
+    "@storybook/react": "^7.0.0",
+    "@storybook/react-webpack5": "^7.0.0",
+    "@storybook/testing-library": "^0.1.0"
   }
 }
