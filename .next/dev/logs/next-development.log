@@ -7,3 +7,74 @@
 [00:13:31.933] Server  LOG     ✓ Compiled in 140ms
 [00:13:35.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:16:31.803] Server  LOG     ✓ Compiled in 174ms
+[00:17:33.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:35.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:27.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:58.361] Server  ERROR   ⨯ ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./styles/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:29:58.405] Server  ERROR   ModuleBuildError: ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./styles/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:29:58.423] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/tdr/Documents/GitHub/hello/.next/dev/server/pages/_app/build-manifest.json'
+[00:30:00.312] Server  ERROR   ⨯ ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./styles/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:30:00.339] Server  ERROR   ModuleBuildError: ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/tdr/Documents/GitHub/hello/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./styles/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:30:00.359] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/tdr/Documents/GitHub/hello/.next/dev/server/pages/_app/build-manifest.json'
+[00:22:33.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:34.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/engagements/page.tsx"],"sourcesContent":["import Link from 'next/link'\n\nexport default function Engagements() {\n  return (\n    <div className=\"max-w-5xl mx-auto px-6 py-32\">\n      <h1 className=\"text-4xl font-semibold\">Engagement Models</h1>\n      <p className=\"mt-4 text-lg text-gray-600\">Placeholder list of engagement models.</p>\n      <div className=\"mt-8 space-y-4\">\n        <Link href=\"/engagements/venture-builder\" className=\"text-accent\">Venture Builder</Link>\n      </div>\n    </div>\n  )\n}\n"],"names":["Link","Engagements"],"mappings":";;;;;AAAA,OAAOA,IAAI,MAAM,WAAW;;;AAEb,SAASC,WAAWA,CAAA,EAAG;IACpC,qBACE,8OAAC,GAAG;QAAC,SAAS,EAAC,8BAA8B;;0BAC3C,8OAAC,EAAE;gBAAC,SAAS,EAAC,wBAAwB;0BAAC,iBAAiB,EAAE,EAAE;;;;;;0BAC5D,8OAAC,CAAC;gBAAC,SAAS,EAAC,4BAA4B;0BAAC,sCAAsC,EAAE,CAAC;;;;;;0BACnF,8OAAC,GAAG;gBAAC,SAAS,EAAC,gBAAgB;wCAC7B,8OAAC,0LAAI;oBAAC,IAAI,EAAC,8BAA8B;oBAAC,SAAS,EAAC,aAAa;8BAAC,eAAe,EAAE,IAAI;;;;;;;;;;;;;;;;;AAI/F","ignoreList":[]}}]
+}
