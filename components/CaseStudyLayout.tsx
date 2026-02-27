@@ -25,7 +25,7 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
           <div className="mt-8">
             <div className="h-64 rounded-lg overflow-hidden">
               <img
-                src={project.hero || project.cover || project.image || '/images/portfolio/placeholder.png'}
+                src={project.hero || project.cover || project.image || '/images/portfolio/placeholder.svg'}
                 alt={project.title}
                 className="w-full h-64 object-cover rounded-lg"
               />

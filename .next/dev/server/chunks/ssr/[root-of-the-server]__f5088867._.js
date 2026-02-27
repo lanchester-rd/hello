@@ -206,12 +206,13 @@ function CaseStudyLayout({ project, children }) {
                                 className: "mt-8",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "h-64 rounded-lg overflow-hidden",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-64 bg-gray-100 rounded-lg flex items-center justify-center",
-                                        children: "Large visual placeholder"
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: project.hero || project.cover || project.image || '/images/portfolio/placeholder.png',
+                                        alt: project.title,
+                                        className: "w-full h-64 object-cover rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 24,
+                                        lineNumber: 23,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
@@ -234,12 +235,12 @@ function CaseStudyLayout({ project, children }) {
                         className: "mt-8",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AnimatedDivider$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 28,
+                            lineNumber: 27,
                             columnNumber: 31
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 28,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this)
                 ]
@@ -260,7 +261,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 35,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -270,48 +271,48 @@ function CaseStudyLayout({ project, children }) {
                                             children: "High-conflict co-parenting communication is a persistent source of family-law caseloads and enforcement actions."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 37,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Courts and legal bodies increasingly require documented, time-stamped evidence of exchanges where child welfare or custody is in dispute."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 38,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "WhatsApp and similar messaging services are the de facto layer for day-to-day co-parent communication, but they are unstructured."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 39,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Child activity coordination is fragmented across schools, local clubs and parent-focused platforms, creating duplicate workflows."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 40,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Calendar misunderstandings — conflicting drop-off/pick-up times and ad-hoc changes — are a primary driver of recurring disputes."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Local parenting ecosystems (community apps and projects) are rising as coordination hubs but lack integration with mediation and legal workflows."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 42,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 36,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -319,18 +320,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Systemic tension: parents operate within unstructured conversational threads while institutions (courts, schools, activity organisers) require structured records suitable for audit and operational handoffs."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 45,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 35,
+                            lineNumber: 34,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 34,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -344,44 +345,44 @@ function CaseStudyLayout({ project, children }) {
                                         children: "Legal / Dispute Resolution"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 52,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Communication Infrastructure"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 53,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Child Logistics"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 54,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Regulated Scale"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 55,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                lineNumber: 52,
+                                lineNumber: 51,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 51,
+                            lineNumber: 50,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -394,7 +395,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -404,34 +405,34 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Messaging platforms amplify emotional escalation because they lack embedded behavioural guardrails."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 64,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "There are no consistent, machine-readable formats for extracting event data from conversational threads; calendar misunderstandings persist."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 65,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Child activity coordination is dispersed across disconnected systems, producing duplicate messages and unclear responsibilities."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 67,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Documentation for legal or administrative use requires manual extraction and curation, which increases cost and latency."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -439,18 +440,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Clarification: the problem is not the existence of messaging itself. The failure is that relational infrastructure — the set of practices and technical scaffolding that organise interpersonal coordination — is unstructured and not fit for legal, school, or operational workflows."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 70,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 62,
+                            lineNumber: 61,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -463,7 +464,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -471,7 +472,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If communication within an existing messaging channel can be made behaviourally guided (NVC embedded), automatically structured, calendar-aware, documentation-ready, and integrated with child activity ecosystems, then:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -481,34 +482,34 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Co-parenting conflict incidence will decrease through guided interaction and fewer ambiguous calendar changes."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 79,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Administrative burden for parents, mediators and courts will reduce via automated extraction and structured exports."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Legal defensibility improves because records are produced in exportable, auditable formats."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Child-centric coordination improves as activity data and responsibilities are synchronised across systems."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 82,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 78,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -516,18 +517,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Positioning: iMediate is a co-parenting operating system built on top of WhatsApp — an infrastructure layer that organises communication rather than replacing it."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 76,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 75,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -540,7 +541,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Behavioral Infrastructure — NVC Layer"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -548,7 +549,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Behavioral Constraint Layer integrates Non-Violent Communication principles into the interaction path while preserving the native messaging experience. Key capabilities:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 92,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -558,34 +559,34 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Structured prompts that reframe requests into clear, observation‑need‑request patterns."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 94,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "De‑escalation nudges when language signals escalation; reframing suggestions surfaced inline prior to send."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 95,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "AI-assisted message analysis for intent classification and safe default responses."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Intent clarification flows that require the sender to acknowledge responsibilities (who, when, what) before a critical message is committed to the record."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 97,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 93,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -593,18 +594,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Design goal: provide guardrails that reduce reactive escalation while maintaining minimal friction for routine coordination."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 99,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 91,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 90,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -617,7 +618,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Calendar Intelligence Layer"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 105,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -625,7 +626,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Automatic parsing of conversational content to extract structured event data and convert it into reliable calendar entries."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 106,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -633,7 +634,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Extraction model produces nine canonical fields: Description, Responsible Adult, Emergency Contact, Drop Off, Pick Up, Costs, Equipment, Reminders, Agenda."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 107,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -644,14 +645,14 @@ function CaseStudyLayout({ project, children }) {
                                             children: "EventTitle_YYYY-MM-DD_HH-MM.ics"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 108,
                                             columnNumber: 203
                                         }, this),
                                         "."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 108,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -659,18 +660,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Conflict detection logic flags overlapping commitments, inconsistent responsibilities, and high-risk changes for mediator review. The leverage is explicit: calendar disputes are a common repeat trigger for conflict; reducing ambiguity reduces recidivist disputes."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 109,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 105,
+                            lineNumber: 104,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 104,
+                        lineNumber: 103,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -683,7 +684,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Activity Ecosystem Integration"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 115,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -691,7 +692,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Activity Ecosystem Integration describes the system-level bridges that pull event data from local parenting platforms and school tools into the mediation-aware calendar."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -701,34 +702,34 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Bi-directional sync adapters for platforms such as WipWap, Local Parenting Community Apps and regional projects (e.g., Amsterdam Parent Project)."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 118,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Normalized activity records that map platform-specific fields to the nine-field calendar model."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 119,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Responsibility synchronization to ensure drop-off/pick-up duties are assigned and visible to both parties."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Reduction of duplicate messages by surfacing canonical activity entries rather than freeform chat."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 121,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -736,18 +737,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Positioning: bridge mediation workflows and daily-life logistics so that dispute-resolution artefacts are grounded in the actual operations of child care and activities."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 123,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 115,
+                            lineNumber: 114,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 114,
+                        lineNumber: 113,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -760,7 +761,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "System Architecture (Sublayers)"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 129,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -768,7 +769,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Architecture is organised into discrete sublayers to preserve auditability and allow incremental rollout."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -780,10 +781,26 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "WhatsApp API Gateway"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 132,
                                                     columnNumber: 21
                                                 }, this),
                                                 ": mediated webhook/ingest that captures turns and preserves original payloads and metadata."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 132,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "NVC Processing Layer"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                                    lineNumber: 133,
+                                                    columnNumber: 21
+                                                }, this),
+                                                ": behavioral constraint engine that applies NVC transforms, nudges and intent validation."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
@@ -793,13 +810,13 @@ function CaseStudyLayout({ project, children }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "NVC Processing Layer"
+                                                    children: "Structured Metadata Extraction Engine"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                                     lineNumber: 134,
                                                     columnNumber: 21
                                                 }, this),
-                                                ": behavioral constraint engine that applies NVC transforms, nudges and intent validation."
+                                                ": deterministic parsers and ML-assisted extractors producing the nine-field event model and evidentiary labels."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
@@ -809,13 +826,13 @@ function CaseStudyLayout({ project, children }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Structured Metadata Extraction Engine"
+                                                    children: "Calendar Sync & Conflict Detection"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                                     lineNumber: 135,
                                                     columnNumber: 21
                                                 }, this),
-                                                ": deterministic parsers and ML-assisted extractors producing the nine-field event model and evidentiary labels."
+                                                ": authoritative calendar store, ICS export, and conflict-detection heuristics."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
@@ -825,13 +842,13 @@ function CaseStudyLayout({ project, children }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Calendar Sync & Conflict Detection"
+                                                    children: "Documentation Generation System"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                                     lineNumber: 136,
                                                     columnNumber: 21
                                                 }, this),
-                                                ": authoritative calendar store, ICS export, and conflict-detection heuristics."
+                                                ": composable PDF/structured exports, signing/anchoring, and chain-of-custody metadata for legal use."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
@@ -841,13 +858,13 @@ function CaseStudyLayout({ project, children }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Documentation Generation System"
+                                                    children: "Community Integration Layer"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                                     lineNumber: 137,
                                                     columnNumber: 21
                                                 }, this),
-                                                ": composable PDF/structured exports, signing/anchoring, and chain-of-custody metadata for legal use."
+                                                ": adapters for WipWap, local parenting apps, school tools and other activity platforms."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
@@ -857,39 +874,23 @@ function CaseStudyLayout({ project, children }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Community Integration Layer"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 138,
-                                                    columnNumber: 21
-                                                }, this),
-                                                ": adapters for WipWap, local parenting apps, school tools and other activity platforms."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 138,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                     children: "Firebase Low-Cost Scalable Backend"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 138,
                                                     columnNumber: 21
                                                 }, this),
                                                 ": serverless storage, tiered archival, and retrieval APIs designed for predictable costs and compliance retention policies."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 138,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 131,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -906,7 +907,7 @@ function CaseStudyLayout({ project, children }) {
                                                         complexity: "high"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 145,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SystemDiagram$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -914,39 +915,39 @@ function CaseStudyLayout({ project, children }) {
                                                         complexity: "high"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 146,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 144,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 144,
+                                            lineNumber: 143,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 142,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 141,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 129,
+                            lineNumber: 128,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 128,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -959,7 +960,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Measurable Outcomes (Structural)"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 156,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -969,52 +970,52 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Designed calendar-aware communication parsing engine (nine-field extraction model)."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Integrated behavioral constraint layer embedding NVC principles into interaction flows."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 159,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Defined structured, exportable documentation workflow suitable for evidentiary review."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 160,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Established a multi-platform integration strategy for local parenting ecosystems."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 162,
+                                            lineNumber: 161,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Architected a low-cost, scalable backend with tiered archival and audit retrieval paths."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 163,
+                                            lineNumber: 162,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 157,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 156,
+                            lineNumber: 155,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 155,
+                        lineNumber: 154,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1027,7 +1028,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Go‑To‑Market & Adoption"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 170,
+                                    lineNumber: 169,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1035,7 +1036,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Adoption is dual-channel: legal partnerships that surface court-ready documentation and community partnerships that seed local uptake."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 170,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1045,34 +1046,34 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Legal firm partnership model: integrate with mediators and family law practitioners to validate evidence workstreams and accelerate institutional adoption."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 172,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Court-ready documentation as an adoption lever: focus initial regulatory acceptance and case studies on jurisdictional pilots (Amsterdam) leveraging local counsel."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 173,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Community integration strategy: deploy through WipWap, Amsterdam Parent Project and local parenting apps to seed real-world coordination use."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 174,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Expansion roadmap: NL → EU → UK → US, with each stage adapting exports and retention to local evidentiary rules."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 175,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 171,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1080,18 +1081,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Commercial motion: combine a referral/partnership channel into practice groups with a community-led rollout to ensure practical utility and adoption in daily parenting logistics."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 177,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 169,
+                            lineNumber: 168,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 168,
+                        lineNumber: 167,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1107,7 +1108,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 183,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1117,38 +1118,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Dating and social apps produce high-volume, low-context interactions that weaken conversion to real-world connection."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 186,
+                                            lineNumber: 185,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Event attendance already acts as a strong, observable interest filter that signals intent and context."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 186,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Unused tickets are a source of social and economic inefficiency — they represent missed meet‑ups and wasted spend."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 188,
+                                            lineNumber: 187,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 184,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 183,
+                            lineNumber: 182,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 182,
+                        lineNumber: 181,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1161,7 +1162,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 194,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1171,45 +1172,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Cold-start marketplace tension: buyers and sellers lack interaction history to make trade-offs."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 196,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Trust between strangers is fragile in casual secondary markets, creating friction and disputes."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 197,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Context-free matching fatigue: matches without shared activity or intent lead to low conversion."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 198,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "High drop-off between digital match and real-world meeting, reducing lifetime value of interactions."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 200,
+                                            lineNumber: 199,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 196,
+                                    lineNumber: 195,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 194,
+                            lineNumber: 193,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 193,
+                        lineNumber: 192,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1222,7 +1223,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 207,
+                                    lineNumber: 206,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1230,18 +1231,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If event tickets become the anchor for introductions, shared context precedes conversation, intent is clearer, and conversion to real-world meetings increases — positioning the product as a context-first social marketplace rather than a generic matching layer."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 207,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 206,
+                            lineNumber: 205,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 205,
+                        lineNumber: 204,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1256,7 +1257,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 215,
+                                            lineNumber: 214,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1264,7 +1265,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Designed as a lightweight marketplace with composable trust layers and event-aware discovery. Primary subsystems below define listing, identity, matching, and safety."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 216,
+                                            lineNumber: 215,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1277,7 +1278,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Ticket listing model"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 220,
+                                                            lineNumber: 219,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1285,13 +1286,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Listings are event-anchored assets with provenance metadata (seat, time, issuer). Listings support intent tags (attending, selling, gifting) and allow venue-specific constraints."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 221,
+                                                            lineNumber: 220,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 219,
+                                                    lineNumber: 218,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1301,7 +1302,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "User verification logic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 224,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1309,13 +1310,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Multi-step verification: email/phone, optional government ID or social proof, and event check-in linkage. Verification is tiered — higher signal unlocks trust affordances."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 226,
+                                                            lineNumber: 225,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 223,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1325,7 +1326,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Matching mechanics"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 229,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1333,13 +1334,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Context-driven matching surfaces people around shared events, common intent and reciprocity. Matches prioritise temporal proximity to the event and complementary attendance behaviours."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 231,
+                                                            lineNumber: 230,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 228,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1349,7 +1350,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Trust & safety layer"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 234,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1357,13 +1358,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Safety signals include verified check-ins, endorsement badges, and lightweight reputation. Escrow and dispute resolution are pluggable modules to limit counterparty risk."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 236,
+                                                            lineNumber: 235,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 233,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1373,7 +1374,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Event-based filtering system"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 239,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1381,25 +1382,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Filters bind discovery to event attributes (venue, time, format). This reduces context ambiguity and surfaces relevant social cues before conversation starts."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 240,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 238,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 218,
+                                            lineNumber: 217,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 214,
+                                    lineNumber: 213,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1413,33 +1414,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 248,
+                                                lineNumber: 247,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 247,
+                                            lineNumber: 246,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 246,
+                                        lineNumber: 245,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 245,
+                                    lineNumber: 244,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 213,
+                            lineNumber: 212,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 212,
+                        lineNumber: 211,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1452,7 +1453,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 257,
+                                    lineNumber: 256,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1466,7 +1467,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Marketplace design"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 259,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1474,13 +1475,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Design for liquidity and low-friction discovery: clear listing states, ephemeral inventory, and time-bound visibility to accelerate matches."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 261,
+                                                    lineNumber: 260,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 259,
+                                            lineNumber: 258,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1491,7 +1492,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Behavioral friction reduction"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 265,
+                                                    lineNumber: 264,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1499,13 +1500,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Nudge flows that convert interest into check-ins: structured prompts, micro-commitments and defaults that make meeting in real life the easier path."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 263,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1516,7 +1517,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Safety signaling"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 270,
+                                                    lineNumber: 269,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1524,19 +1525,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Visible trust indicators (verified check-ins, endorsements and venue-backed confirmations) reduce perceived risk when meeting strangers."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 270,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 269,
+                                            lineNumber: 268,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 258,
+                                    lineNumber: 257,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1550,7 +1551,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Monetization pathways"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 276,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1558,13 +1559,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Ticket partnerships, premium featured listings, and venue promotions that align incentives across buyers, sellers and event organisers."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 277,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 275,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1575,7 +1576,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & growth"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 281,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1583,30 +1584,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Early metrics focus on conversion from match → meetup, listing fill-rate, and dispute incidence to tune trust mechanisms."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 282,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 281,
+                                            lineNumber: 280,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 275,
+                                    lineNumber: 274,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 256,
+                            lineNumber: 255,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 255,
+                        lineNumber: 254,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1619,7 +1620,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Measurable Outcomes (Structural)"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 290,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1629,45 +1630,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Defined cold-start mitigation strategy via seeded inventory and verified organisers."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 293,
+                                            lineNumber: 292,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Built context-driven matching framework prioritising event signals over generic profile signals."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 293,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Reduced interaction ambiguity through venue and ticket-linked metadata."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 295,
+                                            lineNumber: 294,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Structured trust architecture combining verification tiers, escrow and venue endorsements."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 295,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 292,
+                                    lineNumber: 291,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 290,
+                            lineNumber: 289,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 289,
+                        lineNumber: 288,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1680,7 +1681,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 302,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1690,38 +1691,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Venue integrations to enable official check-ins and ticket provenance alignment."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 304,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "In-app escrow for secure ticket exchange and dispute reduction."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 305,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Social graph layering to preserve privacy while enabling trust signals across mutual connections."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 306,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 304,
+                                    lineNumber: 303,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 302,
+                            lineNumber: 301,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 301,
+                        lineNumber: 300,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1737,7 +1738,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 313,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1747,38 +1748,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Foster dogs and rescue networks lack a centralised system for tracking health and care across distributed caregivers."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 316,
+                                            lineNumber: 315,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Rescue organisations coordinate across volunteers, fosters and clinics which creates operational friction."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 317,
+                                            lineNumber: 316,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Emotional engagement with animals is a powerful lever for adoption when paired with clear medical and behavioural storytelling."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 317,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 314,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 313,
+                            lineNumber: 312,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 312,
+                        lineNumber: 311,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1791,7 +1792,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 325,
+                                    lineNumber: 324,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1801,38 +1802,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Fragmented medical records across foster homes and clinics make continuity of care difficult."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 326,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Volunteer coordination gaps lead to missed medications, appointments and follow-ups."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 327,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Adoption storytelling is often disconnected from verifiable care data, reducing buyer confidence."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 328,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 326,
+                                    lineNumber: 325,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 324,
+                            lineNumber: 323,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 323,
+                        lineNumber: 322,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1845,7 +1846,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 336,
+                                    lineNumber: 335,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1853,18 +1854,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If foster care data is structured, shareable and socially visible, then care quality improves, coordination friction falls, and the probability of adoption increases. Position the product as care infrastructure with social reinforcement."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 337,
+                                    lineNumber: 336,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 335,
+                            lineNumber: 334,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 334,
+                        lineNumber: 333,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1879,7 +1880,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 343,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1887,7 +1888,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "A care-first platform combining a persistent health log, multi-user access controls, organisation dashboards and a social layer that surfaces care milestones and narratives."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 345,
+                                            lineNumber: 344,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1900,7 +1901,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Health log system"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 349,
+                                                            lineNumber: 348,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1908,13 +1909,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Structured entries for vaccinations, medications, behaviour notes and vet reports. Each entry is timestamped and attributed to a caregiver."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 350,
+                                                            lineNumber: 349,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 348,
+                                                    lineNumber: 347,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1924,7 +1925,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Multi-user access model"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 354,
+                                                            lineNumber: 353,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1932,13 +1933,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Role-based access for fosters, volunteers, vets and admin — enabling collaborative updates while protecting sensitive data."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 355,
+                                                            lineNumber: 354,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 353,
+                                                    lineNumber: 352,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1948,7 +1949,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Rescue organisation dashboards"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 359,
+                                                            lineNumber: 358,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1956,13 +1957,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Operational views for case load, medication schedules, appointment tracking and volunteer assignments to reduce manual coordination."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 360,
+                                                            lineNumber: 359,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 358,
+                                                    lineNumber: 357,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1972,7 +1973,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Social sharing layer"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 364,
+                                                            lineNumber: 363,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1980,13 +1981,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Compose adoption narratives from verified care data: milestone highlights, before/after timelines and vet endorsements that build trust with adopters."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 365,
+                                                            lineNumber: 364,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 363,
+                                                    lineNumber: 362,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1996,7 +1997,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Gamified care milestones"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 369,
+                                                            lineNumber: 368,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2004,25 +2005,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Reward and surface progress (e.g., vaccine complete, behaviour milestone) to increase volunteer engagement and show clear adoption readiness."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 370,
+                                                            lineNumber: 369,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 368,
+                                                    lineNumber: 367,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 346,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 343,
+                                    lineNumber: 342,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2036,33 +2037,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 376,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 376,
+                                            lineNumber: 375,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 375,
+                                        lineNumber: 374,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 374,
+                                    lineNumber: 373,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 342,
+                            lineNumber: 341,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 341,
+                        lineNumber: 340,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2075,7 +2076,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 385,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2089,7 +2090,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Habit-forming logging"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 389,
+                                                    lineNumber: 388,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2097,13 +2098,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Design lightweight daily prompts and templated entries to make logging part of routine care rather than an extra task."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 390,
+                                                    lineNumber: 389,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 388,
+                                            lineNumber: 387,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2114,7 +2115,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Rescue admin workflow design"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 394,
+                                                    lineNumber: 393,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2122,13 +2123,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Build admin tools for load balancing, appointment orchestration and volunteer coordination to reduce operational overhead."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 395,
+                                                    lineNumber: 394,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 393,
+                                            lineNumber: 392,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2139,7 +2140,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Emotional design clarity"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 399,
+                                                    lineNumber: 398,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2147,19 +2148,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Create interfaces that translate care actions into human stories — clear, empathetic summaries that drive adoption decisions."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 400,
+                                                    lineNumber: 399,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 398,
+                                            lineNumber: 397,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 387,
+                                    lineNumber: 386,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2173,7 +2174,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Adoption narrative visibility"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 406,
+                                                    lineNumber: 405,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2181,13 +2182,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Allow curated public profiles for adoptable dogs that combine timeline, vet notes and milestone badges to increase confidence and emotional connection."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 406,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 405,
+                                            lineNumber: 404,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2198,7 +2199,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & impact"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 411,
+                                                    lineNumber: 410,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2206,30 +2207,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Track coordination load, time-to-adoption, missed-care incidents and volunteer retention to iterate on product priorities."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 412,
+                                                    lineNumber: 411,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 410,
+                                            lineNumber: 409,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 404,
+                                    lineNumber: 403,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 385,
+                            lineNumber: 384,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 384,
+                        lineNumber: 383,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2242,7 +2243,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 420,
+                                    lineNumber: 419,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2252,45 +2253,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Centralised, distributed care data accessible to fosters and organisations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 422,
+                                            lineNumber: 421,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Reduced coordination friction through clear owner and schedule semantics."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 422,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Improved care transparency for adopters and vets."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 424,
+                                            lineNumber: 423,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Structured adoption storytelling built on verified care records."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 425,
+                                            lineNumber: 424,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 421,
+                                    lineNumber: 420,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 419,
+                            lineNumber: 418,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 418,
+                        lineNumber: 417,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2303,7 +2304,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 432,
+                                    lineNumber: 431,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2313,38 +2314,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Vet API integration to import clinical records and standardise health data."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 434,
+                                            lineNumber: 433,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Predictive health flags to surface risk and prompt early intervention."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 435,
+                                            lineNumber: 434,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Shelter network scaling to synchronise records across a federation of rescues."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 436,
+                                            lineNumber: 435,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 433,
+                                    lineNumber: 432,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 431,
+                            lineNumber: 430,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 430,
+                        lineNumber: 429,
                         columnNumber: 11
                     }, this)
                 ]
@@ -2360,7 +2361,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 443,
+                                    lineNumber: 442,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2370,38 +2371,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Households hold many under-documented high-value assets that sit idle in attics and storage."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 445,
+                                            lineNumber: 444,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Insurance products frequently undervalue household inventory due to sparse documentation."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 446,
+                                            lineNumber: 445,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Secondary resale markets for household goods are fragmented, reducing liquidity for consumers."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 447,
+                                            lineNumber: 446,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 444,
+                                    lineNumber: 443,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 442,
+                            lineNumber: 441,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 441,
+                        lineNumber: 440,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2414,7 +2415,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 454,
+                                    lineNumber: 453,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2424,38 +2425,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "No structured home inventory leads to valuation uncertainty at claim time."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 456,
+                                            lineNumber: 455,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Insurance undervaluation risk creates gaps in household protection."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 457,
+                                            lineNumber: 456,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Claim friction and slow payouts reduce household liquidity when it matters."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 458,
+                                            lineNumber: 457,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 455,
+                                    lineNumber: 454,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 453,
+                            lineNumber: 452,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 452,
+                        lineNumber: 451,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2468,7 +2469,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 465,
+                                    lineNumber: 464,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2476,18 +2477,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If household assets are digitally catalogued, valuation-assisted and insurance-linked, then households gain both improved liquidity and stronger risk protection. The product operates at the intersection of household risk engineering and resale marketplace infrastructure."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 466,
+                                    lineNumber: 465,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 464,
+                            lineNumber: 463,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 463,
+                        lineNumber: 462,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2502,7 +2503,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 473,
+                                            lineNumber: 472,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2510,7 +2511,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "A photo-first inventory system with an AI-assisted valuation layer and exportable insurance documentation, plus optional marketplace integration for resale liquidity."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 474,
+                                            lineNumber: 473,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2523,7 +2524,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Photo-based inventory system"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 478,
+                                                            lineNumber: 477,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2531,13 +2532,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Capture items via guided photo flows that attach metadata (brand, model, condition) and link to household rooms for context."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 479,
+                                                            lineNumber: 478,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 477,
+                                                    lineNumber: 476,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2547,7 +2548,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "AI-assisted valuation layer"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 483,
+                                                            lineNumber: 482,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2555,13 +2556,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Conceptual valuation models provide price bands and provenance flags to reduce underinsurance and inform resale pricing."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 484,
+                                                            lineNumber: 483,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 482,
+                                                    lineNumber: 481,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2571,7 +2572,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Insurance export documentation"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 488,
+                                                            lineNumber: 487,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2579,13 +2580,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Generate insurer-ready inventories and evidence bundles that simplify claims and reduce disputes over value."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 489,
+                                                            lineNumber: 488,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 487,
+                                                    lineNumber: 486,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2595,7 +2596,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Marketplace integration logic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 493,
+                                                            lineNumber: 492,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2603,25 +2604,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Optional resale pathways that map catalogued assets to local and national marketplaces to create defined liquidity channels."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 494,
+                                                            lineNumber: 493,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 492,
+                                                    lineNumber: 491,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 476,
+                                            lineNumber: 475,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 472,
+                                    lineNumber: 471,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2635,33 +2636,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 501,
+                                                lineNumber: 500,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 500,
+                                            lineNumber: 499,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 499,
+                                        lineNumber: 498,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 498,
+                                    lineNumber: 497,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 471,
+                            lineNumber: 470,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 470,
+                        lineNumber: 469,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2674,7 +2675,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 510,
+                                    lineNumber: 509,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2688,7 +2689,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Structured categorization"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 513,
+                                                    lineNumber: 512,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2696,13 +2697,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Guided taxonomies and templated capture flows to reduce ambiguity in item descriptions."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 514,
+                                                    lineNumber: 513,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 512,
+                                            lineNumber: 511,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2713,7 +2714,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Trust signaling"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 518,
+                                                    lineNumber: 517,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2721,13 +2722,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Provenance tags, timestamped evidence and valuation confidence scores to increase insurer and buyer trust."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 519,
+                                                    lineNumber: 518,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 517,
+                                            lineNumber: 516,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2738,7 +2739,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Pricing transparency"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 523,
+                                                    lineNumber: 522,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2746,19 +2747,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Clear value bands and historical references to make claim and resale expectations explicit."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 524,
+                                                    lineNumber: 523,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 522,
+                                            lineNumber: 521,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 511,
+                                    lineNumber: 510,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2772,7 +2773,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Cross-system integration planning"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 530,
+                                                    lineNumber: 529,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2780,13 +2781,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "APIs and export formats designed for insurer ingestion, appraisal partners and marketplace partners."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 531,
+                                                    lineNumber: 530,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 529,
+                                            lineNumber: 528,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2797,7 +2798,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & governance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 535,
+                                                    lineNumber: 534,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2805,30 +2806,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Track documentation completeness, valuation variance and claim resolution times to prove value to insurers and users."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 536,
+                                                    lineNumber: 535,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 534,
+                                            lineNumber: 533,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 528,
+                                    lineNumber: 527,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 509,
+                            lineNumber: 508,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 508,
+                        lineNumber: 507,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2841,7 +2842,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 544,
+                                    lineNumber: 543,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2851,38 +2852,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Reduced documentation ambiguity for household assets."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 546,
+                                            lineNumber: 545,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Structured visibility into household risk and valuations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 547,
+                                            lineNumber: 546,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Defined monetization dual-path: insurance protection and resale liquidity."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 548,
+                                            lineNumber: 547,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 545,
+                                    lineNumber: 544,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 543,
+                            lineNumber: 542,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 542,
+                        lineNumber: 541,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2895,7 +2896,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 555,
+                                    lineNumber: 554,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2905,42 +2906,42 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Insurance API integration to enable automated inventory ingestion and claims handling."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 557,
+                                            lineNumber: 556,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Automated appraisal partnerships to tighten valuation confidence and reduce disputes."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 558,
+                                            lineNumber: 557,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Marketplace pilot integrations to create immediate resale liquidity channels."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 559,
+                                            lineNumber: 558,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 556,
+                                    lineNumber: 555,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 554,
+                            lineNumber: 553,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 553,
+                        lineNumber: 552,
                         columnNumber: 13
                     }, this)
                 ]
-            }, void 0, true) : slug === 'leaf' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+            }, void 0, true) : slug === 'shootatlas' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         className: "py-20 bg-white",
@@ -2949,51 +2950,29 @@ function CaseStudyLayout({ project, children }) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-semibold",
-                                    children: "Market Context"
+                                    children: "Overview"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 565,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: "ShootAtlas is designed for photographers, production managers, and creative teams running on-location shoots. The platform replaces fragmented tools like PDFs, WhatsApp chats, and spreadsheets with a centralized, AI-augmented production system."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                     lineNumber: 566,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Messaging platforms historically present conversations in linear threads despite natural branching."
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 568,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Long threads increase cognitive load and obscure sub-conversations."
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 569,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Users frequently lose track of topic forks and decision trails across extended chats."
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 570,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 567,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 565,
+                            lineNumber: 564,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 564,
+                        lineNumber: 563,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3003,31 +2982,67 @@ function CaseStudyLayout({ project, children }) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-semibold",
-                                    children: "The Problem"
+                                    children: "Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 577,
+                                    lineNumber: 572,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: "On-location shoots are chaotic because:"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 573,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                     className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Topic drift across long conversations leads to lost sub-conversations."
+                                            children: "Shot lists are stored in PDFs or notes"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 575,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Crew communication happens across multiple channels"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 576,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Equipment tracking is manual"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 577,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Schedules are static and don’t adapt to delays"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 578,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Weather and lighting changes aren’t proactively managed"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
                                             lineNumber: 579,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Context collapse makes it hard to resume or reference prior branches."
+                                            children: "Clients request real-time updates without centralized visibility"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
                                             lineNumber: 580,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Cognitive overload increases as users scan linear threads to find relevant forks."
+                                            children: "There is no intelligent coordination layer designed specifically for field production."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
                                             lineNumber: 581,
@@ -3036,18 +3051,18 @@ function CaseStudyLayout({ project, children }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 578,
+                                    lineNumber: 574,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 576,
+                            lineNumber: 571,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 575,
+                        lineNumber: 570,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3057,7 +3072,7 @@ function CaseStudyLayout({ project, children }) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-semibold",
-                                    children: "Strategic Hypothesis"
+                                    children: "Solution"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                     lineNumber: 588,
@@ -3065,10 +3080,173 @@ function CaseStudyLayout({ project, children }) {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-gray-600",
-                                    children: "If users can highlight text to spawn branch threads, conversations can evolve into navigable knowledge trees. Position the product as a conversation graph architecture that turns linear chat into structured, explorable trees."
+                                    children: "ShootAtlas provides:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
                                     lineNumber: 589,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "mt-4 font-semibold",
+                                    children: "Production Planning"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 590,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-2 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Shot list builder"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 592,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Call sheet generator"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 593,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Crew role assignment"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 594,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Location mapping"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 595,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Equipment inventory management"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 596,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 591,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "mt-4 font-semibold",
+                                    children: "On-Location Execution"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 599,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-2 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Live schedule tracking"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 601,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Real-time crew notifications"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 602,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Delay adjustments"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 603,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Client view mode"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 604,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 600,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "mt-4 font-semibold",
+                                    children: "AI Project Assistant"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 607,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-2 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Suggests optimized shoot order based on lighting and time"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 609,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Flags scheduling or equipment conflicts"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 610,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Predicts weather disruption impact"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 611,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Converts voice notes into structured tasks"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 612,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Generates call sheets automatically"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 613,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Summarizes production notes"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 614,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Tracks budget drift in real time"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 615,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 608,
                                     columnNumber: 17
                                 }, this)
                             ]
@@ -3085,6 +3263,387 @@ function CaseStudyLayout({ project, children }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         className: "py-20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "My Role"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 622,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        children: "Product Design Leader / Product Manager"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                                        lineNumber: 623,
+                                        columnNumber: 51
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 623,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Defined product vision and positioning"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 625,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Conducted workflow mapping for on-location production"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 626,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Designed AI integration strategy"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 627,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Scoped MVP feature set"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 628,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Designed UX for mobile-first field use"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 629,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Created product roadmap and scaling strategy"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 630,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 624,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 621,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 620,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20 bg-gray-50",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "Product Strategy"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 637,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: "Primary users: freelance photographers, production managers, creative agencies, and brand marketing teams."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 638,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                            children: "Positioning:"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 639,
+                                            columnNumber: 51
+                                        }, this),
+                                        " A professional-grade production coordination tool augmented by practical AI — not a chatbot, but a workflow intelligence layer."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 639,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 636,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 635,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "Outcome & Impact (Conceptual)"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 645,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Operational systems thinking applied to field production"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 647,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "AI workflow integration that augments planning and execution"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 648,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Real-time coordination design for reducing on-site delays"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 649,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "B2B product strategy for agencies and enterprise teams"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 650,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Field-based mobile UX design prioritising low-effort interactions"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 651,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 646,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 644,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 643,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20 bg-gray-50",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "Design Direction"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 658,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: "Use a clean, professional layout consistent with the portfolio style. Tone: strategic, operational, intelligent. Emphasize AI as workflow augmentation, not gimmick."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 659,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 657,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 656,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true) : slug === 'leaf' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20 bg-white",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "Market Context"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 665,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Messaging platforms historically present conversations in linear threads despite natural branching."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 667,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Long threads increase cognitive load and obscure sub-conversations."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 668,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Users frequently lose track of topic forks and decision trails across extended chats."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 669,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 666,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 664,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 663,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "The Problem"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 676,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-4 list-disc list-inside text-gray-600 space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Topic drift across long conversations leads to lost sub-conversations."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 678,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Context collapse makes it hard to resume or reference prior branches."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 679,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: "Cognitive overload increases as users scan linear threads to find relevant forks."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                                            lineNumber: 680,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 677,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 675,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 674,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20 bg-gray-50",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-semibold",
+                                    children: "Strategic Hypothesis"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 687,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-4 text-gray-600",
+                                    children: "If users can highlight text to spawn branch threads, conversations can evolve into navigable knowledge trees. Position the product as a conversation graph architecture that turns linear chat into structured, explorable trees."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CaseStudyLayout.tsx",
+                                    lineNumber: 688,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CaseStudyLayout.tsx",
+                            lineNumber: 686,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CaseStudyLayout.tsx",
+                        lineNumber: 685,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "py-20",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3094,7 +3653,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 596,
+                                            lineNumber: 695,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3102,7 +3661,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Core components include highlight detection, branching thread logic, and a tree navigation UI that collapses and expands sub-conversations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 597,
+                                            lineNumber: 696,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3115,7 +3674,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Text highlight detection"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 601,
+                                                            lineNumber: 700,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3123,13 +3682,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Capture user-selected spans and map them to branch metadata including author, timestamp and intent tags."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 602,
+                                                            lineNumber: 701,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 600,
+                                                    lineNumber: 699,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3139,7 +3698,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Thread branching logic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 606,
+                                                            lineNumber: 705,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3147,13 +3706,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Create linked child threads that inherit context while remaining addressable as independent discussion nodes."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 607,
+                                                            lineNumber: 706,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 605,
+                                                    lineNumber: 704,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3163,7 +3722,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Tree navigation interface"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 611,
+                                                            lineNumber: 710,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3171,13 +3730,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Visualize conversations as collapsible trees with deep-linking to branches and search across nodes."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 612,
+                                                            lineNumber: 711,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 610,
+                                                    lineNumber: 709,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3187,7 +3746,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Collapse / expand structure"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 616,
+                                                            lineNumber: 715,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3195,25 +3754,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Interaction patterns to reduce surface complexity while preserving the ability to drill into any sub-thread."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 617,
+                                                            lineNumber: 716,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 615,
+                                                    lineNumber: 714,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 599,
+                                            lineNumber: 698,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 595,
+                                    lineNumber: 694,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3227,33 +3786,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 624,
+                                                lineNumber: 723,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 623,
+                                            lineNumber: 722,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 622,
+                                        lineNumber: 721,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 621,
+                                    lineNumber: 720,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 594,
+                            lineNumber: 693,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 593,
+                        lineNumber: 692,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3266,7 +3825,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 633,
+                                    lineNumber: 732,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3280,7 +3839,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Cognitive load reduction"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 636,
+                                                    lineNumber: 735,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3288,13 +3847,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Interaction patterns and defaults that reduce scanning and help users focus on active branches."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 637,
+                                                    lineNumber: 736,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 635,
+                                            lineNumber: 734,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3305,7 +3864,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Information architecture redesign"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 641,
+                                                    lineNumber: 740,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3313,13 +3872,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Reframe conversational data as nodes and edges with metadata-driven discovery and summarization."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 642,
+                                                    lineNumber: 741,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 640,
+                                            lineNumber: 739,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3330,7 +3889,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Interaction pattern innovation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 646,
+                                                    lineNumber: 745,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3338,19 +3897,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Design micro-interactions for branching, summarisation, and low-effort context capture to make branching natural."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 647,
+                                                    lineNumber: 746,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 645,
+                                            lineNumber: 744,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 634,
+                                    lineNumber: 733,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3364,7 +3923,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Experimental UI validation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 653,
+                                                    lineNumber: 752,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3372,13 +3931,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Rapid prototypes and A/B experiments to measure navigability and reductions in conversational entropy."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 654,
+                                                    lineNumber: 753,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 652,
+                                            lineNumber: 751,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3389,7 +3948,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & iteration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 658,
+                                                    lineNumber: 757,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3397,30 +3956,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Track branch re-open rates, cross-references and retrieval latency to iterate on UX and information models."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 659,
+                                                    lineNumber: 758,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 657,
+                                            lineNumber: 756,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 651,
+                                    lineNumber: 750,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 632,
+                            lineNumber: 731,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 631,
+                        lineNumber: 730,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3433,7 +3992,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 667,
+                                    lineNumber: 766,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3443,38 +4002,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Defined a non-linear messaging framework that maps conversations to a graph."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 669,
+                                            lineNumber: 768,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Reduced conversational entropy through branch-aware summarization and navigation."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 670,
+                                            lineNumber: 769,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Built a branching interaction prototype that demonstrates navigable knowledge trees."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 671,
+                                            lineNumber: 770,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 668,
+                                    lineNumber: 767,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 666,
+                            lineNumber: 765,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 665,
+                        lineNumber: 764,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3487,7 +4046,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 678,
+                                    lineNumber: 777,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3497,31 +4056,31 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Knowledge tagging to connect branches and entities across conversations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 680,
+                                            lineNumber: 779,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Searchable thread mapping to make branches discoverable and linkable."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 681,
+                                            lineNumber: 780,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 679,
+                                    lineNumber: 778,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 677,
+                            lineNumber: 776,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 676,
+                        lineNumber: 775,
                         columnNumber: 13
                     }, this)
                 ]
@@ -3537,7 +4096,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 688,
+                                    lineNumber: 787,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3547,38 +4106,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Food waste is widely distributed across households, retailers and community kitchens."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 690,
+                                            lineNumber: 789,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Community coordination for redistribution is fragmented and informal."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 691,
+                                            lineNumber: 790,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Logistics and pickup coordination are unclear, reducing the volume of usable surplus."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 692,
+                                            lineNumber: 791,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 689,
+                                    lineNumber: 788,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 687,
+                            lineNumber: 786,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 686,
+                        lineNumber: 785,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3591,7 +4150,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 699,
+                                    lineNumber: 798,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3601,38 +4160,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Surplus visibility gaps mean edible food is unused."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 701,
+                                            lineNumber: 800,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Trust friction creates hesitation among donors and receivers."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 702,
+                                            lineNumber: 801,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Pickup coordination complexity leads to missed handoffs and waste."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 703,
+                                            lineNumber: 802,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 700,
+                                    lineNumber: 799,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 698,
+                            lineNumber: 797,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 697,
+                        lineNumber: 796,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3645,7 +4204,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 710,
+                                    lineNumber: 809,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3653,18 +4212,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If surplus becomes visible, structured and coordinated, community redistribution will increase. The product frames redistribution as community infrastructure rather than ad-hoc charity."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 711,
+                                    lineNumber: 810,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 709,
+                            lineNumber: 808,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 708,
+                        lineNumber: 807,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3679,7 +4238,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 718,
+                                            lineNumber: 817,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3687,7 +4246,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Local posting and pickup coordination with reputation and community impact tracking form the core. The system balances lightweight UX with verifiable trust signals."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 719,
+                                            lineNumber: 818,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3700,7 +4259,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Local surplus posting"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 723,
+                                                            lineNumber: 822,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3708,13 +4267,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Simple flows for posting available surplus with timestamps, quantity and pickup window information."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 724,
+                                                            lineNumber: 823,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 722,
+                                                    lineNumber: 821,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3724,7 +4283,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Pickup coordination workflow"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 728,
+                                                            lineNumber: 827,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3732,13 +4291,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Scheduling and routing logic that matches volunteers or micro-transport to pickups and drop-offs."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 729,
+                                                            lineNumber: 828,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 727,
+                                                    lineNumber: 826,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3748,7 +4307,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Trust / reputation model"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 733,
+                                                            lineNumber: 832,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3756,13 +4315,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Lightweight reputation and confirmation signals (photo check-ins, volunteer endorsements) to reduce friction."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 734,
+                                                            lineNumber: 833,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 732,
+                                                    lineNumber: 831,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3772,7 +4331,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Community impact tracking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 738,
+                                                            lineNumber: 837,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3780,25 +4339,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Dashboards and simple metrics that show redistributed volume, meals enabled and community reach."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 739,
+                                                            lineNumber: 838,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 737,
+                                                    lineNumber: 836,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 721,
+                                            lineNumber: 820,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 717,
+                                    lineNumber: 816,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3812,33 +4371,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 746,
+                                                lineNumber: 845,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 745,
+                                            lineNumber: 844,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 744,
+                                        lineNumber: 843,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 743,
+                                    lineNumber: 842,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 716,
+                            lineNumber: 815,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 715,
+                        lineNumber: 814,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3851,7 +4410,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 755,
+                                    lineNumber: 854,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3865,7 +4424,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Incentive design"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 758,
+                                                    lineNumber: 857,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3873,13 +4432,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Design donor and volunteer incentives that align with behavioural participation loops."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 759,
+                                                    lineNumber: 858,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 757,
+                                            lineNumber: 856,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3890,7 +4449,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Community UX clarity"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 763,
+                                                    lineNumber: 862,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3898,13 +4457,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Clear, low-friction posting and pickup confirmations that reduce uncertainty and cognitive load."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 764,
+                                                    lineNumber: 863,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 762,
+                                            lineNumber: 861,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3915,7 +4474,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Behavioral participation loops"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 768,
+                                                    lineNumber: 867,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3923,19 +4482,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Feedback loops and micro-recognition to sustain volunteer engagement and repeat donations."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 769,
+                                                    lineNumber: 868,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 767,
+                                            lineNumber: 866,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 756,
+                                    lineNumber: 855,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3949,7 +4508,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "NGO alignment planning"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 775,
+                                                    lineNumber: 874,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3957,13 +4516,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Co-design with local NGOs to ensure handoff workflows match organisational capacity and legal constraints."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 776,
+                                                    lineNumber: 875,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 774,
+                                            lineNumber: 873,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3974,7 +4533,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & governance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 780,
+                                                    lineNumber: 879,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3982,30 +4541,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Track pickups, confirmation rates and diversion-to-donation metrics to demonstrate impact to partners."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 781,
+                                                    lineNumber: 880,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 779,
+                                            lineNumber: 878,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 773,
+                                    lineNumber: 872,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 754,
+                            lineNumber: 853,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 753,
+                        lineNumber: 852,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4018,7 +4577,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 789,
+                                    lineNumber: 888,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4028,38 +4587,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Structured redistribution workflow that reduces coordination ambiguity."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 791,
+                                            lineNumber: 890,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Increased visibility of surplus and clearer pickup handoffs."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 792,
+                                            lineNumber: 891,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Defined trust architecture that lowers friction for donors and receivers."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 793,
+                                            lineNumber: 892,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 790,
+                                    lineNumber: 889,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 788,
+                            lineNumber: 887,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 787,
+                        lineNumber: 886,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4072,7 +4631,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 800,
+                                    lineNumber: 899,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4082,31 +4641,31 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Municipality integrations to formalise pickup routes and reporting."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 802,
+                                            lineNumber: 901,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Donation tracking dashboards for NGOs and local coordinators."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 803,
+                                            lineNumber: 902,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 801,
+                                    lineNumber: 900,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 799,
+                            lineNumber: 898,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 798,
+                        lineNumber: 897,
                         columnNumber: 13
                     }, this)
                 ]
@@ -4122,7 +4681,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 810,
+                                    lineNumber: 909,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4132,38 +4691,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Onboarding courier logistics require tight coordination across personnel and routes."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 812,
+                                            lineNumber: 911,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Time-critical shipments amplify the cost of coordination errors."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 813,
+                                            lineNumber: 912,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Cross-border shipments introduce documentation and compliance complexity that slows operations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 814,
+                                            lineNumber: 913,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 811,
+                                    lineNumber: 910,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 809,
+                            lineNumber: 908,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 808,
+                        lineNumber: 907,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4176,7 +4735,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 821,
+                                    lineNumber: 920,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4186,38 +4745,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Personnel coordination is dispersed across chat, email and spreadsheets."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 823,
+                                            lineNumber: 922,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Shipment tracking is fragmented between carriers and internal teams."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 824,
+                                            lineNumber: 923,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Documentation gaps increase regulatory risk and delay clearances."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 825,
+                                            lineNumber: 924,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 822,
+                                    lineNumber: 921,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 820,
+                            lineNumber: 919,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 819,
+                        lineNumber: 918,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4230,7 +4789,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 832,
+                                    lineNumber: 931,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4238,18 +4797,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If shipment data, personnel coordination and compliance documentation live in a single system, operational friction will drop and time-critical routing becomes reliable."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 833,
+                                    lineNumber: 932,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 831,
+                            lineNumber: 930,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 830,
+                        lineNumber: 929,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4264,7 +4823,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 840,
+                                            lineNumber: 939,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4272,7 +4831,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Core elements unify tracking, access controls and a compliance layer to support cross-border operations and time-sensitive routing."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 841,
+                                            lineNumber: 940,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4285,7 +4844,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Shipment tracking dashboard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 845,
+                                                            lineNumber: 944,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4293,13 +4852,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Unified view for active shipments with ETA, handoff status and exception flags for time-critical visibility."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 846,
+                                                            lineNumber: 945,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 844,
+                                                    lineNumber: 943,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4309,7 +4868,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Role-based access"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 850,
+                                                            lineNumber: 949,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4317,13 +4876,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Granular roles for operations, customs, drivers and partners to reduce information overload while preserving accountability."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 851,
+                                                            lineNumber: 950,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 849,
+                                                    lineNumber: 948,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4333,7 +4892,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Compliance documentation layer"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 855,
+                                                            lineNumber: 954,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4341,13 +4900,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Structured document templates, audit trails and export formats that satisfy cross-border regulatory checks."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 856,
+                                                            lineNumber: 955,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 854,
+                                                    lineNumber: 953,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4357,7 +4916,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Time-critical routing model"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 860,
+                                                            lineNumber: 959,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4365,25 +4924,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Routing logic that prioritises critical shipments and surfaces contingency plans when delays occur."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 861,
+                                                            lineNumber: 960,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 859,
+                                                    lineNumber: 958,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 843,
+                                            lineNumber: 942,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 839,
+                                    lineNumber: 938,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4397,33 +4956,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "high"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 868,
+                                                lineNumber: 967,
                                                 columnNumber: 25
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 867,
+                                            lineNumber: 966,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 866,
+                                        lineNumber: 965,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 865,
+                                    lineNumber: 964,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 838,
+                            lineNumber: 937,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 837,
+                        lineNumber: 936,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4436,7 +4995,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 877,
+                                    lineNumber: 976,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4450,7 +5009,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Enterprise UX simplification"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 880,
+                                                    lineNumber: 979,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4458,13 +5017,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Clear interfaces that reduce cognitive load for operations teams and speed decision making."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 881,
+                                                    lineNumber: 980,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 879,
+                                            lineNumber: 978,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4475,7 +5034,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Workflow orchestration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 885,
+                                                    lineNumber: 984,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4483,13 +5042,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Automated handoffs and escalation rules to keep time-critical flows moving."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 886,
+                                                    lineNumber: 985,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 884,
+                                            lineNumber: 983,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4500,7 +5059,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Risk visibility"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 890,
+                                                    lineNumber: 989,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4508,19 +5067,19 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Realtime exceptions and risk scoring to prioritise mitigations and communications."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 891,
+                                                    lineNumber: 990,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 889,
+                                            lineNumber: 988,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 878,
+                                    lineNumber: 977,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4534,7 +5093,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Governance design"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 897,
+                                                    lineNumber: 996,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4542,13 +5101,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Operational policies, audit trails and compliance gates that integrate with enterprise processes."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 898,
+                                                    lineNumber: 997,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 896,
+                                            lineNumber: 995,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4559,7 +5118,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Measurement & reporting"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 902,
+                                                    lineNumber: 1001,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4567,30 +5126,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "KPIs focused on on-time handoffs, exception resolution time and compliance throughput."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 903,
+                                                    lineNumber: 1002,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 901,
+                                            lineNumber: 1000,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 895,
+                                    lineNumber: 994,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 876,
+                            lineNumber: 975,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 875,
+                        lineNumber: 974,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4603,7 +5162,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 911,
+                                    lineNumber: 1010,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4613,38 +5172,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Reduced coordination complexity across personnel and partners."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 913,
+                                            lineNumber: 1012,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Improved operational transparency for time-critical shipments."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 914,
+                                            lineNumber: 1013,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Defined enterprise workflow system that aligns operations and compliance."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 915,
+                                            lineNumber: 1014,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 912,
+                                    lineNumber: 1011,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 910,
+                            lineNumber: 1009,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 909,
+                        lineNumber: 1008,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4657,7 +5216,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 922,
+                                    lineNumber: 1021,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4667,31 +5226,31 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Predictive routing logic to preempt delays and optimise ETAs."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 924,
+                                            lineNumber: 1023,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Airline API integrations for tighter cross-border handoffs and tracking."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 925,
+                                            lineNumber: 1024,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 923,
+                                    lineNumber: 1022,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 921,
+                            lineNumber: 1020,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 920,
+                        lineNumber: 1019,
                         columnNumber: 15
                     }, this)
                 ]
@@ -4707,7 +5266,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 932,
+                                    lineNumber: 1031,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4717,38 +5276,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Family coordination often suffers from availability uncertainty and message overload."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 934,
+                                            lineNumber: 1033,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Repeated availability questions create friction and redundant messaging."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 935,
+                                            lineNumber: 1034,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "There is demand for a lightweight, glanceable coordination utility for families."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 936,
+                                            lineNumber: 1035,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 933,
+                                    lineNumber: 1032,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 931,
+                            lineNumber: 1030,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 930,
+                        lineNumber: 1029,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4761,7 +5320,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 943,
+                                    lineNumber: 1042,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4771,38 +5330,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Repetitive availability questions create noise and slow decisions."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 945,
+                                            lineNumber: 1044,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "There is no glanceable widget that surfaces who is available now."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 946,
+                                            lineNumber: 1045,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Messaging overload buries short utility signals in long threads."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 947,
+                                            lineNumber: 1046,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 944,
+                                    lineNumber: 1043,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 942,
+                            lineNumber: 1041,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 941,
+                        lineNumber: 1040,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4815,7 +5374,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 954,
+                                    lineNumber: 1053,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4823,18 +5382,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If availability is a one-tap, visible widget, then coordination friction will fall and family decisions become faster with less messaging overhead."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 955,
+                                    lineNumber: 1054,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 953,
+                            lineNumber: 1052,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 952,
+                        lineNumber: 1051,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4849,7 +5408,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 962,
+                                            lineNumber: 1061,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4857,7 +5416,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "A minimal utility focused on availability toggles, a home-screen glanceable widget and lightweight notification syncing across devices."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 963,
+                                            lineNumber: 1062,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4870,7 +5429,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Toggle availability logic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 967,
+                                                            lineNumber: 1066,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4878,13 +5437,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Simple one-tap states (Available / Busy / Ask Later) with optional context tags for quick clarity."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 968,
+                                                            lineNumber: 1067,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 966,
+                                                    lineNumber: 1065,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4894,7 +5453,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Home screen widget"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 972,
+                                                            lineNumber: 1071,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4902,13 +5461,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Glanceable component that surfaces family availability and recent changes without opening the app."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 973,
+                                                            lineNumber: 1072,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 971,
+                                                    lineNumber: 1070,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4918,7 +5477,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Notification sync"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 977,
+                                                            lineNumber: 1076,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4926,25 +5485,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Lightweight push sync that updates availability across devices and reduces redundant reminders."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 978,
+                                                            lineNumber: 1077,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 976,
+                                                    lineNumber: 1075,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 965,
+                                            lineNumber: 1064,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 961,
+                                    lineNumber: 1060,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4958,33 +5517,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "medium"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 985,
+                                                lineNumber: 1084,
                                                 columnNumber: 25
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 984,
+                                            lineNumber: 1083,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 983,
+                                        lineNumber: 1082,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 982,
+                                    lineNumber: 1081,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 960,
+                            lineNumber: 1059,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 959,
+                        lineNumber: 1058,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4997,7 +5556,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Execution Pillars"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 994,
+                                    lineNumber: 1093,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5011,7 +5570,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Micro-interaction design"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 997,
+                                                    lineNumber: 1096,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5019,13 +5578,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Design minimal, expressive controls that make availability updates effortless and unambiguous."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 998,
+                                                    lineNumber: 1097,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 996,
+                                            lineNumber: 1095,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5036,7 +5595,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Glanceable UX"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1002,
+                                                    lineNumber: 1101,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5044,13 +5603,13 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Optimise information density for quick readability on widgets and compact surfaces."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1003,
+                                                    lineNumber: 1102,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1001,
+                                            lineNumber: 1100,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5061,7 +5620,7 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Low-friction onboarding"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1007,
+                                                    lineNumber: 1106,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5069,30 +5628,30 @@ function CaseStudyLayout({ project, children }) {
                                                     children: "Onboard with minimal permissions and defaults to encourage immediate utility and retention."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1008,
+                                                    lineNumber: 1107,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1006,
+                                            lineNumber: 1105,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 995,
+                                    lineNumber: 1094,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 993,
+                            lineNumber: 1092,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 992,
+                        lineNumber: 1091,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5105,7 +5664,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcomes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1016,
+                                    lineNumber: 1115,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5115,31 +5674,31 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Reduced coordination overhead through instant availability signals."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1018,
+                                            lineNumber: 1117,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Defined micro-utility adoption model for family groups."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1019,
+                                            lineNumber: 1118,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1017,
+                                    lineNumber: 1116,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1015,
+                            lineNumber: 1114,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1014,
+                        lineNumber: 1113,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5152,7 +5711,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "What’s Next"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1026,
+                                    lineNumber: 1125,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5162,31 +5721,31 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Shared calendar integration to surface availability across existing family calendars."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1028,
+                                            lineNumber: 1127,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Family group scaling to support larger households and multi-family coordination."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1029,
+                                            lineNumber: 1128,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1027,
+                                    lineNumber: 1126,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1025,
+                            lineNumber: 1124,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1024,
+                        lineNumber: 1123,
                         columnNumber: 15
                     }, this)
                 ]
@@ -5202,7 +5761,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Mindfulness / Mental Clarity"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1036,
+                                    lineNumber: 1135,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -5210,7 +5769,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Five Things"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1037,
+                                    lineNumber: 1136,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5218,7 +5777,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "A mindful reset in under 60 seconds."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1038,
+                                    lineNumber: 1137,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5228,25 +5787,25 @@ function CaseStudyLayout({ project, children }) {
                                             children: "My Role:"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1039,
+                                            lineNumber: 1138,
                                             columnNumber: 49
                                         }, this),
                                         " Product Lead — Strategy, UX, System Design"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1039,
+                                    lineNumber: 1138,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1035,
+                            lineNumber: 1134,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1034,
+                        lineNumber: 1133,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5259,7 +5818,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1045,
+                                    lineNumber: 1144,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5267,18 +5826,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Modern work and life impose sustained cognitive load that fragments attention. Traditional meditation apps ask users for extended commitment and context switching; busy users deprioritise these sessions and experience emotional friction when they try to fit long-form practice into short windows."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1046,
+                                    lineNumber: 1145,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1044,
+                            lineNumber: 1143,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1043,
+                        lineNumber: 1142,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5291,7 +5850,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Insight"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1052,
+                                    lineNumber: 1151,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5299,18 +5858,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Naming five concrete things — sights, sensations, or facts — provides rapid cognitive grounding. The behavioral insight is that micro-habits with immediate, repeatable structure lower activation cost and increase habit formation. Short, scaffolded interventions outperform longer practices for users with constrained attention."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1053,
+                                    lineNumber: 1152,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1051,
+                            lineNumber: 1150,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1050,
+                        lineNumber: 1149,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5323,7 +5882,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Product Vision"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1059,
+                                    lineNumber: 1158,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5331,18 +5890,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Deliver clarity in under one minute with a native, privacy-first iOS experience that fits into existing user routines. The app is intentionally minimal: one primary screen, native controls, and subtle animations that respect Apple design conventions."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1060,
+                                    lineNumber: 1159,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1058,
+                            lineNumber: 1157,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1057,
+                        lineNumber: 1156,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5355,7 +5914,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "UX & Interaction Design"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1066,
+                                    lineNumber: 1165,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5365,52 +5924,52 @@ function CaseStudyLayout({ project, children }) {
                                             children: "One-screen interaction: start, name five things, complete — no navigation overhead."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1068,
+                                            lineNumber: 1167,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Subtle animations that provide affordance without distraction."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1069,
+                                            lineNumber: 1168,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Haptic feedback to acknowledge completion and reinforce the micro-habit."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1070,
+                                            lineNumber: 1169,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Native typography and UI components to align with platform expectations."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1071,
+                                            lineNumber: 1170,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Offline-first architecture: entries are local by default and sync when appropriate."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1072,
+                                            lineNumber: 1171,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1067,
+                                    lineNumber: 1166,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1065,
+                            lineNumber: 1164,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1064,
+                        lineNumber: 1163,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5423,7 +5982,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "AI Integration"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1079,
+                                    lineNumber: 1178,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5431,18 +5990,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "On-device intelligence gently surfaces patterns in user entries to help users reflect over time. Models run locally to preserve privacy; insights are presented as optional summaries that respect user control and do not share raw content off-device."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1080,
+                                    lineNumber: 1179,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1078,
+                            lineNumber: 1177,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1077,
+                        lineNumber: 1176,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5455,7 +6014,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Leadership & Strategy"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1086,
+                                    lineNumber: 1185,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5463,18 +6022,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "As Product Lead I defined a minimal viable scope that prioritised completion rate over feature breadth. Roadmap decisions emphasised platform fidelity, low-latency feedback and privacy guarantees. MVP engineering focused on robust local storage, simple animations, and accessibility-first interactions to align with Apple Human Interface Guidelines."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1087,
+                                    lineNumber: 1186,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1085,
+                            lineNumber: 1184,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1084,
+                        lineNumber: 1183,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5487,7 +6046,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Outcome & Impact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1093,
+                                    lineNumber: 1192,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5497,45 +6056,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Daily completion rate (designed metric): primary lift target for habit formation."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1095,
+                                            lineNumber: 1194,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "User retention measured across short windows to validate micro-habit persistence."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1096,
+                                            lineNumber: 1195,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Qualitative emotional clarity feedback captured via brief in-app prompts."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1097,
+                                            lineNumber: 1196,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Reduced friction compared with traditional meditation flows through simplified interaction pathways."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1098,
+                                            lineNumber: 1197,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1094,
+                                    lineNumber: 1193,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1092,
+                            lineNumber: 1191,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1091,
+                        lineNumber: 1190,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5548,7 +6107,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Key Takeaways"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1105,
+                                    lineNumber: 1204,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5558,38 +6117,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Product simplicity is a competitive advantage when time is the user's scarce resource."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1107,
+                                            lineNumber: 1206,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Micro-interventions can scale adoption where longer practices do not."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1108,
+                                            lineNumber: 1207,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Designing for emotional states requires measured, respectful interfaces and clear opt-in intelligence."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1109,
+                                            lineNumber: 1208,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1106,
+                                    lineNumber: 1205,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1104,
+                            lineNumber: 1203,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1103,
+                        lineNumber: 1202,
                         columnNumber: 11
                     }, this)
                 ]
@@ -5605,7 +6164,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Construction Tech / Field Operations"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1116,
+                                    lineNumber: 1215,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -5613,7 +6172,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "RoofDraft"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1117,
+                                    lineNumber: 1216,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5621,7 +6180,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Scan. Analyze. Dispatch."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1118,
+                                    lineNumber: 1217,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5631,25 +6190,25 @@ function CaseStudyLayout({ project, children }) {
                                             children: "My Role:"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1119,
+                                            lineNumber: 1218,
                                             columnNumber: 49
                                         }, this),
                                         " Product Lead — AI, LiDAR, Workflow Systems"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1119,
+                                    lineNumber: 1218,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1115,
+                            lineNumber: 1214,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1114,
+                        lineNumber: 1213,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5662,7 +6221,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Industry Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1125,
+                                    lineNumber: 1224,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5672,38 +6231,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Roof inspections rely on manual measurements and paper-based notes that introduce error."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1127,
+                                            lineNumber: 1226,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Estimates are frequently inaccurate, delaying work orders and increasing rework."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1128,
+                                            lineNumber: 1227,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Generation of structured work orders is slow and often disconnected from CRM and dispatch systems."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1129,
+                                            lineNumber: 1228,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1126,
+                                    lineNumber: 1225,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1124,
+                            lineNumber: 1223,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1123,
+                        lineNumber: 1222,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5716,7 +6275,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Innovation"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1136,
+                                    lineNumber: 1235,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5724,18 +6283,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "RoofDraft uses device LiDAR to produce accurate 3D roof models, applies AI to detect structural anomalies, and auto-generates maintenance work orders with structured fields suitable for downstream dispatch and insurance workflows."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1137,
+                                    lineNumber: 1236,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1135,
+                            lineNumber: 1234,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1134,
+                        lineNumber: 1233,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5750,7 +6309,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Technical Integration"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1144,
+                                            lineNumber: 1243,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5763,7 +6322,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Apple LiDAR framework"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1147,
+                                                            lineNumber: 1246,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5771,13 +6330,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "On-device capture using native frameworks to produce meshes and depth maps."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1148,
+                                                            lineNumber: 1247,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1146,
+                                                    lineNumber: 1245,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5787,7 +6346,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "On-device processing"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1152,
+                                                            lineNumber: 1251,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5795,13 +6354,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Edge-first processing reduces upload cost and preserves inspection privacy while producing usable 3D geometry."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1153,
+                                                            lineNumber: 1252,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1151,
+                                                    lineNumber: 1250,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5811,7 +6370,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "AI defect detection"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1157,
+                                                            lineNumber: 1256,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5819,13 +6378,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Models identify common damage patterns and prioritise anomalies for human review."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1158,
+                                                            lineNumber: 1257,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1156,
+                                                    lineNumber: 1255,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5835,7 +6394,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Structured work order export"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1162,
+                                                            lineNumber: 1261,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5843,13 +6402,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Auto-generated work orders include measurements, photos, defect tags and estimated effort for rapid dispatch."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1163,
+                                                            lineNumber: 1262,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1161,
+                                                    lineNumber: 1260,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5859,7 +6418,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "CRM compatibility"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1167,
+                                                            lineNumber: 1266,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5867,25 +6426,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Export adapters map work orders into common contractor CRMs and ERP systems to reduce handoff friction."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1168,
+                                                            lineNumber: 1267,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1166,
+                                                    lineNumber: 1265,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1145,
+                                            lineNumber: 1244,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1143,
+                                    lineNumber: 1242,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5899,33 +6458,33 @@ function CaseStudyLayout({ project, children }) {
                                                 complexity: "high"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                lineNumber: 1175,
+                                                lineNumber: 1274,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1174,
+                                            lineNumber: 1273,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1173,
+                                        lineNumber: 1272,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1172,
+                                    lineNumber: 1271,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1142,
+                            lineNumber: 1241,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1141,
+                        lineNumber: 1240,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5938,7 +6497,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "User Experience Design"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1184,
+                                    lineNumber: 1283,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5948,45 +6507,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "One-tap scanning workflow minimises operator effort and standardises capture."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1186,
+                                            lineNumber: 1285,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Real-time mesh visualisation provides immediate validation of coverage."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1187,
+                                            lineNumber: 1286,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Damage tagging interface and smart auto-fill fields speed report completion."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1188,
+                                            lineNumber: 1287,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Designed for offline capture with background sync when connectivity returns."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1189,
+                                            lineNumber: 1288,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1185,
+                                    lineNumber: 1284,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1183,
+                            lineNumber: 1282,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1182,
+                        lineNumber: 1281,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5999,7 +6558,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "AI Layer"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1196,
+                                    lineNumber: 1295,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6007,18 +6566,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Pattern recognition models identify common roof damage and suggest prioritized maintenance tasks. Predictive maintenance recommendations and automated task categorization streamline scheduling and supply estimates."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1197,
+                                    lineNumber: 1296,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1195,
+                            lineNumber: 1294,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1194,
+                        lineNumber: 1293,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6031,7 +6590,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Product Leadership"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1203,
+                                    lineNumber: 1302,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6039,18 +6598,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "I scoped an MVP that reduced capture surface area to core inspection flows, prioritised on-device processing to meet privacy and latency targets, and coordinated engineering with field teams to ensure hardware constraints informed UX decisions. Complexity was reduced by deferring non-critical analytics to a later phase and focusing initial value on accurate measurements and structured exports."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1204,
+                                    lineNumber: 1303,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1202,
+                            lineNumber: 1301,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1201,
+                        lineNumber: 1300,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6063,7 +6622,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Business Impact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1210,
+                                    lineNumber: 1309,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6073,45 +6632,45 @@ function CaseStudyLayout({ project, children }) {
                                             children: "70% faster inspections (projected compared to manual methods)."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1212,
+                                            lineNumber: 1311,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "40% reduction in estimation errors (projected through accurate measurements)."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1213,
+                                            lineNumber: 1312,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Improved contractor throughput and reduced rework."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1214,
+                                            lineNumber: 1313,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Better documentation for insurance claims and faster claim processing."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1215,
+                                            lineNumber: 1314,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1211,
+                                    lineNumber: 1310,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1209,
+                            lineNumber: 1308,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1208,
+                        lineNumber: 1307,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6124,7 +6683,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Takeaways"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1222,
+                                    lineNumber: 1321,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6134,38 +6693,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "AI plus hardware (LiDAR) create measurable operational advantage in field workflows."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1224,
+                                            lineNumber: 1323,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Design for non-technical operators by minimising steps and providing clear validation feedback."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1225,
+                                            lineNumber: 1324,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Turning physical environments into structured data unlocks automation across dispatch, estimates and claims."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1226,
+                                            lineNumber: 1325,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1223,
+                                    lineNumber: 1322,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1221,
+                            lineNumber: 1320,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1220,
+                        lineNumber: 1319,
                         columnNumber: 11
                     }, this)
                 ]
@@ -6181,7 +6740,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Market Context"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1233,
+                                    lineNumber: 1332,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6191,38 +6750,38 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Guarantees of Origin systems across Europe create fragmentation in renewable traceability."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1235,
+                                            lineNumber: 1334,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Enterprises require audit-ready proof of procurement and certificate allocation."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1236,
+                                            lineNumber: 1335,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Cross-jurisdiction reporting and certificate matching introduce operational friction."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1237,
+                                            lineNumber: 1336,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1234,
+                                    lineNumber: 1333,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1232,
+                            lineNumber: 1331,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1231,
+                        lineNumber: 1330,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6236,44 +6795,44 @@ function CaseStudyLayout({ project, children }) {
                                         children: "Energy / Utilities"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1246,
+                                        lineNumber: 1345,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Multi-Market Compliance"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1247,
+                                        lineNumber: 1346,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "High Complexity"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1248,
+                                        lineNumber: 1347,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "Enterprise Scale"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1249,
+                                        lineNumber: 1348,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                                lineNumber: 1245,
+                                lineNumber: 1344,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1244,
+                            lineNumber: 1343,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1243,
+                        lineNumber: 1342,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6286,7 +6845,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1256,
+                                    lineNumber: 1355,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6294,18 +6853,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Energy purchase patterns and renewable traceability are frequently disconnected. Manual allocation, fragmented reporting and inconsistent certificate matching create regulatory risk and obscure claims. This is a systems-level gap in compliance infrastructure."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1257,
+                                    lineNumber: 1356,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1255,
+                            lineNumber: 1354,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1254,
+                        lineNumber: 1353,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6318,7 +6877,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1263,
+                                    lineNumber: 1362,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6326,18 +6885,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "If certificate allocation, subscription logic and reporting are unified under a compliance infrastructure layer, enterprises can maintain audit-ready sustainability claims, reduce regulatory risk and simplify operations."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1264,
+                                    lineNumber: 1363,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1262,
+                            lineNumber: 1361,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1261,
+                        lineNumber: 1360,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6352,7 +6911,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1271,
+                                            lineNumber: 1370,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6360,7 +6919,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Core elements: subscription management, certificate allocation engine, cross-border compliance mapping and a reporting dashboard. Role-based interfaces allow enterprise governance and audit."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1272,
+                                            lineNumber: 1371,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6373,7 +6932,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Subscription management logic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1275,
+                                                            lineNumber: 1374,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6381,13 +6940,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Rules for subscriptions, renewals and entitlement mapping to certificates."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1276,
+                                                            lineNumber: 1375,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1274,
+                                                    lineNumber: 1373,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6397,7 +6956,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Certificate allocation engine"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1280,
+                                                            lineNumber: 1379,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6405,13 +6964,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Deterministic allocation rules with provenance tracking for audit and reconciliation."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1281,
+                                                            lineNumber: 1380,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1279,
+                                                    lineNumber: 1378,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6421,7 +6980,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Cross-border compliance mapping"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1285,
+                                                            lineNumber: 1384,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6429,13 +6988,13 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "A ruleset that maps certificate semantics between jurisdictions and produces harmonised reports."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1286,
+                                                            lineNumber: 1385,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1284,
+                                                    lineNumber: 1383,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6445,7 +7004,7 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Reporting dashboard & interfaces"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1290,
+                                                            lineNumber: 1389,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6453,25 +7012,25 @@ function CaseStudyLayout({ project, children }) {
                                                             children: "Role-based views for procurement, compliance and executive reporting with exportable audit trails."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                            lineNumber: 1291,
+                                                            lineNumber: 1390,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1289,
+                                                    lineNumber: 1388,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1273,
+                                            lineNumber: 1372,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1270,
+                                    lineNumber: 1369,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6486,7 +7045,7 @@ function CaseStudyLayout({ project, children }) {
                                                     complexity: "high"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1298,
+                                                    lineNumber: 1397,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SystemDiagram$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -6494,34 +7053,34 @@ function CaseStudyLayout({ project, children }) {
                                                     complexity: "high"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                                    lineNumber: 1299,
+                                                    lineNumber: 1398,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1297,
+                                            lineNumber: 1396,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                                        lineNumber: 1296,
+                                        lineNumber: 1395,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1295,
+                                    lineNumber: 1394,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1269,
+                            lineNumber: 1368,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1268,
+                        lineNumber: 1367,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6534,7 +7093,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Organizational Impact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1308,
+                                    lineNumber: 1407,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6542,18 +7101,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "A structured governance model reduces internal coordination burden and increases transparency across procurement, compliance and settlement teams. Operational rules and audit trails improve regulatory defensibility."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1309,
+                                    lineNumber: 1408,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1307,
+                            lineNumber: 1406,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1306,
+                        lineNumber: 1405,
                         columnNumber: 11
                     }, this)
                 ]
@@ -6569,7 +7128,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "The Problem"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1315,
+                                    lineNumber: 1414,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6577,7 +7136,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: `Work with us to articulate the systemic tension this project addresses: operational constraints, user incentives, and regulatory boundaries that shape product choices.`
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1316,
+                                    lineNumber: 1415,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6585,18 +7144,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: `We frame the problem in terms of the system: data flows, decision points, and where institutional friction accumulates.`
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1317,
+                                    lineNumber: 1416,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1314,
+                            lineNumber: 1413,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1313,
+                        lineNumber: 1412,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6609,7 +7168,7 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Strategic Hypothesis"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1323,
+                                    lineNumber: 1422,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6617,18 +7176,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: `A concise leverage hypothesis that identifies where a small change in product or process yields sustained learning or reduced risk.`
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1324,
+                                    lineNumber: 1423,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1322,
+                            lineNumber: 1421,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1321,
+                        lineNumber: 1420,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6643,7 +7202,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "System Architecture"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1331,
+                                            lineNumber: 1430,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6651,7 +7210,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: `Describe the primary workflows, the actors involved, and where data is persisted or transformed. Note audit and traceability touchpoints where relevant.`
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1332,
+                                            lineNumber: 1431,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6659,13 +7218,13 @@ function CaseStudyLayout({ project, children }) {
                                             children: `Outline service boundaries, key integration points, and the operational rules that make the system defensible.`
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1333,
+                                            lineNumber: 1432,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1330,
+                                    lineNumber: 1429,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6673,18 +7232,18 @@ function CaseStudyLayout({ project, children }) {
                                     children: "Diagram placeholder"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1335,
+                                    lineNumber: 1434,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1329,
+                            lineNumber: 1428,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1328,
+                        lineNumber: 1427,
                         columnNumber: 11
                     }, this)
                 ]
@@ -6699,7 +7258,7 @@ function CaseStudyLayout({ project, children }) {
                             children: "Product Execution"
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1342,
+                            lineNumber: 1441,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6713,7 +7272,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Prioritised Learning"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1345,
+                                            lineNumber: 1444,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6721,13 +7280,13 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Define experiments that separate assumptions from facts and focus on the riskiest hypotheses."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1346,
+                                            lineNumber: 1445,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1344,
+                                    lineNumber: 1443,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6738,7 +7297,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Incremental Delivery"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1350,
+                                            lineNumber: 1449,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6746,13 +7305,13 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Ship narrow slices that produce usable outcomes and instrument them for learning."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1351,
+                                            lineNumber: 1450,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1349,
+                                    lineNumber: 1448,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6763,7 +7322,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Governed Rollout"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1355,
+                                            lineNumber: 1454,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6771,30 +7330,30 @@ function CaseStudyLayout({ project, children }) {
                                             children: "Use guarded releases, monitoring and clear decision gates to expand reach safely."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1356,
+                                            lineNumber: 1455,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1354,
+                                    lineNumber: 1453,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1343,
+                            lineNumber: 1442,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                    lineNumber: 1341,
+                    lineNumber: 1440,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                lineNumber: 1340,
+                lineNumber: 1439,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6807,7 +7366,7 @@ function CaseStudyLayout({ project, children }) {
                             children: "Measurable Outcomes"
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1364,
+                            lineNumber: 1463,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6820,7 +7379,7 @@ function CaseStudyLayout({ project, children }) {
                                             children: m.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1367,
+                                            lineNumber: 1466,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6828,29 +7387,29 @@ function CaseStudyLayout({ project, children }) {
                                             children: m.value
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                                            lineNumber: 1368,
+                                            lineNumber: 1467,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                                    lineNumber: 1366,
+                                    lineNumber: 1465,
                                     columnNumber: 45
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1365,
+                            lineNumber: 1464,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                    lineNumber: 1363,
+                    lineNumber: 1462,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                lineNumber: 1362,
+                lineNumber: 1461,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6863,7 +7422,7 @@ function CaseStudyLayout({ project, children }) {
                             children: "What We'd Do Next"
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1376,
+                            lineNumber: 1475,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6871,7 +7430,7 @@ function CaseStudyLayout({ project, children }) {
                             children: `Refine the scope into a concise workplan with decision gates, instrumentation requirements, and an initial rollout guardrail.`
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1377,
+                            lineNumber: 1476,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6879,18 +7438,18 @@ function CaseStudyLayout({ project, children }) {
                             children: `Recommend immediate next steps that reduce the largest sources of uncertainty and preserve auditability where required.`
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.tsx",
-                            lineNumber: 1378,
+                            lineNumber: 1477,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                    lineNumber: 1375,
+                    lineNumber: 1474,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                lineNumber: 1374,
+                lineNumber: 1473,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6899,17 +7458,17 @@ function CaseStudyLayout({ project, children }) {
                     className: "max-w-5xl mx-auto",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.tsx",
-                        lineNumber: 1384,
+                        lineNumber: 1483,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CaseStudyLayout.tsx",
-                    lineNumber: 1383,
+                    lineNumber: 1482,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.tsx",
-                lineNumber: 1382,
+                lineNumber: 1481,
                 columnNumber: 7
             }, this),
             children
@@ -6942,7 +7501,10 @@ const projects = [
             'design-systems',
             'regulated-systems'
         ],
-        image: '/images/portfolio/imediate.png',
+        image: '/images/portfolio/imediate/imediate.png',
+        thumbnail: '/images/portfolio/imediate/imediate_thumbnail.png',
+        cover: '/images/portfolio/imediate/imediate_cover.png',
+        hero: '/images/portfolio/imediate/imediate_hero.png',
         complexityTags: [
             'Regulatory',
             'Traceability',
@@ -6966,6 +7528,38 @@ const projects = [
         ]
     },
     {
+        slug: 'shootatlas',
+        title: 'ShootAtlas',
+        category: 'Field Production / Media Production',
+        shortDescription: 'ShootAtlas is a production coordination platform for on-location photoshoots. It centralizes shot planning, crew coordination, equipment tracking, and live schedule management — enhanced by an AI assistant that anticipates risks, automates logistics, and reduces production delays.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/portfolio/shootatlas/shootatlas.png',
+        complexityTags: [
+            'Field Production',
+            'AI-Augmented',
+            'Mobile-First'
+        ],
+        industry: 'Media / Production',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Production coordination for on-location shoots: planning → execution → client updates'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Realtime schedule orchestration, inventory tracking and AI-assisted risk detection'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduced delays and clearer crew responsibilities for field productions'
+            }
+        ]
+    },
+    {
         slug: 'power-proof-portal',
         title: 'Power Proof Portal',
         category: 'Energy Compliance Platform',
@@ -6974,7 +7568,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/power-proof.png',
+        image: '/images/portfolio/power-proof-portal/power-proof.png',
+        thumbnail: '/images/portfolio/power-proof-portal/power-proof_thumbnail.png',
+        cover: '/images/portfolio/power-proof-portal/power-proof_cover.png',
+        hero: '/images/portfolio/power-proof-portal/power-proof_hero.png',
         complexityTags: [
             'Multi-Market',
             'Regulatory',
@@ -7006,7 +7603,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/a2x-global.png',
+        image: '/images/portfolio/a2x-global/a2x-global.png',
+        thumbnail: '/images/portfolio/a2x-global/a2x-global_thumbnail.png',
+        cover: '/images/portfolio/a2x-global/a2x-global_cover.png',
+        hero: '/images/portfolio/a2x-global/a2x-global_hero.png',
         complexityTags: [
             'Multi-Market',
             'Cross-Market Adaptability',
@@ -7038,7 +7638,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/extra-ticket.png',
+        image: '/images/portfolio/extra-ticket/extra-ticket.png',
+        thumbnail: '/images/portfolio/extra-ticket/extra-ticket_thumbnail.png',
+        cover: '/images/portfolio/extra-ticket/extra-ticket_cover.png',
+        hero: '/images/portfolio/extra-ticket/extra-ticket_hero.png',
         complexityTags: [
             'Marketplace Dynamics',
             'Behavioral Design',
@@ -7070,7 +7673,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/leaf.png',
+        image: '/images/portfolio/leaf/leaf.png',
+        thumbnail: '/images/portfolio/leaf/leaf_thumbnail.png',
+        cover: '/images/portfolio/leaf/leaf_cover.png',
+        hero: '/images/portfolio/leaf/leaf_hero.png',
         complexityTags: [
             'Behavioral Design',
             'Community Infrastructure',
@@ -7101,7 +7707,10 @@ const projects = [
         engagementModes: [
             'design-systems'
         ],
-        image: '/images/portfolio/fluffybutt.png',
+        image: '/images/portfolio/fluffybutt/fluffybutt.png',
+        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.png',
+        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.png',
+        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.png',
         complexityTags: [
             'Design Governance',
             'Consumer Social'
@@ -7132,7 +7741,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/gk-mvp.png',
+        image: '/images/portfolio/gk-mvp/gk-mvp.png',
+        thumbnail: '/images/portfolio/gk-mvp/gk-mvp_thumbnail.png',
+        cover: '/images/portfolio/gk-mvp/gk-mvp_cover.png',
+        hero: '/images/portfolio/gk-mvp/gk-mvp_hero.png',
         complexityTags: [
             'Community Infrastructure',
             'Enterprise Workflow'
@@ -7163,7 +7775,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/photosell.png',
+        image: '/images/portfolio/photosell/photosell.png',
+        thumbnail: '/images/portfolio/photosell/photosell_thumbnail.png',
+        cover: '/images/portfolio/photosell/photosell_cover.png',
+        hero: '/images/portfolio/photosell/photosell_hero.png',
         complexityTags: [
             'Marketplace Dynamics',
             'Regulatory',
@@ -7194,7 +7809,10 @@ const projects = [
         engagementModes: [
             'venture-builder'
         ],
-        image: '/images/portfolio/supergramp.png',
+        image: '/images/portfolio/supergramp/supergramp.png',
+        thumbnail: '/images/portfolio/supergramp/supergramp_thumbnail.png',
+        cover: '/images/portfolio/supergramp/supergramp_cover.png',
+        hero: '/images/portfolio/supergramp/supergramp_hero.png',
         complexityTags: [
             'Community Infrastructure',
             'Enterprise Workflow'

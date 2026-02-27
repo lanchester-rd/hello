@@ -333,10 +333,10 @@ const projects = [
             'design-systems',
             'regulated-systems'
         ],
-        image: '/images/portfolio/imediate/imediate.png',
-        thumbnail: '/images/portfolio/imediate/imediate_thumbnail.png',
-        cover: '/images/portfolio/imediate/imediate_cover.png',
-        hero: '/images/portfolio/imediate/imediate_hero.png',
+        image: '/images/portfolio/imediate/iMediate_cover.webp',
+        thumbnail: '/images/portfolio/imediate/iMediate_thumbnail.webp',
+        cover: '/images/portfolio/imediate/iMediate_cover.webp',
+        hero: '/images/portfolio/imediate/iMediate_hero.webp',
         complexityTags: [
             'Regulatory',
             'Traceability',
@@ -368,7 +368,7 @@ const projects = [
             'product-leadership-partner',
             'design-systems'
         ],
-        image: '/images/portfolio/shootatlas/shootatlas.png',
+        image: '/images/portfolio/placeholder.svg',
         complexityTags: [
             'Field Production',
             'AI-Augmented',
@@ -400,10 +400,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/power-proof-portal/power-proof.png',
-        thumbnail: '/images/portfolio/power-proof-portal/power-proof_thumbnail.png',
-        cover: '/images/portfolio/power-proof-portal/power-proof_cover.png',
-        hero: '/images/portfolio/power-proof-portal/power-proof_hero.png',
+        image: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        thumbnail: '/images/portfolio/power-proof-portal/power-proof-portal_thumbnail.webp',
+        cover: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        hero: '/images/portfolio/power-proof-portal/power-proof-portal_hero.webp',
         complexityTags: [
             'Multi-Market',
             'Regulatory',
@@ -435,10 +435,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/a2x-global/a2x-global.png',
-        thumbnail: '/images/portfolio/a2x-global/a2x-global_thumbnail.png',
-        cover: '/images/portfolio/a2x-global/a2x-global_cover.png',
-        hero: '/images/portfolio/a2x-global/a2x-global_hero.png',
+        image: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        thumbnail: '/images/portfolio/a2x-global/a2x-global_thumbnail.webp',
+        cover: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        hero: '/images/portfolio/a2x-global/a2x-global_hero.webp',
         complexityTags: [
             'Multi-Market',
             'Cross-Market Adaptability',
@@ -470,10 +470,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/extra-ticket/extra-ticket.png',
-        thumbnail: '/images/portfolio/extra-ticket/extra-ticket_thumbnail.png',
-        cover: '/images/portfolio/extra-ticket/extra-ticket_cover.png',
-        hero: '/images/portfolio/extra-ticket/extra-ticket_hero.png',
+        image: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        thumbnail: '/images/portfolio/extra-ticket/extra-ticket_thumbnail.webp',
+        cover: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        hero: '/images/portfolio/extra-ticket/extra-ticket_hero.webp',
         complexityTags: [
             'Marketplace Dynamics',
             'Behavioral Design',
@@ -505,10 +505,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/leaf/leaf.png',
-        thumbnail: '/images/portfolio/leaf/leaf_thumbnail.png',
-        cover: '/images/portfolio/leaf/leaf_cover.png',
-        hero: '/images/portfolio/leaf/leaf_hero.png',
+        image: '/images/portfolio/leaf/leaf_cover.webp',
+        thumbnail: '/images/portfolio/leaf/leaf_thumbnail.webp',
+        cover: '/images/portfolio/leaf/leaf_cover.webp',
+        hero: '/images/portfolio/leaf/leaf_hero.webp',
         complexityTags: [
             'Behavioral Design',
             'Community Infrastructure',
@@ -539,10 +539,10 @@ const projects = [
         engagementModes: [
             'design-systems'
         ],
-        image: '/images/portfolio/fluffybutt/fluffybutt.png',
-        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.png',
-        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.png',
-        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.png',
+        image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.webp',
+        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
         complexityTags: [
             'Design Governance',
             'Consumer Social'
@@ -573,10 +573,10 @@ const projects = [
             'venture-builder',
             'design-systems'
         ],
-        image: '/images/portfolio/gk-mvp/gk-mvp.png',
-        thumbnail: '/images/portfolio/gk-mvp/gk-mvp_thumbnail.png',
-        cover: '/images/portfolio/gk-mvp/gk-mvp_cover.png',
-        hero: '/images/portfolio/gk-mvp/gk-mvp_hero.png',
+        image: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        thumbnail: '/images/portfolio/gk-mvp/gk-mvp_thumbnail.webp',
+        cover: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        hero: '/images/portfolio/gk-mvp/gk-mvp_hero.webp',
         complexityTags: [
             'Community Infrastructure',
             'Enterprise Workflow'
@@ -607,10 +607,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/photosell/photosell.png',
-        thumbnail: '/images/portfolio/photosell/photosell_thumbnail.png',
-        cover: '/images/portfolio/photosell/photosell_cover.png',
-        hero: '/images/portfolio/photosell/photosell_hero.png',
+        image: '/images/portfolio/photosell/photosell_cover.webp',
+        thumbnail: '/images/portfolio/photosell/photosell_thumbnail.webp',
+        cover: '/images/portfolio/photosell/photosell_cover.webp',
+        hero: '/images/portfolio/photosell/photosell_hero.webp',
         complexityTags: [
             'Marketplace Dynamics',
             'Regulatory',
@@ -641,10 +641,10 @@ const projects = [
         engagementModes: [
             'venture-builder'
         ],
-        image: '/images/portfolio/supergramp/supergramp.png',
-        thumbnail: '/images/portfolio/supergramp/supergramp_thumbnail.png',
-        cover: '/images/portfolio/supergramp/supergramp_cover.png',
-        hero: '/images/portfolio/supergramp/supergramp_hero.png',
+        image: '/images/portfolio/supergramp/supergramp_cover.webp',
+        thumbnail: '/images/portfolio/supergramp/supergramp_thumbnail.webp',
+        cover: '/images/portfolio/supergramp/supergramp_cover.webp',
+        hero: '/images/portfolio/supergramp/supergramp_hero.webp',
         complexityTags: [
             'Community Infrastructure',
             'Enterprise Workflow'
@@ -675,7 +675,10 @@ const projects = [
             'product-leadership-partner',
             'design-systems'
         ],
-        image: '/images/portfolio/five-things.png',
+        image: '/images/portfolio/five-things/five-things_cover.webp',
+        thumbnail: '/images/portfolio/five-things/five-things_thumbnail.webp',
+        cover: '/images/portfolio/five-things/five-things_cover.webp',
+        hero: '/images/portfolio/five-things/five-things_hero.webp',
         complexityTags: [
             'Behavioral Design',
             'Mobile Native',
@@ -708,7 +711,10 @@ const projects = [
             'product-leadership-partner',
             'regulated-systems'
         ],
-        image: '/images/portfolio/roofdraft.png',
+        image: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        thumbnail: '/images/portfolio/roofdraft/roofdraft_thumbnail.webp',
+        cover: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        hero: '/images/portfolio/roofdraft/roofdraft_hero.webp',
         complexityTags: [
             'LiDAR',
             'AI-Enabled',
@@ -827,7 +833,7 @@ function ProjectCard({ project }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "project-card-image",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: project.thumbnail || project.image || '/images/portfolio/placeholder.png',
+                            src: project.thumbnail || project.image || '/images/portfolio/placeholder.svg',
                             alt: project.title,
                             className: "w-full h-40 object-cover rounded-t-md"
                         }, void 0, false, {

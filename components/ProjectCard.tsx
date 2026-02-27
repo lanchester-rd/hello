@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <Link href={`/work/${project.slug}`} className="block relative">
           <div className="project-card-image">
             <img
-              src={project.thumbnail || project.image || '/images/portfolio/placeholder.png'}
+              src={project.thumbnail || project.image || '/images/portfolio/placeholder.svg'}
               alt={project.title}
               className="w-full h-40 object-cover rounded-t-md"
             />
