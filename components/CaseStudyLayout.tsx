@@ -1494,21 +1494,21 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
             <div className="max-w-5xl mx-auto">
               <h3 className="text-2xl font-semibold">Market Context</h3>
               <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
-                <li>Guarantees of Origin systems across Europe create fragmentation in renewable traceability.</li>
-                <li>Enterprises require audit-ready proof of procurement and certificate allocation.</li>
-                <li>Cross-jurisdiction reporting and certificate matching introduce operational friction.</li>
+                <li>Legal, compliance and operational teams increasingly need structured, timestamped evidence that can withstand regulatory or legal scrutiny.</li>
+                <li>Manual documentation processes are slow, error-prone and produce records that are difficult to verify or export in standardised formats.</li>
+                <li>Organisations operating across jurisdictions face inconsistent evidentiary standards that multiply documentation overhead.</li>
+                <li>Growing regulatory pressure demands immutable audit trails and defensible chain-of-custody records across industries.</li>
               </ul>
             </div>
           </section>
 
-          {/* Structural depth metadata */}
           <section className="py-4">
             <div className="max-w-5xl mx-auto">
               <div className="flex flex-wrap gap-3 text-xs uppercase text-gray-500 tracking-wider">
-                <div>Energy / Utilities</div>
-                <div>Multi-Market Compliance</div>
-                <div>High Complexity</div>
-                <div>Enterprise Scale</div>
+                <div>Legal / Compliance</div>
+                <div>Regulatory</div>
+                <div>Evidence Infrastructure</div>
+                <div>Traceability</div>
               </div>
             </div>
           </section>
@@ -1516,14 +1516,19 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
           <section className="py-20">
             <div className="max-w-5xl mx-auto">
               <h3 className="text-2xl font-semibold">The Problem</h3>
-              <p className="mt-4 text-gray-600">Energy purchase patterns and renewable traceability are frequently disconnected. Manual allocation, fragmented reporting and inconsistent certificate matching create regulatory risk and obscure claims. This is a systems-level gap in compliance infrastructure.</p>
+              <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                <li>Unstructured documentation cannot be reliably queried, exported or presented as evidence.</li>
+                <li>Manual timestamping and version control create integrity gaps that undermine defensibility.</li>
+                <li>Teams spend disproportionate time assembling records at review or dispute time rather than capturing them continuously.</li>
+                <li>No clear chain-of-custody means records can be challenged on provenance grounds even when accurate.</li>
+              </ul>
             </div>
           </section>
 
           <section className="py-20 bg-gray-50">
             <div className="max-w-5xl mx-auto">
               <h3 className="text-2xl font-semibold">Strategic Hypothesis</h3>
-              <p className="mt-4 text-gray-600">If certificate allocation, subscription logic and reporting are unified under a compliance infrastructure layer, enterprises can maintain audit-ready sustainability claims, reduce regulatory risk and simplify operations.</p>
+              <p className="mt-4 text-gray-600">If evidence is captured in structured, timestamped, exportable formats from the point of creation — rather than assembled retrospectively — organisations gain defensible documentation trails that reduce regulatory risk and operational overhead simultaneously.</p>
             </div>
           </section>
 
@@ -1531,26 +1536,23 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
             <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h4 className="font-semibold">System Architecture</h4>
-                <p className="mt-3 text-gray-600">Core elements: subscription management, certificate allocation engine, cross-border compliance mapping and a reporting dashboard. Role-based interfaces allow enterprise governance and audit.</p>
+                <p className="mt-3 text-gray-600">An evidence capture and export platform built around immutable timestamped logs, structured record templates and jurisdiction-aware export formats.</p>
                 <div className="mt-4 space-y-3">
                   <div>
-                    <h5 className="font-semibold">Subscription management logic</h5>
-                    <p className="mt-1 text-gray-600">Rules for subscriptions, renewals and entitlement mapping to certificates.</p>
+                    <h5 className="font-semibold">Timestamped evidence capture</h5>
+                    <p className="mt-1 text-gray-600">Structured intake flows that attach immutable timestamps and provenance metadata to every record at the moment of creation.</p>
                   </div>
-
                   <div>
-                    <h5 className="font-semibold">Certificate allocation engine</h5>
-                    <p className="mt-1 text-gray-600">Deterministic allocation rules with provenance tracking for audit and reconciliation.</p>
+                    <h5 className="font-semibold">Chain-of-custody tracking</h5>
+                    <p className="mt-1 text-gray-600">Audit log of every access, modification and export event — building a complete, queryable history for each evidential record.</p>
                   </div>
-
                   <div>
-                    <h5 className="font-semibold">Cross-border compliance mapping</h5>
-                    <p className="mt-1 text-gray-600">A ruleset that maps certificate semantics between jurisdictions and produces harmonised reports.</p>
+                    <h5 className="font-semibold">Structured export engine</h5>
+                    <p className="mt-1 text-gray-600">Configurable export templates (PDF, structured data) that map records to the format required by specific legal, regulatory or operational contexts.</p>
                   </div>
-
                   <div>
-                    <h5 className="font-semibold">Reporting dashboard & interfaces</h5>
-                    <p className="mt-1 text-gray-600">Role-based views for procurement, compliance and executive reporting with exportable audit trails.</p>
+                    <h5 className="font-semibold">Role-based access & governance</h5>
+                    <p className="mt-1 text-gray-600">Granular permissioning ensures only authorised actors can create, view or export sensitive records — with every action logged.</p>
                   </div>
                 </div>
               </div>
@@ -1558,7 +1560,6 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
                 <div className="w-full px-6">
                   <div className="space-y-4">
                     <SystemDiagram type="linear" complexity="high" />
-                    <SystemDiagram type="network" complexity="high" />
                   </div>
                 </div>
               </div>
@@ -1567,8 +1568,32 @@ export default function CaseStudyLayout({ project, children }: { project: Projec
 
           <section className="py-20 bg-white">
             <div className="max-w-5xl mx-auto">
-              <h3 className="text-2xl font-semibold">Organizational Impact</h3>
-              <p className="mt-4 text-gray-600">A structured governance model reduces internal coordination burden and increases transparency across procurement, compliance and settlement teams. Operational rules and audit trails improve regulatory defensibility.</p>
+              <h3 className="text-2xl font-semibold">Execution Pillars</h3>
+              <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div className="p-4 border border-gray-100 rounded-md">
+                  <h5 className="font-semibold">Immutability by design</h5>
+                  <p className="mt-2 text-gray-600">Records are append-only with cryptographic integrity checks — no silent edits, no ambiguous versions.</p>
+                </div>
+                <div className="p-4 border border-gray-100 rounded-md">
+                  <h5 className="font-semibold">Structured intake flows</h5>
+                  <p className="mt-2 text-gray-600">Guided capture templates that enforce completeness and reduce the ambiguity that weakens documentation under scrutiny.</p>
+                </div>
+                <div className="p-4 border border-gray-100 rounded-md">
+                  <h5 className="font-semibold">Jurisdiction-aware exports</h5>
+                  <p className="mt-2 text-gray-600">Export logic adapts to the evidentiary format requirements of specific legal or regulatory environments.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-20 bg-gray-50">
+            <div className="max-w-5xl mx-auto">
+              <h3 className="text-2xl font-semibold">Outcomes</h3>
+              <ul className="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                <li>Defensible, timestamped documentation produced continuously — not assembled under pressure.</li>
+                <li>Reduced regulatory exposure through consistent, auditable record structures.</li>
+                <li>Lower operational overhead at review or dispute time through structured, exportable records.</li>
+              </ul>
             </div>
           </section>
         </>
