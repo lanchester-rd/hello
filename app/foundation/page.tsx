@@ -56,12 +56,13 @@ export default function FoundationPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#0B0F14]/90 via-[#0B0F14]/30 to-[#0B0F14]/80" />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+        <div className="relative z-10 w-full max-w-4xl mx-auto text-center space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <span className="inline-block px-5 py-2 rounded-full border border-emerald-400/30 bg-emerald-900/40 backdrop-blur-sm text-emerald-100 text-xs font-semibold uppercase tracking-widest shadow-xl">
             The Abbey Fields Foundation
           </span>
-          <h1 className={`text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white leading-[1.1] ${playfair.className}`}>
-            NGO App Development<br className="hidden md:block" />
+          <h1 className={`text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white leading-[1.1] ${playfair.className}`}>
+            NGO App Development
+            <br />
             <span className="italic font-medium text-emerald-300">
               Built for Good.
             </span>
