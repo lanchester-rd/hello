@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/research/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'Intelligence Research | Lanchester R&D Technical Investigations',\n  description: 'Browse Lanchester R&D\\'s ongoing intelligence research into predictive systems, autonomous dispatch, regulatory extraction, and advanced operational technologies.',\n  keywords: ['Lanchester research', 'intelligence research', 'technical investigations', 'predictive systems', 'operational systems'],\n}\n\nexport default function ResearchLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","ResearchLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,iEAAiE;IACxEC,WAAW,EAAE,oKAAoK;IACjLC,QAAQ,EAAE;QAAC,qBAAqB;QAAE,uBAAuB;QAAE,0BAA0B;QAAE,oBAAoB;QAAE,qBAAqB;KAAA;AACpI,CAAC;AAEc,SAASC,cAAcA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC5E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/research/layout,_N_T_/research/autonomous-dispatch/layout,_N_T_/research/autonomous-dispatch/page,_N_T_/research/autonomous-dispatch"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/research/autonomous-dispatch/__PAGE__",
+    "/research/autonomous-dispatch",
+    "/research",
+    "/_index",
+    "/_head"
+  ]
+}

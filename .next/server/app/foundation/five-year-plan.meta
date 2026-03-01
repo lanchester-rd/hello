@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/foundation/layout,_N_T_/foundation/five-year-plan/layout,_N_T_/foundation/five-year-plan/page,_N_T_/foundation/five-year-plan"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/foundation/five-year-plan/__PAGE__",
+    "/foundation/five-year-plan",
+    "/foundation",
+    "/_index",
+    "/_head"
+  ]
+}

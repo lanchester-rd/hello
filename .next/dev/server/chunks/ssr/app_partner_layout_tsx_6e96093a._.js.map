@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/partner/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'Partner with Lanchester R&D | Engagement Models',\n  description: 'Work with Lanchester R&D through our Lab Sprint, Systems Audit, or Network Build offerings. Tailored research and design services for complex organizational challenges.',\n  keywords: ['Lanchester partnership', 'engagement models', 'lab sprint', 'systems audit', 'consulting'],\n}\n\nexport default function PartnerLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","PartnerLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,iDAAiD;IACxDC,WAAW,EAAE,0KAA0K;IACvLC,QAAQ,EAAE;QAAC,wBAAwB;QAAE,mBAAmB;QAAE,YAAY;QAAE,eAAe;QAAE,YAAY;KAAA;AACvG,CAAC;AAEc,SAASC,aAAaA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC3E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

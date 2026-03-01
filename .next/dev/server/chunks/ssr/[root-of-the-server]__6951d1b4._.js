@@ -1,0 +1,1098 @@
+module.exports = [
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/components/SectionContainer.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SectionContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function SectionContainer({ children, className = '' }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `max-w-[90rem] mx-auto px-6 lg:px-12 ${className}`,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/components/SectionContainer.tsx",
+        lineNumber: 5,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/PageHero.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>PageHero
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function PageHero({ title, description }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "band",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[90rem] mx-auto px-6 lg:px-12",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                    className: "page-hero-title",
+                    children: title
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, this),
+                description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "page-hero-desc",
+                    children: description
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 8,
+                    columnNumber: 25
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "animated-divider mt-10",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/PageHero.tsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/components/PageHero.tsx",
+        lineNumber: 5,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/AnimatedDivider.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>AnimatedDivider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function AnimatedDivider({ className = '' }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `animated-divider ${className}`,
+        "aria-hidden": "true"
+    }, void 0, false, {
+        fileName: "[project]/components/AnimatedDivider.tsx",
+        lineNumber: 4,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/SelectedWork.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/SelectedWork.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/SelectedWork.tsx <module evaluation>", "default");
+}),
+"[project]/components/SelectedWork.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/SelectedWork.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/SelectedWork.tsx", "default");
+}),
+"[project]/components/SelectedWork.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SelectedWork$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/SelectedWork.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SelectedWork$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/SelectedWork.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SelectedWork$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/data/projects.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "projects",
+    ()=>projects
+]);
+const projects = [
+    {
+        slug: 'imediate',
+        title: 'iMediate',
+        category: 'Digital Mediation Ecosystem',
+        shortDescription: 'AI-augmented conflict resolution infrastructure — a mediation ecosystem spanning a structured co-parenting app and a WhatsApp layer that parses messages, applies NVC reframing, extracts calendar events, and generates court-ready documentation. Integrates with local parenting ecosystems including WipWap and the Amsterdam Parent Project.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'design-systems',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/imediate/iMediate_cover.webp',
+        thumbnail: '/images/portfolio/imediate/iMediate_thumbnail.webp',
+        cover: '/images/portfolio/imediate/iMediate_cover.webp',
+        hero: '/images/portfolio/imediate/iMediate_hero.webp',
+        complexityTags: [
+            'Regulatory',
+            'Traceability',
+            'Behavioral Design',
+            'NVC',
+            'Conversational AI'
+        ],
+        industry: 'Legal / Dispute Resolution',
+        scaleStage: 'Regulated',
+        metrics: [
+            {
+                label: 'Ecosystem Scope',
+                value: 'App + WhatsApp layer covering co-parenting coordination, NVC guidance and court-ready documentation'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Message parsing, NVC reframing engine, calendar extraction, structured audit logs and community integrations'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Defensible interaction records generated passively; reduces conflict recurrence and administration overhead'
+            }
+        ]
+    },
+    {
+        slug: 'shootatlas',
+        title: 'ShootAtlas',
+        category: 'Field Production / Media Production',
+        shortDescription: 'ShootAtlas is a production coordination platform for on-location photoshoots. It centralizes shot planning, crew coordination, equipment tracking, and live schedule management — enhanced by an AI assistant that anticipates risks, automates logistics, and reduces production delays.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/highres/shootatlas_hero.png',
+        thumbnail: '/images/highres/shootatlas_hero.png',
+        cover: '/images/highres/shootatlas_hero.png',
+        hero: '/images/highres/shootatlas_hero.png',
+        complexityTags: [
+            'Field Production',
+            'AI-Augmented',
+            'Mobile-First'
+        ],
+        industry: 'Media / Production',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Production coordination for on-location shoots: planning → execution → client updates'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Realtime schedule orchestration, inventory tracking and AI-assisted risk detection'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduced delays and clearer crew responsibilities for field productions'
+            }
+        ]
+    },
+    {
+        slug: 'power-proof-portal',
+        title: 'Power Proof Portal',
+        category: 'Evidence Documentation / Compliance',
+        shortDescription: 'Secure evidence documentation and structured reporting system for legal, compliance, and operational environments — built around timestamped logs, structured exports, and defensible documentation trails.',
+        engagementModes: [
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        thumbnail: '/images/portfolio/power-proof-portal/power-proof-portal_thumbnail.webp',
+        cover: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        hero: '/images/portfolio/power-proof-portal/power-proof-portal_hero.webp',
+        complexityTags: [
+            'Regulatory',
+            'Traceability',
+            'Audit Trail',
+            'Structured Reporting'
+        ],
+        industry: 'Legal / Compliance / Operations',
+        scaleStage: 'Growth',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Timestamped evidence capture, structured export formats and defensible audit trails'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Immutable log architecture with jurisdiction-aware export and chain-of-custody metadata'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduces manual documentation overhead and strengthens evidentiary defensibility'
+            }
+        ]
+    },
+    {
+        slug: 'a2x-global',
+        title: 'A2X Global',
+        category: 'Onboard Courier & Personnel Logistics',
+        shortDescription: 'Platform for managing onboard courier packages and personnel logistics — coordinating package tracking, customs compliance, and crew assignments across international routes.',
+        engagementModes: [
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        thumbnail: '/images/portfolio/a2x-global/a2x-global_thumbnail.webp',
+        cover: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        hero: '/images/portfolio/a2x-global/a2x-global_hero.webp',
+        complexityTags: [
+            'Multi-Market',
+            'Logistics',
+            'Personnel Management',
+            'Regulatory'
+        ],
+        industry: 'Logistics / Aviation',
+        scaleStage: 'Growth',
+        metrics: [
+            {
+                label: 'Market Scope',
+                value: 'Cross-border package and personnel coordination across international routes'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Customs compliance, package tracking and crew assignment workflows'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduced manual coordination overhead for onboard courier operations'
+            }
+        ]
+    },
+    {
+        slug: 'extra-ticket',
+        title: 'Extra Ticket',
+        category: 'Social / Events',
+        shortDescription: 'A dating app concept where users post their extra tickets to events to find someone to attend with — turning spare tickets into a social discovery mechanic.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        thumbnail: '/images/portfolio/extra-ticket/extra-ticket_thumbnail.webp',
+        cover: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        hero: '/images/portfolio/extra-ticket/extra-ticket_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Behavioral Design',
+            'Matching'
+        ],
+        industry: 'Events / Social',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Concept Scope',
+                value: 'Event-based social discovery — connecting people through shared cultural experiences'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Ticket posting, match-making and trust flows for strangers meeting at events'
+            },
+            {
+                label: 'User Insight',
+                value: 'Reduces entry friction for solo attendees while filling otherwise wasted seats'
+            }
+        ]
+    },
+    {
+        slug: 'leaf',
+        title: 'Leaf',
+        category: 'Messaging / Consumer Social',
+        shortDescription: 'A messaging app where users highlight segments of messages to create branching conversation threads — enabling non-linear, context-anchored replies.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/leaf/leaf_cover.webp',
+        thumbnail: '/images/portfolio/leaf/leaf_thumbnail.webp',
+        cover: '/images/portfolio/leaf/leaf_cover.webp',
+        hero: '/images/portfolio/leaf/leaf_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Conversation Design',
+            'Branching UX'
+        ],
+        industry: 'Messaging / Social',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Concept Scope',
+                value: 'Branching thread model anchored to specific message segments'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Non-linear conversation graph with contextual highlight states'
+            },
+            {
+                label: 'User Insight',
+                value: 'Reduces derailment in group discussions by preserving context per thread'
+            }
+        ]
+    },
+    {
+        slug: 'fluffybutt',
+        title: 'Fluffybutt',
+        category: 'Pet Care & Shelter Management',
+        shortDescription: 'Integrated dog care and foster management ecosystem — a mobile app for individual caregivers (routines, health tracking, weight/mood/activity logging, trick & training tracker, social/pack structures) paired with a shelter web dashboard providing real-time relay of foster updates. Positioning: real-time visibility layer for distributed animal care networks.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.webp',
+        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Health Tracking',
+            'Real-Time Sync',
+            'Shelter Operations'
+        ],
+        industry: 'Pet Care / Animal Welfare',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Ecosystem Scope',
+                value: 'Mobile app (caregivers) + shelter web dashboard with real-time foster update relay'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Health logs, training tracker, pack/social structures and live sync to shelter coordinators'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduces manual check-ins and gives shelters live visibility into distributed foster placements'
+            }
+        ]
+    },
+    {
+        slug: 'gk-mvp',
+        title: 'GuerillaKitchen.org',
+        category: 'Community Engagement / Food Waste',
+        shortDescription: 'Community engagement platform focused on food waste reduction — connecting surplus food producers with community kitchens and local distribution networks.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        thumbnail: '/images/portfolio/gk-mvp/gk-mvp_thumbnail.webp',
+        cover: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        hero: '/images/portfolio/gk-mvp/gk-mvp_hero.webp',
+        complexityTags: [
+            'Community Infrastructure',
+            'Food Systems',
+            'Circular Economy'
+        ],
+        industry: 'Food / Community',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Mission Scope',
+                value: 'Surplus food redistribution coordinated through community kitchen networks'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Supply matching, contributor onboarding and local distribution flows'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Measurable reduction in food waste through structured community coordination'
+            }
+        ]
+    },
+    {
+        slug: 'photosell',
+        title: 'Photosell',
+        category: 'AI-Powered Decluttering & Valuation',
+        shortDescription: 'AI-powered decluttering and home valuation app — identifies high-value household possessions from photos, provides valuations, and surfaces the best resale channels.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/photosell/photosell_cover.webp',
+        thumbnail: '/images/portfolio/photosell/photosell_thumbnail.webp',
+        cover: '/images/portfolio/photosell/photosell_cover.webp',
+        hero: '/images/portfolio/photosell/photosell_hero.webp',
+        complexityTags: [
+            'AI-Enabled',
+            'Computer Vision',
+            'Consumer Commerce'
+        ],
+        industry: 'Consumer / Resale',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Photo-based item identification, valuation and resale channel recommendations'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Computer vision pipeline, pricing models and marketplace integrations'
+            },
+            {
+                label: 'User Insight',
+                value: 'Dramatically lowers the effort barrier for converting clutter into cash'
+            }
+        ]
+    },
+    {
+        slug: 'supergramp',
+        title: 'SuperGramp',
+        category: 'Family / Consumer Utility',
+        shortDescription: 'A "quick look" babysitting availability widget for grandparents — letting family members instantly see when grandparents are free without back-and-forth coordination.',
+        engagementModes: [
+            'venture-builder'
+        ],
+        image: '/images/portfolio/supergramp/supergramp_cover.webp',
+        thumbnail: '/images/portfolio/supergramp/supergramp_thumbnail.webp',
+        cover: '/images/portfolio/supergramp/supergramp_cover.webp',
+        hero: '/images/portfolio/supergramp/supergramp_hero.webp',
+        complexityTags: [
+            'Consumer Utility',
+            'Widget UX',
+            'Family Tech'
+        ],
+        industry: 'Family / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Glanceable availability widget for real-time babysitting coordination'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Calendar sync, availability state and low-friction family sharing'
+            },
+            {
+                label: 'User Insight',
+                value: 'Eliminates coordination overhead for informal childcare arrangements'
+            }
+        ]
+    },
+    {
+        slug: 'five-things',
+        title: 'Five Things',
+        category: 'Mindfulness / Mental Clarity',
+        shortDescription: 'A mindful reset in under 60 seconds — designed as a native iOS experience that surfaces brief, repeatable cognitive grounding.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/portfolio/five-things/five-things_cover.webp',
+        thumbnail: '/images/portfolio/five-things/five-things_thumbnail.webp',
+        cover: '/images/portfolio/five-things/five-things_cover.webp',
+        hero: '/images/portfolio/five-things/five-things_hero.webp',
+        complexityTags: [
+            'Behavioral Design',
+            'Mobile Native',
+            'Privacy-First'
+        ],
+        industry: 'Wellness / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'One-screen micro-habit for daily cognitive resets'
+            },
+            {
+                label: 'System Complexity',
+                value: 'On-device processing and minimal backend for analytics'
+            },
+            {
+                label: 'User Impact',
+                value: 'Low-friction completion flows suited for busy users'
+            }
+        ]
+    },
+    {
+        slug: 'roofdraft',
+        title: 'RoofDraft',
+        category: 'Construction Tech / Field Operations',
+        shortDescription: 'An iOS LiDAR-enabled workflow that scans roofs, detects defects, and auto-generates AI-assisted work orders for field teams.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        thumbnail: '/images/portfolio/roofdraft/roofdraft_thumbnail.webp',
+        cover: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        hero: '/images/portfolio/roofdraft/roofdraft_hero.webp',
+        complexityTags: [
+            'LiDAR',
+            'AI-Enabled',
+            'Field Operations'
+        ],
+        industry: 'Construction / Insurance',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Operational Scope',
+                value: 'On-device model generation, defect detection and structured exports'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Hardware integration with AI inference and CRM pipelines'
+            },
+            {
+                label: 'Business Impact',
+                value: 'Faster inspections and higher estimate accuracy'
+            }
+        ]
+    },
+    {
+        slug: 'iru-assistant',
+        title: 'IRU Assistant',
+        category: 'Hospitality / AI Staff Companion',
+        shortDescription: 'AI-powered hotel staff companion that surfaces guest context, preferences, and service opportunities in real time — helping staff deliver proactive, personalised hospitality at scale.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/highres/iru-assisant_hero.png',
+        thumbnail: '/images/highres/iru-assisant_hero.png',
+        cover: '/images/highres/iru-assisant_hero.png',
+        hero: '/images/highres/iru-assisant_hero.png',
+        complexityTags: [
+            'AI-Augmented',
+            'Hospitality',
+            'Real-Time Context'
+        ],
+        industry: 'Hospitality / Hotel Tech',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Real-time guest intelligence surfaced to hotel staff at point of interaction'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Guest preference modeling, PMS integration and staff-facing contextual UI'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Enables consistent, personalised service delivery without manual briefing overhead'
+            }
+        ]
+    }
+];
+const __TURBOPACK__default__export__ = projects;
+}),
+"[project]/components/ContactCTA.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ContactCTA
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+;
+;
+function ContactCTA() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "grid grid-cols-1 md:grid-cols-12 gap-8 items-center p-8 md:p-10 border border-[var(--color-border)] rounded-[var(--radius-lg)] bg-[var(--color-bg)]",
+        "aria-label": "Work with Lanchester R&D",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "md:col-span-8",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "briefing-id mb-1",
+                        children: "§ Ready to begin?"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ContactCTA.tsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        style: {
+                            fontFamily: 'var(--font-dm-serif), Georgia, serif',
+                            fontWeight: 400
+                        },
+                        className: "text-[clamp(1.5rem,3vw,2rem)] tracking-tight leading-[1.1] text-[var(--color-text)]",
+                        children: "Bring Lanchester R&D into your next complex problem."
+                    }, void 0, false, {
+                        fileName: "[project]/components/ContactCTA.tsx",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-3 text-[0.9375rem] leading-relaxed text-[var(--color-muted)] max-w-prose-narrow",
+                        children: "We work with founders, operators, and organisations navigating systems complexity — where behavioural, regulatory, and operational challenges intersect."
+                    }, void 0, false, {
+                        fileName: "[project]/components/ContactCTA.tsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ContactCTA.tsx",
+                lineNumber: 5,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "md:col-span-4 flex flex-col sm:flex-row md:flex-col gap-3",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/contact",
+                        className: "btn btn-primary justify-center",
+                        children: "Start a conversation"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ContactCTA.tsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/engagement/venture-builder",
+                        className: "btn btn-ghost justify-center",
+                        children: "Explore engagement models"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ContactCTA.tsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ContactCTA.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/ContactCTA.tsx",
+        lineNumber: 3,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/app/engagement/[slug]/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>EngagementPage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/SectionContainer.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/PageHero.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AnimatedDivider$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/AnimatedDivider.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SelectedWork$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/SelectedWork.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/data/projects.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ContactCTA.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/navigation.react-server.js [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+const modeMap = {
+    'venture-builder': {
+        title: 'Venture Builder',
+        description: 'We work with founding teams to turn ambiguity into structured, testable product strategy.'
+    },
+    'product-leadership-partner': {
+        title: 'Product Leadership Partner',
+        description: 'We support scaling organisations with structured product governance and execution clarity.'
+    },
+    'design-systems': {
+        title: 'Design Systems & Product Coherence',
+        description: 'We create product systems that scale without fragmenting.'
+    },
+    'regulated-systems': {
+        title: 'Regulated Systems Strategy',
+        description: 'We design product infrastructure that operates inside legal, compliance, and operational constraints.'
+    }
+};
+async function EngagementPage({ params }) {
+    const resolved = await params;
+    const { slug } = resolved;
+    if (!slug) return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    const mode = modeMap[slug] || {
+        title: slug.replace(/-/g, ' '),
+        description: ''
+    };
+    const related = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["projects"].filter((p)=>p.engagementModes.includes(slug));
+    const blocksBySlug = {
+        'venture-builder': [
+            {
+                title: 'Strategic Framing',
+                body: 'We clarify the real problem, identify the leverage point, and define a product hypothesis worth building.'
+            },
+            {
+                title: 'Execution Model',
+                body: 'We scope intelligent MVPs that validate learning without overbuilding.'
+            },
+            {
+                title: 'Outcomes',
+                body: 'Clear product direction, faster iteration cycles, aligned founder–product–market narrative.'
+            }
+        ],
+        'product-leadership-partner': [
+            {
+                title: 'Roadmap Alignment',
+                body: 'Align product direction with revenue, expansion, and operational realities.'
+            },
+            {
+                title: 'Organizational Design',
+                body: 'Clarify roles, decision-making systems, and product rituals.'
+            },
+            {
+                title: 'Expansion Strategy',
+                body: 'Structure product for multi-market and regulatory growth.'
+            }
+        ],
+        'design-systems': [
+            {
+                title: 'Interaction Architecture',
+                body: 'Define interaction models that reduce cognitive load.'
+            },
+            {
+                title: 'Design Governance',
+                body: 'Create scalable design frameworks and principles.'
+            },
+            {
+                title: 'Emotional Clarity',
+                body: 'Ensure products communicate stability, clarity, and trust.'
+            }
+        ],
+        'regulated-systems': [
+            {
+                title: 'Compliance-Aware Architecture',
+                body: 'Structure systems that anticipate audit and documentation needs.'
+            },
+            {
+                title: 'Traceable Workflows',
+                body: 'Design flows that produce defensible records.'
+            },
+            {
+                title: 'Cross-Market Adaptability',
+                body: 'Build systems that survive jurisdictional differences.'
+            }
+        ]
+    };
+    const blocks = blocksBySlug[slug] || blocksBySlug['venture-builder'];
+    const philosophyMap = {
+        'venture-builder': 'Every product begins as a system hypothesis.',
+        'product-leadership-partner': 'Alignment is a system, not a meeting.',
+        'design-systems': 'Coherence scales trust.',
+        'regulated-systems': 'Compliance is a design constraint, not a blocker.'
+    };
+    const microPhilosophy = philosophyMap[slug];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                className: "py-20",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageHero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        title: mode.title,
+                        description: mode.description
+                    }, void 0, false, {
+                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                        lineNumber: 91,
+                        columnNumber: 9
+                    }, this),
+                    microPhilosophy && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-4 text-center max-w-3xl mx-auto text-sm text-gray-500",
+                        children: microPhilosophy
+                    }, void 0, false, {
+                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                        lineNumber: 92,
+                        columnNumber: 29
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AnimatedDivider$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 93,
+                            columnNumber: 31
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                        lineNumber: 93,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 90,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                className: "py-20",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 md:grid-cols-3 gap-6",
+                    children: blocks.map((b)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-center md:text-left",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-12 w-12 bg-gray-100 rounded-md mb-4 flex items-center justify-center",
+                                    children: "Icon"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                    lineNumber: 99,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "font-semibold",
+                                    children: b.title
+                                }, void 0, false, {
+                                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                    lineNumber: 100,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-2 text-gray-600",
+                                    children: b.body
+                                }, void 0, false, {
+                                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                    lineNumber: 101,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, b.title, true, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 98,
+                            columnNumber: 28
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                    lineNumber: 97,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 96,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "bg-gray-50 py-20",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "text-2xl font-semibold",
+                            children: "Selected Work For This Mode"
+                        }, void 0, false, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 108,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-6",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SelectedWork$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                filter: slug
+                            }, void 0, false, {
+                                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                lineNumber: 110,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 109,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 106,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                className: "py-20",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-2xl font-semibold",
+                        children: "Outcomes & Signals"
+                    }, void 0, false, {
+                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                        lineNumber: 116,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-6 border rounded-md",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                        className: "font-semibold",
+                                        children: "Direction"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 119,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2 text-gray-600",
+                                        children: "A documented product direction and hypothesis that guides trade-offs and prioritisation."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 120,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                lineNumber: 118,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-6 border rounded-md",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                        className: "font-semibold",
+                                        children: "Velocity"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 124,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2 text-gray-600",
+                                        children: "Faster, safer iteration cycles with clear learning goals and criteria for continuation."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 125,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                lineNumber: 123,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-6 border rounded-md",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                        className: "font-semibold",
+                                        children: "Alignment"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 129,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2 text-gray-600",
+                                        children: "Shared narratives and governance that reduce cross-functional friction and improve decision clarity."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                        lineNumber: 130,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                                lineNumber: 128,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/engagement/[slug]/page.tsx",
+                        lineNumber: 117,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 115,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                className: "py-20",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-2xl mx-auto text-center",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                            className: "text-lg font-semibold",
+                            children: "Start a Conversation"
+                        }, void 0, false, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 137,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-4 text-gray-600",
+                            children: "If you would like to explore an engagement, we can outline a concise scope and the initial decision milestones required to learn and reduce risk."
+                        }, void 0, false, {
+                            fileName: "[project]/app/engagement/[slug]/page.tsx",
+                            lineNumber: 138,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                    lineNumber: 136,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 135,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                className: "py-12",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/app/engagement/[slug]/page.tsx",
+                    lineNumber: 143,
+                    columnNumber: 5
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/engagement/[slug]/page.tsx",
+                lineNumber: 142,
+                columnNumber: 3
+            }, this)
+        ]
+    }, void 0, true);
+}
+}),
+"[project]/app/engagement/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/engagement/[slug]/page.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__6951d1b4._.js.map

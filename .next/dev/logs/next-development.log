@@ -1,3 +1,348 @@
-[00:00:00.857] Server  LOG     ✓ Ready in 588ms
-[00:00:04.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.736] Server  LOG     ✓ Ready in 524ms
+[00:00:18.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.421] Browser WARN    For security reasons, Hotjar only works over HTTPS. Learn more: https://help.hotjar.com/hc/en-us/articles/115011624047
+[00:08:57.136] Server  LOG     ✓ Compiled in 72ms
+[00:11:18.796] Server  LOG     ✓ Compiled in 67ms
+[00:11:36.607] Server  LOG     ✓ Compiled in 57ms
+[00:11:47.565] Server  LOG     ✓ Compiled in 53ms
+[00:11:59.220] Server  LOG     ✓ Compiled in 321ms
+[00:24:53.344] Server  LOG     ✓ Compiled in 114ms
+[00:25:28.631] Server  LOG     ✓ Compiled in 75ms
+[00:25:39.021] Server  LOG     ✓ Compiled in 75ms
+[00:26:30.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:30.942] Browser WARN    For security reasons, Hotjar only works over HTTPS. Learn more: https://help.hotjar.com/hc/en-us/articles/115011624047
+[00:30:43.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:43.925] Browser WARN    For security reasons, Hotjar only works over HTTPS. Learn more: https://help.hotjar.com/hc/en-us/articles/115011624047
+[00:31:36.989] Server  LOG     ✓ Compiled in 737ms
+[00:31:37.098] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:31:37.098] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:37.098] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:31:39.808] Server  LOG     ✓ Compiled in 200ms
+[00:31:39.910] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:31:39.910] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:39.910] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:31:50.616] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:31:50.616] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:50.616] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:01.938] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:01.938] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:01.938] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:11.189] Server  LOG     ✓ Compiled in 84ms
+[00:32:11.293] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:11.293] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:11.293] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:43.949] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:43.949] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:43.949] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:45.948] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:45.948] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:45.948] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:51.397] Server  LOG     ✓ Compiled in 64ms
+[00:32:51.945] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:32:51.945] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:51.945] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:33:12.065] Server  LOG     ✓ Compiled in 703ms
+[00:33:12.167] Browser ERROR   ./app/about/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import React, { useState } from 'react'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:33:12.167] Browser ERROR   ./app/about/page.tsx:11:17
+Ecmascript file had an error
+   9 | 'use client'
+  10 |
+> 11 | import React, { useState } from 'react'
+     |                 ^^^^^^^^
+  12 | import Link from 'next/link'
+  13 | import SectionHeader from '../../components/SectionHeader'
+  14 | import { motion, AnimatePresence } from 'framer-motion'
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:33:12.167] Browser ERROR   ./app/partner/page.tsx:9:1
+Ecmascript file had an error
+   7 | }
+   8 |
+>  9 | 'use client'
+     | ^^^^^^^^^^^^
+  10 |
+  11 | import SectionHeader from '../../components/SectionHeader'
+  12 | import Link from 'next/link'
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[00:35:45.144] Server  ERROR   ⨯ Error: The default export is not a React Component in "/foundation/layout"
+[00:35:45.345] Server  ERROR   ⨯ Error: The default export is not a React Component in "/foundation/layout"
+[00:35:45.349] Server  LOG     ✓ Compiled in 419ms
+[00:35:46.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:46.297] Browser WARN    For security reasons, Hotjar only works over HTTPS. Learn more: https://help.hotjar.com/hc/en-us/articles/115011624047
+[00:35:54.969] Server  LOG     ✓ Compiled in 49ms
+[00:36:00.134] Server  LOG     ✓ Compiled in 52ms
+[00:36:04.793] Server  LOG     ✓ Compiled in 45ms
+[00:36:09.042] Server  LOG     ✓ Compiled in 42ms
+[00:36:13.450] Server  LOG     ✓ Compiled in 44ms
+[00:36:23.839] Server  LOG     ✓ Compiled in 40ms
+[00:36:29.440] Server  LOG     ✓ Compiled in 47ms
+[00:39:41.193] Server  LOG     ✓ Compiled in 102ms

@@ -417,8 +417,8 @@ export default function PredictiveRoofMaintenancePage() {
                                         <ul className="space-y-2 text-sm text-slate-500 font-mono uppercase tracking-wider mt-6">
                                             <li className="flex justify-between border-b border-white/5 pb-2"><span>Age Stress</span> <span className="text-red-400">+12%</span></li>
                                             <li className="flex justify-between border-b border-white/5 pb-2"><span>Weather Tmp</span> <span className="text-red-400">+8%</span></li>
-                                            <li className="flex justify-between border-b border-white/5 pb-2"><span>Defect Accel</span> <span className="text-cyan-600">—</span></li>
-                                            <li className="flex justify-between"><span>Maint Lag</span> <span className="text-cyan-600">—</span></li>
+                                            <li className="flex justify-between border-b border-white/5 pb-2"><span>Defect Accel</span> <span className="text-cyan-600"> - </span></li>
+                                            <li className="flex justify-between"><span>Maint Lag</span> <span className="text-cyan-600"> - </span></li>
                                         </ul>
                                     </div>
                                 </div>

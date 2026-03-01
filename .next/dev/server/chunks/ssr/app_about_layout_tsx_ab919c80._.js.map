@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/about/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'About Lanchester R&D | Research and Design Lab',\n  description: 'Learn about Lanchester R&D\\'s five-day sprint methodology, problem-solving framework, and the principles that define our approach to Research and Design for complex systems.',\n  keywords: ['Lanchester', 'research and design', 'problem solving methodology', 'tactical execution', 'systems thinking'],\n}\n\nexport default function AboutLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","AboutLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,gDAAgD;IACvDC,WAAW,EAAE,+KAA+K;IAC5LC,QAAQ,EAAE;QAAC,YAAY;QAAE,qBAAqB;QAAE,6BAA6B;QAAE,oBAAoB;QAAE,kBAAkB;KAAA;AACzH,CAAC;AAEc,SAASC,WAAWA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IACzE,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

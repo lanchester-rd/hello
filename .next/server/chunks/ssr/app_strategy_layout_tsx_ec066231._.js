@@ -1,0 +1,3 @@
+module.exports=[8468,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Lanchester R&D Methodology | Strategic Framework",description:"Discover the Lanchester R&D four-pillar strategic framework: Intellectual, Tactical, Human, and AI-Forward approaches to problem-solving and systems design.",keywords:["Lanchester methodology","strategic framework","problem-solving","research methodology","intellectual strategy"]}])}];
+
+//# sourceMappingURL=app_strategy_layout_tsx_ec066231._.js.map

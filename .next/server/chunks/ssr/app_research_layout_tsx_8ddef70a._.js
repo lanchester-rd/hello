@@ -1,0 +1,3 @@
+module.exports=[3494,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Intelligence Research | Lanchester R&D Technical Investigations",description:"Browse Lanchester R&D's ongoing intelligence research into predictive systems, autonomous dispatch, regulatory extraction, and advanced operational technologies.",keywords:["Lanchester research","intelligence research","technical investigations","predictive systems","operational systems"]}])}];
+
+//# sourceMappingURL=app_research_layout_tsx_8ddef70a._.js.map

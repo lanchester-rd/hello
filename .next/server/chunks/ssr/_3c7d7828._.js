@@ -1,3 +1,0 @@
-module.exports=[70864,a=>{a.n(a.i(33290))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},75301,a=>{"use strict";var b=a.i(7997);a.i(70396);var c=a.i(73727);function d({params:a}){let{slug:d}=a;return d||(0,c.notFound)(),(0,b.jsxs)("div",{className:"max-w-4xl mx-auto px-6 py-40",children:[(0,b.jsx)("h1",{className:"text-3xl font-semibold",children:d.replace("-"," ")}),(0,b.jsx)("p",{className:"mt-4 text-gray-600",children:"Placeholder page for engagement model."})]})}a.s(["default",()=>d])}];
-
-//# sourceMappingURL=_3c7d7828._.js.map

@@ -7,7 +7,7 @@ Quick setup (recommended)
 
 1. Go to https://vercel.com and sign in with GitHub.
 2. Import the repository and select the project.
-3. Vercel auto-detects Next.js — leave defaults (Build Command: `npm run build`, Output Directory: `.next`).
+3. Vercel auto-detects Next.js - leave defaults (Build Command: `npm run build`, Output Directory: `.next`).
 4. Deploy. Subsequent pushes to the connected branch will trigger automatic builds.
 
 Deploy via Vercel CLI

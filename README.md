@@ -1,4 +1,4 @@
-# Lanchester R&D — Scaffold
+# Lanchester R&D - Scaffold
 
 This repository contains a scaffold for a premium, minimal product strategy lab built with Next.js (App Router), TypeScript, Tailwind CSS, and Framer Motion.
 

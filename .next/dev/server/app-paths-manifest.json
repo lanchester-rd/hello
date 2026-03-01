@@ -1,5 +1,15 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/engagement/[slug]/page": "app/engagement/[slug]/page.js",
-  "/work/page": "app/work/page.js"
+  "/about/page": "app/about/page.js",
+  "/foundation/concept-note/page": "app/foundation/concept-note/page.js",
+  "/foundation/five-year-plan/page": "app/foundation/five-year-plan/page.js",
+  "/foundation/page": "app/foundation/page.js",
+  "/foundation/values/page": "app/foundation/values/page.js",
+  "/founder/page": "app/founder/page.js",
+  "/page": "app/page.js",
+  "/partner/page": "app/partner/page.js",
+  "/research/page": "app/research/page.js",
+  "/strategy/page": "app/strategy/page.js",
+  "/systems/[slug]/page": "app/systems/[slug]/page.js",
+  "/systems/page": "app/systems/page.js"
 }

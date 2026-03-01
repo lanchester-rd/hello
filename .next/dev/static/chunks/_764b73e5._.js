@@ -205,23 +205,14 @@ __turbopack_context__.s([
     ()=>Card
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-"use client";
 ;
-;
-function Card({ children }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-        whileHover: {
-            y: -8
-        },
-        whileTap: {
-            scale: 0.995
-        },
-        className: "card",
+function Card({ children, className = '' }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `card ${className}`,
         children: children
     }, void 0, false, {
         fileName: "[project]/components/Card.tsx",
-        lineNumber: 7,
+        lineNumber: 5,
         columnNumber: 10
     }, this);
 }
@@ -342,9 +333,9 @@ __turbopack_context__.s([
 const projects = [
     {
         slug: 'imediate',
-        title: 'iMediate App',
-        category: 'Digital Mediation Platform',
-        shortDescription: 'A digital mediation platform applying Non-Violent Communication (NVC), structured co-parenting tools, automatic calendar extraction, and integrations with local parenting communities (e.g. WipWap / Amsterdam Parent Project).',
+        title: 'iMediate',
+        category: 'Digital Mediation Ecosystem',
+        shortDescription: 'AI-augmented conflict resolution infrastructure — a mediation ecosystem spanning a structured co-parenting app and a WhatsApp layer that parses messages, applies NVC reframing, extracts calendar events, and generates court-ready documentation. Integrates with local parenting ecosystems including WipWap and the Amsterdam Parent Project.',
         engagementModes: [
             'venture-builder',
             'product-leadership-partner',
@@ -359,59 +350,23 @@ const projects = [
             'Regulatory',
             'Traceability',
             'Behavioral Design',
-            'NVC'
-        ],
-        industry: 'Legal / Dispute Resolution',
-        scaleStage: 'Regulated',
-        metrics: [
-            {
-                label: 'Market Scope',
-                value: 'Court and out-of-court mediation workflows scoped for jurisdictional variation'
-            },
-            {
-                label: 'System Complexity',
-                value: 'NVC-guided communication, calendar extraction, and court-ready documentation'
-            },
-            {
-                label: 'Operational Impact',
-                value: 'Structured co-parenting coordination integrated with local community ecosystems'
-            }
-        ]
-    },
-    {
-        slug: 'imediate-whatsapp',
-        title: 'iMediate — WhatsApp Layer',
-        category: 'Conversational Mediation / Messaging',
-        shortDescription: 'A WhatsApp-based mediation layer that parses co-parenting messages, applies NVC framing, extracts structured event data, and logs interactions for court-ready traceability.',
-        engagementModes: [
-            'venture-builder',
-            'product-leadership-partner',
-            'regulated-systems'
-        ],
-        image: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_cover.webp',
-        thumbnail: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_thumbnail.webp',
-        cover: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_cover.webp',
-        hero: '/images/portfolio/imediate-whatsapp/imediate-whatsapp_hero.webp',
-        complexityTags: [
-            'Regulatory',
-            'Traceability',
-            'NLP',
+            'NVC',
             'Conversational AI'
         ],
         industry: 'Legal / Dispute Resolution',
         scaleStage: 'Regulated',
         metrics: [
             {
-                label: 'Channel Scope',
-                value: 'WhatsApp as the primary mediation surface with zero-friction adoption'
+                label: 'Ecosystem Scope',
+                value: 'App + WhatsApp layer covering co-parenting coordination, NVC guidance and court-ready documentation'
             },
             {
                 label: 'System Complexity',
-                value: 'Message parsing, NVC reframing engine, calendar extraction and structured audit logs'
+                value: 'Message parsing, NVC reframing engine, calendar extraction, structured audit logs and community integrations'
             },
             {
                 label: 'Operational Impact',
-                value: 'Court-admissible interaction logs generated passively from natural conversation'
+                value: 'Defensible interaction records generated passively; reduces conflict recurrence and administration overhead'
             }
         ]
     },
@@ -453,8 +408,8 @@ const projects = [
     {
         slug: 'power-proof-portal',
         title: 'Power Proof Portal',
-        category: 'Energy Compliance Platform',
-        shortDescription: 'An infrastructure layer for proving and certifying renewable generation provenance to market and regulators.',
+        category: 'Evidence Documentation / Compliance',
+        shortDescription: 'Secure evidence documentation and structured reporting system for legal, compliance, and operational environments — built around timestamped logs, structured exports, and defensible documentation trails.',
         engagementModes: [
             'product-leadership-partner',
             'regulated-systems'
@@ -464,24 +419,25 @@ const projects = [
         cover: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
         hero: '/images/portfolio/power-proof-portal/power-proof-portal_hero.webp',
         complexityTags: [
-            'Multi-Market',
             'Regulatory',
-            'Enterprise Workflow'
+            'Traceability',
+            'Audit Trail',
+            'Structured Reporting'
         ],
-        industry: 'Energy / Utilities',
+        industry: 'Legal / Compliance / Operations',
         scaleStage: 'Growth',
         metrics: [
             {
-                label: 'Market Scope',
-                value: 'Framework for multi-market certificate exchange and audit'
+                label: 'Product Scope',
+                value: 'Timestamped evidence capture, structured export formats and defensible audit trails'
             },
             {
                 label: 'System Complexity',
-                value: 'Compliance-aware architecture with immutable evidence stores'
+                value: 'Immutable log architecture with jurisdiction-aware export and chain-of-custody metadata'
             },
             {
                 label: 'Operational Impact',
-                value: 'Reduced manual verification steps for settlement teams'
+                value: 'Reduces manual documentation overhead and strengthens evidentiary defensibility'
             }
         ]
     },
@@ -594,8 +550,8 @@ const projects = [
     {
         slug: 'fluffybutt',
         title: 'Fluffybutt',
-        category: 'Pet Care / Consumer Social',
-        shortDescription: 'Dog care and foster management app with daily routines, health tracking, training progress, and social elements — designed for both individual dog owners and shelter foster networks.',
+        category: 'Pet Care & Shelter Management',
+        shortDescription: 'Integrated dog care and foster management ecosystem — a mobile app for individual caregivers (routines, health tracking, weight/mood/activity logging, trick & training tracker, social/pack structures) paired with a shelter web dashboard providing real-time relay of foster updates. Positioning: real-time visibility layer for distributed animal care networks.',
         engagementModes: [
             'venture-builder',
             'design-systems'
@@ -607,22 +563,23 @@ const projects = [
         complexityTags: [
             'Consumer Social',
             'Health Tracking',
-            'Community Infrastructure'
+            'Real-Time Sync',
+            'Shelter Operations'
         ],
-        industry: 'Pet Care / Consumer',
+        industry: 'Pet Care / Animal Welfare',
         scaleStage: 'Early',
         metrics: [
             {
-                label: 'Product Scope',
-                value: 'Routines, health logs, training tracker and social sharing for dog owners and fosters'
+                label: 'Ecosystem Scope',
+                value: 'Mobile app (caregivers) + shelter web dashboard with real-time foster update relay'
             },
             {
                 label: 'System Complexity',
-                value: 'Foster network syncing, care handoff flows and health history portability'
+                value: 'Health logs, training tracker, pack/social structures and live sync to shelter coordinators'
             },
             {
-                label: 'User Insight',
-                value: 'Bridges casual pet owners and shelter foster carers in a shared care ecosystem'
+                label: 'Operational Impact',
+                value: 'Reduces manual check-ins and gives shelters live visibility into distributed foster placements'
             }
         ]
     },
@@ -693,41 +650,6 @@ const projects = [
             {
                 label: 'User Insight',
                 value: 'Dramatically lowers the effort barrier for converting clutter into cash'
-            }
-        ]
-    },
-    {
-        slug: 'fluffybutt-shelter',
-        title: 'Fluffybutt — Shelter Web Extension',
-        category: 'Animal Welfare / Web Management',
-        shortDescription: 'Web relay tool for shelters to monitor fostered dogs in real time via synced app data — giving shelter coordinators live visibility into foster home activity without requiring direct contact.',
-        engagementModes: [
-            'venture-builder',
-            'design-systems'
-        ],
-        image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
-        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.webp',
-        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
-        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
-        complexityTags: [
-            'Real-Time Sync',
-            'Shelter Operations',
-            'Foster Management'
-        ],
-        industry: 'Animal Welfare / Non-profit',
-        scaleStage: 'Early',
-        metrics: [
-            {
-                label: 'Product Scope',
-                value: 'Live dashboard for shelter staff to track foster dog health, routines and milestones'
-            },
-            {
-                label: 'System Complexity',
-                value: 'Real-time sync between app (foster carer) and web (shelter coordinator)'
-            },
-            {
-                label: 'Operational Impact',
-                value: 'Reduces check-in overhead and gives shelters confidence in foster placements'
             }
         ]
     },
@@ -889,6 +811,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function ComplexityTag({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
         className: "badge",
+        role: "listitem",
         children: children
     }, void 0, false, {
         fileName: "[project]/components/ComplexityTag.tsx",

@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},70864,a=>{a.n(a.i(33290))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},34254,a=>{a.n(a.i(42455))},73443,a=>{a.v({className:"playfair_display_4f21ff98-module__vTEuNG__className"})},4529,a=>{"use strict";var b=a.i(73443);let c={className:b.default.className,style:{fontFamily:"'Playfair Display', 'Playfair Display Fallback'",fontStyle:"normal"}};null!=b.default.variable&&(c.variable=b.default.variable),a.s(["default",0,c])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__218c5793._.js.map

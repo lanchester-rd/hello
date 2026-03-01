@@ -1,0 +1,3 @@
+module.exports=[79201,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Low-Bandwidth Synchronization | Lanchester R&D",description:"Lanchester R&D investigation into low-bandwidth data synchronization protocols for remote operations, enabling reliable communication in resource-constrained environments.",keywords:["low-bandwidth","synchronization","remote operations","networking protocol","lanchester"]}])}];
+
+//# sourceMappingURL=app_research_low-bandwidth-sync_layout_tsx_b30d6afa._.js.map

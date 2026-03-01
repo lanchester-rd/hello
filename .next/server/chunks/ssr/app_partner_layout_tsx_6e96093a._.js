@@ -1,0 +1,3 @@
+module.exports=[28653,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Partner with Lanchester R&D | Engagement Models",description:"Work with Lanchester R&D through our Lab Sprint, Systems Audit, or Network Build offerings. Tailored research and design services for complex organizational challenges.",keywords:["Lanchester partnership","engagement models","lab sprint","systems audit","consulting"]}])}];
+
+//# sourceMappingURL=app_partner_layout_tsx_6e96093a._.js.map

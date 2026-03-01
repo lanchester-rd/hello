@@ -22,44 +22,20 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/case-studies/[slug]",
-      "regex": "^/case\\-studies/([^/]+?)(?:/)?$",
+      "page": "/research/[slug]",
+      "regex": "^/research/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "namedRegex": "^/case\\-studies/(?<nxtPslug>[^/]+?)(?:/)?$"
+      "namedRegex": "^/research/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/engagement/[slug]",
-      "regex": "^/engagement/([^/]+?)(?:/)?$",
+      "page": "/systems/[slug]",
+      "regex": "^/systems/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "namedRegex": "^/engagement/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/engagements/[slug]",
-      "regex": "^/engagements/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/engagements/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/insights/[slug]",
-      "regex": "^/insights/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/insights/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/work/[slug]",
-      "regex": "^/work/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/work/(?<nxtPslug>[^/]+?)(?:/)?$"
+      "namedRegex": "^/systems/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -88,34 +64,100 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-      "page": "/case-studies",
-      "regex": "^/case\\-studies(?:/)?$",
+      "page": "/foundation",
+      "regex": "^/foundation(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/case\\-studies(?:/)?$"
+      "namedRegex": "^/foundation(?:/)?$"
     },
     {
-      "page": "/contact",
-      "regex": "^/contact(?:/)?$",
+      "page": "/foundation/concept-note",
+      "regex": "^/foundation/concept\\-note(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/contact(?:/)?$"
+      "namedRegex": "^/foundation/concept\\-note(?:/)?$"
     },
     {
-      "page": "/engagements",
-      "regex": "^/engagements(?:/)?$",
+      "page": "/foundation/five-year-plan",
+      "regex": "^/foundation/five\\-year\\-plan(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/engagements(?:/)?$"
+      "namedRegex": "^/foundation/five\\-year\\-plan(?:/)?$"
     },
     {
-      "page": "/insights",
-      "regex": "^/insights(?:/)?$",
+      "page": "/foundation/values",
+      "regex": "^/foundation/values(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/insights(?:/)?$"
+      "namedRegex": "^/foundation/values(?:/)?$"
     },
     {
-      "page": "/work",
-      "regex": "^/work(?:/)?$",
+      "page": "/founder",
+      "regex": "^/founder(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/work(?:/)?$"
+      "namedRegex": "^/founder(?:/)?$"
+    },
+    {
+      "page": "/partner",
+      "regex": "^/partner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/partner(?:/)?$"
+    },
+    {
+      "page": "/research",
+      "regex": "^/research(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research(?:/)?$"
+    },
+    {
+      "page": "/research/autonomous-dispatch",
+      "regex": "^/research/autonomous\\-dispatch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/autonomous\\-dispatch(?:/)?$"
+    },
+    {
+      "page": "/research/low-bandwidth-sync",
+      "regex": "^/research/low\\-bandwidth\\-sync(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/low\\-bandwidth\\-sync(?:/)?$"
+    },
+    {
+      "page": "/research/predictive-aridity-mapping",
+      "regex": "^/research/predictive\\-aridity\\-mapping(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/predictive\\-aridity\\-mapping(?:/)?$"
+    },
+    {
+      "page": "/research/predictive-roof-maintenance",
+      "regex": "^/research/predictive\\-roof\\-maintenance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/predictive\\-roof\\-maintenance(?:/)?$"
+    },
+    {
+      "page": "/research/regulatory-extraction",
+      "regex": "^/research/regulatory\\-extraction(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/regulatory\\-extraction(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/strategy",
+      "regex": "^/strategy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/strategy(?:/)?$"
+    },
+    {
+      "page": "/systems",
+      "regex": "^/systems(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/systems(?:/)?$"
     }
   ],
   "dataRoutes": [],
