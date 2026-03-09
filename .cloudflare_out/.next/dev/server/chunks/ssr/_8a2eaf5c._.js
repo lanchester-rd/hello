@@ -1,0 +1,889 @@
+module.exports = [
+"[project]/components/PageHero.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>PageHero
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function PageHero({ title, description }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "page-hero",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "page-hero-inner",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h1, {
+                    initial: {
+                        opacity: 0,
+                        y: 12
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    viewport: {
+                        once: true,
+                        amount: 0.6
+                    },
+                    transition: {
+                        duration: 0.7
+                    },
+                    className: "page-hero-title",
+                    children: title
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
+                    initial: {
+                        opacity: 0,
+                        y: 8
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    viewport: {
+                        once: true,
+                        amount: 0.6
+                    },
+                    transition: {
+                        delay: 0.08,
+                        duration: 0.6
+                    },
+                    className: "page-hero-desc",
+                    children: description
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 24,
+                    columnNumber: 25
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        y: 10
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    viewport: {
+                        once: true
+                    },
+                    transition: {
+                        delay: 0.12
+                    },
+                    className: "mt-6 flex items-center justify-center gap-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "#work",
+                            className: "btn",
+                            children: "Explore our work"
+                        }, void 0, false, {
+                            fileName: "[project]/components/PageHero.tsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "/contact",
+                            className: "btn-ghost",
+                            children: "Start a conversation"
+                        }, void 0, false, {
+                            fileName: "[project]/components/PageHero.tsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 38,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "hero-accent",
+                    "aria-hidden": true
+                }, void 0, false, {
+                    fileName: "[project]/components/PageHero.tsx",
+                    lineNumber: 53,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/PageHero.tsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/components/PageHero.tsx",
+        lineNumber: 8,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/AnimatedDivider.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>AnimatedDivider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function AnimatedDivider({ className = '' }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+        initial: {
+            opacity: 0,
+            y: 8
+        },
+        whileInView: {
+            opacity: 1,
+            y: 0
+        },
+        viewport: {
+            once: true
+        },
+        transition: {
+            duration: 0.6
+        },
+        className: `h-0.5 bg-gradient-to-r from-transparent via-accent to-transparent ${className}`
+    }, void 0, false, {
+        fileName: "[project]/components/AnimatedDivider.tsx",
+        lineNumber: 7,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/data/projects.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "projects",
+    ()=>projects
+]);
+const projects = [
+    {
+        slug: 'imediate',
+        title: 'iMediate',
+        category: 'Digital Mediation Ecosystem',
+        shortDescription: 'AI-augmented conflict resolution infrastructure — a mediation ecosystem spanning a structured co-parenting app and a WhatsApp layer that parses messages, applies NVC reframing, extracts calendar events, and generates court-ready documentation. Integrates with local parenting ecosystems including WipWap and the Amsterdam Parent Project.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'design-systems',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/imediate/iMediate_cover.webp',
+        thumbnail: '/images/portfolio/imediate/iMediate_thumbnail.webp',
+        cover: '/images/portfolio/imediate/iMediate_cover.webp',
+        hero: '/images/portfolio/imediate/iMediate_hero.webp',
+        complexityTags: [
+            'Regulatory',
+            'Traceability',
+            'Behavioral Design',
+            'NVC',
+            'Conversational AI'
+        ],
+        industry: 'Legal / Dispute Resolution',
+        scaleStage: 'Regulated',
+        metrics: [
+            {
+                label: 'Ecosystem Scope',
+                value: 'App + WhatsApp layer covering co-parenting coordination, NVC guidance and court-ready documentation'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Message parsing, NVC reframing engine, calendar extraction, structured audit logs and community integrations'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Defensible interaction records generated passively; reduces conflict recurrence and administration overhead'
+            }
+        ]
+    },
+    {
+        slug: 'shootatlas',
+        title: 'ShootAtlas',
+        category: 'Field Production / Media Production',
+        shortDescription: 'ShootAtlas is a production coordination platform for on-location photoshoots. It centralizes shot planning, crew coordination, equipment tracking, and live schedule management — enhanced by an AI assistant that anticipates risks, automates logistics, and reduces production delays.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/highres/shootatlas_hero.png',
+        thumbnail: '/images/highres/shootatlas_hero.png',
+        cover: '/images/highres/shootatlas_hero.png',
+        hero: '/images/highres/shootatlas_hero.png',
+        complexityTags: [
+            'Field Production',
+            'AI-Augmented',
+            'Mobile-First'
+        ],
+        industry: 'Media / Production',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Production coordination for on-location shoots: planning → execution → client updates'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Realtime schedule orchestration, inventory tracking and AI-assisted risk detection'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduced delays and clearer crew responsibilities for field productions'
+            }
+        ]
+    },
+    {
+        slug: 'power-proof-portal',
+        title: 'Power Proof Portal',
+        category: 'Evidence Documentation / Compliance',
+        shortDescription: 'Secure evidence documentation and structured reporting system for legal, compliance, and operational environments — built around timestamped logs, structured exports, and defensible documentation trails.',
+        engagementModes: [
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        thumbnail: '/images/portfolio/power-proof-portal/power-proof-portal_thumbnail.webp',
+        cover: '/images/portfolio/power-proof-portal/power-proof-portal_cover.webp',
+        hero: '/images/portfolio/power-proof-portal/power-proof-portal_hero.webp',
+        complexityTags: [
+            'Regulatory',
+            'Traceability',
+            'Audit Trail',
+            'Structured Reporting'
+        ],
+        industry: 'Legal / Compliance / Operations',
+        scaleStage: 'Growth',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Timestamped evidence capture, structured export formats and defensible audit trails'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Immutable log architecture with jurisdiction-aware export and chain-of-custody metadata'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduces manual documentation overhead and strengthens evidentiary defensibility'
+            }
+        ]
+    },
+    {
+        slug: 'a2x-global',
+        title: 'A2X Global',
+        category: 'Onboard Courier & Personnel Logistics',
+        shortDescription: 'Platform for managing onboard courier packages and personnel logistics — coordinating package tracking, customs compliance, and crew assignments across international routes.',
+        engagementModes: [
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        thumbnail: '/images/portfolio/a2x-global/a2x-global_thumbnail.webp',
+        cover: '/images/portfolio/a2x-global/a2x-global_cover.webp',
+        hero: '/images/portfolio/a2x-global/a2x-global_hero.webp',
+        complexityTags: [
+            'Multi-Market',
+            'Logistics',
+            'Personnel Management',
+            'Regulatory'
+        ],
+        industry: 'Logistics / Aviation',
+        scaleStage: 'Growth',
+        metrics: [
+            {
+                label: 'Market Scope',
+                value: 'Cross-border package and personnel coordination across international routes'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Customs compliance, package tracking and crew assignment workflows'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduced manual coordination overhead for onboard courier operations'
+            }
+        ]
+    },
+    {
+        slug: 'extra-ticket',
+        title: 'Extra Ticket',
+        category: 'Social / Events',
+        shortDescription: 'A dating app concept where users post their extra tickets to events to find someone to attend with — turning spare tickets into a social discovery mechanic.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        thumbnail: '/images/portfolio/extra-ticket/extra-ticket_thumbnail.webp',
+        cover: '/images/portfolio/extra-ticket/extra-ticket_cover.webp',
+        hero: '/images/portfolio/extra-ticket/extra-ticket_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Behavioral Design',
+            'Matching'
+        ],
+        industry: 'Events / Social',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Concept Scope',
+                value: 'Event-based social discovery — connecting people through shared cultural experiences'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Ticket posting, match-making and trust flows for strangers meeting at events'
+            },
+            {
+                label: 'User Insight',
+                value: 'Reduces entry friction for solo attendees while filling otherwise wasted seats'
+            }
+        ]
+    },
+    {
+        slug: 'leaf',
+        title: 'Leaf',
+        category: 'Messaging / Consumer Social',
+        shortDescription: 'A messaging app where users highlight segments of messages to create branching conversation threads — enabling non-linear, context-anchored replies.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/leaf/leaf_cover.webp',
+        thumbnail: '/images/portfolio/leaf/leaf_thumbnail.webp',
+        cover: '/images/portfolio/leaf/leaf_cover.webp',
+        hero: '/images/portfolio/leaf/leaf_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Conversation Design',
+            'Branching UX'
+        ],
+        industry: 'Messaging / Social',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Concept Scope',
+                value: 'Branching thread model anchored to specific message segments'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Non-linear conversation graph with contextual highlight states'
+            },
+            {
+                label: 'User Insight',
+                value: 'Reduces derailment in group discussions by preserving context per thread'
+            }
+        ]
+    },
+    {
+        slug: 'fluffybutt',
+        title: 'Fluffybutt',
+        category: 'Pet Care & Shelter Management',
+        shortDescription: 'Integrated dog care and foster management ecosystem — a mobile app for individual caregivers (routines, health tracking, weight/mood/activity logging, trick & training tracker, social/pack structures) paired with a shelter web dashboard providing real-time relay of foster updates. Positioning: real-time visibility layer for distributed animal care networks.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        thumbnail: '/images/portfolio/fluffybutt/fluffybutt_thumbnail.webp',
+        cover: '/images/portfolio/fluffybutt/fluffybutt_cover.webp',
+        hero: '/images/portfolio/fluffybutt/fluffybutt_hero.webp',
+        complexityTags: [
+            'Consumer Social',
+            'Health Tracking',
+            'Real-Time Sync',
+            'Shelter Operations'
+        ],
+        industry: 'Pet Care / Animal Welfare',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Ecosystem Scope',
+                value: 'Mobile app (caregivers) + shelter web dashboard with real-time foster update relay'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Health logs, training tracker, pack/social structures and live sync to shelter coordinators'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Reduces manual check-ins and gives shelters live visibility into distributed foster placements'
+            }
+        ]
+    },
+    {
+        slug: 'gk-mvp',
+        title: 'GuerillaKitchen.org',
+        category: 'Community Engagement / Food Waste',
+        shortDescription: 'Community engagement platform focused on food waste reduction — connecting surplus food producers with community kitchens and local distribution networks.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        thumbnail: '/images/portfolio/gk-mvp/gk-mvp_thumbnail.webp',
+        cover: '/images/portfolio/gk-mvp/gk-mvp_cover.webp',
+        hero: '/images/portfolio/gk-mvp/gk-mvp_hero.webp',
+        complexityTags: [
+            'Community Infrastructure',
+            'Food Systems',
+            'Circular Economy'
+        ],
+        industry: 'Food / Community',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Mission Scope',
+                value: 'Surplus food redistribution coordinated through community kitchen networks'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Supply matching, contributor onboarding and local distribution flows'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Measurable reduction in food waste through structured community coordination'
+            }
+        ]
+    },
+    {
+        slug: 'photosell',
+        title: 'Photosell',
+        category: 'AI-Powered Decluttering & Valuation',
+        shortDescription: 'AI-powered decluttering and home valuation app — identifies high-value household possessions from photos, provides valuations, and surfaces the best resale channels.',
+        engagementModes: [
+            'venture-builder',
+            'design-systems'
+        ],
+        image: '/images/portfolio/photosell/photosell_cover.webp',
+        thumbnail: '/images/portfolio/photosell/photosell_thumbnail.webp',
+        cover: '/images/portfolio/photosell/photosell_cover.webp',
+        hero: '/images/portfolio/photosell/photosell_hero.webp',
+        complexityTags: [
+            'AI-Enabled',
+            'Computer Vision',
+            'Consumer Commerce'
+        ],
+        industry: 'Consumer / Resale',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Photo-based item identification, valuation and resale channel recommendations'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Computer vision pipeline, pricing models and marketplace integrations'
+            },
+            {
+                label: 'User Insight',
+                value: 'Dramatically lowers the effort barrier for converting clutter into cash'
+            }
+        ]
+    },
+    {
+        slug: 'supergramp',
+        title: 'SuperGramp',
+        category: 'Family / Consumer Utility',
+        shortDescription: 'A "quick look" babysitting availability widget for grandparents — letting family members instantly see when grandparents are free without back-and-forth coordination.',
+        engagementModes: [
+            'venture-builder'
+        ],
+        image: '/images/portfolio/supergramp/supergramp_cover.webp',
+        thumbnail: '/images/portfolio/supergramp/supergramp_thumbnail.webp',
+        cover: '/images/portfolio/supergramp/supergramp_cover.webp',
+        hero: '/images/portfolio/supergramp/supergramp_hero.webp',
+        complexityTags: [
+            'Consumer Utility',
+            'Widget UX',
+            'Family Tech'
+        ],
+        industry: 'Family / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Glanceable availability widget for real-time babysitting coordination'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Calendar sync, availability state and low-friction family sharing'
+            },
+            {
+                label: 'User Insight',
+                value: 'Eliminates coordination overhead for informal childcare arrangements'
+            }
+        ]
+    },
+    {
+        slug: 'five-things',
+        title: 'Five Things',
+        category: 'Mindfulness / Mental Clarity',
+        shortDescription: 'A mindful reset in under 60 seconds — designed as a native iOS experience that surfaces brief, repeatable cognitive grounding.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/portfolio/five-things/five-things_cover.webp',
+        thumbnail: '/images/portfolio/five-things/five-things_thumbnail.webp',
+        cover: '/images/portfolio/five-things/five-things_cover.webp',
+        hero: '/images/portfolio/five-things/five-things_hero.webp',
+        complexityTags: [
+            'Behavioral Design',
+            'Mobile Native',
+            'Privacy-First'
+        ],
+        industry: 'Wellness / Consumer',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'One-screen micro-habit for daily cognitive resets'
+            },
+            {
+                label: 'System Complexity',
+                value: 'On-device processing and minimal backend for analytics'
+            },
+            {
+                label: 'User Impact',
+                value: 'Low-friction completion flows suited for busy users'
+            }
+        ]
+    },
+    {
+        slug: 'roofdraft',
+        title: 'RoofDraft',
+        category: 'Construction Tech / Field Operations',
+        shortDescription: 'An iOS LiDAR-enabled workflow that scans roofs, detects defects, and auto-generates AI-assisted work orders for field teams.',
+        engagementModes: [
+            'venture-builder',
+            'product-leadership-partner',
+            'regulated-systems'
+        ],
+        image: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        thumbnail: '/images/portfolio/roofdraft/roofdraft_thumbnail.webp',
+        cover: '/images/portfolio/roofdraft/roofdraft_cover.webp',
+        hero: '/images/portfolio/roofdraft/roofdraft_hero.webp',
+        complexityTags: [
+            'LiDAR',
+            'AI-Enabled',
+            'Field Operations'
+        ],
+        industry: 'Construction / Insurance',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Operational Scope',
+                value: 'On-device model generation, defect detection and structured exports'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Hardware integration with AI inference and CRM pipelines'
+            },
+            {
+                label: 'Business Impact',
+                value: 'Faster inspections and higher estimate accuracy'
+            }
+        ]
+    },
+    {
+        slug: 'iru-assistant',
+        title: 'IRU Assistant',
+        category: 'Hospitality / AI Staff Companion',
+        shortDescription: 'AI-powered hotel staff companion that surfaces guest context, preferences, and service opportunities in real time — helping staff deliver proactive, personalised hospitality at scale.',
+        engagementModes: [
+            'product-leadership-partner',
+            'design-systems'
+        ],
+        image: '/images/highres/iru-assisant_hero.png',
+        thumbnail: '/images/highres/iru-assisant_hero.png',
+        cover: '/images/highres/iru-assisant_hero.png',
+        hero: '/images/highres/iru-assisant_hero.png',
+        complexityTags: [
+            'AI-Augmented',
+            'Hospitality',
+            'Real-Time Context'
+        ],
+        industry: 'Hospitality / Hotel Tech',
+        scaleStage: 'Early',
+        metrics: [
+            {
+                label: 'Product Scope',
+                value: 'Real-time guest intelligence surfaced to hotel staff at point of interaction'
+            },
+            {
+                label: 'System Complexity',
+                value: 'Guest preference modeling, PMS integration and staff-facing contextual UI'
+            },
+            {
+                label: 'Operational Impact',
+                value: 'Enables consistent, personalised service delivery without manual briefing overhead'
+            }
+        ]
+    }
+];
+const __TURBOPACK__default__export__ = projects;
+}),
+"[project]/components/ComplexityTag.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ComplexityTag
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+;
+function ComplexityTag({ children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+        className: "badge",
+        role: "listitem",
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/components/ComplexityTag.tsx",
+        lineNumber: 5,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/ProjectCard.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ProjectCard
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ComplexityTag$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ComplexityTag.tsx [app-ssr] (ecmascript)");
+;
+;
+;
+/**
+ * Derives a 3-line POI summary from project metrics (or falls back to shortDescription).
+ * Metrics[0] = Problem context, [1] = Intervention, [2] = Outcome.
+ */ function getPoi(project) {
+    if (project.metrics && project.metrics.length >= 3) {
+        return [
+            {
+                key: 'Problem',
+                value: project.metrics[0].value
+            },
+            {
+                key: 'Intervention',
+                value: project.metrics[1].value
+            },
+            {
+                key: 'Outcome',
+                value: project.metrics[2].value
+            }
+        ];
+    }
+    return [];
+}
+function ProjectCard({ project }) {
+    const poi = getPoi(project);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: `/work/${project.slug}`,
+        className: "project-card block relative group",
+        "aria-label": `View case study: ${project.title}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "project-card-image relative",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: project.thumbnail || project.image || '/images/portfolio/placeholder.svg',
+                        alt: "",
+                        "aria-hidden": "true",
+                        className: "w-full h-44 object-cover",
+                        loading: "lazy"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "card-overlay",
+                        "aria-hidden": "true",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "overlay-cta",
+                            children: "View case study"
+                        }, void 0, false, {
+                            fileName: "[project]/components/ProjectCard.tsx",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProjectCard.tsx",
+                lineNumber: 28,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "project-card-content",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "project-card-category",
+                        children: project.category
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "project-card-title",
+                        children: project.title
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "project-card-desc line-clamp-2",
+                        children: project.shortDescription
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, this),
+                    project.complexityTags && project.complexityTags.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-3 flex flex-wrap gap-1.5",
+                        role: "list",
+                        "aria-label": "Complexity tags",
+                        children: project.complexityTags.slice(0, 3).map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ComplexityTag$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                children: t
+                            }, t, false, {
+                                fileName: "[project]/components/ProjectCard.tsx",
+                                lineNumber: 44,
+                                columnNumber: 58
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 43,
+                        columnNumber: 73
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/ProjectCard.tsx",
+                lineNumber: 37,
+                columnNumber: 7
+            }, this),
+            poi.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "project-card-poi",
+                "aria-label": "Problem / Intervention / Outcome",
+                children: poi.map((row)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "poi-row",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "poi-label",
+                                children: row.key
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProjectCard.tsx",
+                                lineNumber: 51,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "poi-value line-clamp-2",
+                                children: row.value
+                            }, void 0, false, {
+                                fileName: "[project]/components/ProjectCard.tsx",
+                                lineNumber: 52,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, row.key, true, {
+                        fileName: "[project]/components/ProjectCard.tsx",
+                        lineNumber: 50,
+                        columnNumber: 27
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/components/ProjectCard.tsx",
+                lineNumber: 49,
+                columnNumber: 26
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/ProjectCard.tsx",
+        lineNumber: 26,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/SelectedWork.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SelectedWork
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/data/projects.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ProjectCard$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ProjectCard.tsx [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+function SelectedWork({ filter }) {
+    const minShow = 4;
+    const maxShow = 6;
+    let list = filter ? __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["projects"].filter((p)=>p.engagementModes.includes(filter)) : __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["projects"].slice(0, 4);
+    if (filter) {
+        if (list.length < minShow) {
+            const extras = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$projects$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["projects"].filter((p)=>!list.some((lp)=>lp.slug === p.slug));
+            for (const e of extras){
+                list.push(e);
+                if (list.length >= minShow) break;
+            }
+        }
+        list = list.slice(0, maxShow);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5",
+            role: "list",
+            children: list.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    role: "listitem",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ProjectCard$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        project: p
+                    }, void 0, false, {
+                        fileName: "[project]/components/SelectedWork.tsx",
+                        lineNumber: 24,
+                        columnNumber: 13
+                    }, this)
+                }, p.slug, false, {
+                    fileName: "[project]/components/SelectedWork.tsx",
+                    lineNumber: 23,
+                    columnNumber: 24
+                }, this))
+        }, void 0, false, {
+            fileName: "[project]/components/SelectedWork.tsx",
+            lineNumber: 22,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/components/SelectedWork.tsx",
+        lineNumber: 21,
+        columnNumber: 10
+    }, this);
+}
+}),
+];
+
+//# sourceMappingURL=_8a2eaf5c._.js.map

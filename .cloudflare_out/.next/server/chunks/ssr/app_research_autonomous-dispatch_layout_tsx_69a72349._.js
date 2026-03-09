@@ -1,0 +1,3 @@
+module.exports=[54157,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Autonomous Dispatch Systems | Lanchester R&D",description:"Lanchester R&D research on autonomous dispatch coordination systems for optimizing logistics, resource allocation, and operational efficiency in field operations.",keywords:["autonomous dispatch","logistics optimization","coordination systems","lanchester research"]}])}];
+
+//# sourceMappingURL=app_research_autonomous-dispatch_layout_tsx_69a72349._.js.map

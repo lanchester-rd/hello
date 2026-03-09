@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/systems/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'Systems Archive | Lanchester R&D Project Portfolio',\n  description: 'Explore Lanchester R&D\\'s portfolio of complex systems projects in coordination systems, operational intelligence, market optimization, and behavioral wellbeing.',\n  keywords: ['Lanchester systems', 'project portfolio', 'coordination systems', 'operational intelligence', 'product systems'],\n}\n\nexport default function SystemsLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","SystemsLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,oDAAoD;IAC3DC,WAAW,EAAE,mKAAmK;IAChLC,QAAQ,EAAE;QAAC,oBAAoB;QAAE,mBAAmB;QAAE,sBAAsB;QAAE,0BAA0B;QAAE,iBAAiB;KAAA;AAC7H,CAAC;AAEc,SAASC,aAAaA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC3E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

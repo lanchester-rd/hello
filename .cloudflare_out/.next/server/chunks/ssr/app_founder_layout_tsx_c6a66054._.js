@@ -1,0 +1,3 @@
+module.exports=[49615,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Principal Founder | Lanchester R&D Leadership",description:"Meet the founder and vision behind Lanchester R&D. Learn about the principal's experience in research, design, and building resilient systems.",keywords:["Lanchester founder","leadership","research director","product strategy"]}])}];
+
+//# sourceMappingURL=app_founder_layout_tsx_c6a66054._.js.map

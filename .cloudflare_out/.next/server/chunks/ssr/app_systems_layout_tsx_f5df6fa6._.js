@@ -1,0 +1,3 @@
+module.exports=[9088,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Systems Archive | Lanchester R&D Project Portfolio",description:"Explore Lanchester R&D's portfolio of complex systems projects in coordination systems, operational intelligence, market optimization, and behavioral wellbeing.",keywords:["Lanchester systems","project portfolio","coordination systems","operational intelligence","product systems"]}])}];
+
+//# sourceMappingURL=app_systems_layout_tsx_f5df6fa6._.js.map

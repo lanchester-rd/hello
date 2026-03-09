@@ -59,5 +59,15 @@ export const experiments: Experiment[] = [
         status: 'Active',
         hypothesis: 'Multimodal predictive models incorporating history, transcript-derived signals, and computer vision can forecast roof element failures months before reactive callouts, significantly reducing cost.',
         tech_stack: ['XGBoost', 'Survival Models', 'Computer Vision', 'LiDAR', 'Next.js']
+    },
+    {
+        slug: 'silent-api',
+        target: 'Solving the "Silent" API',
+        focus: 'Data Intelligence',
+        note: 'How we built a busyness index and personalized ranking engine without access to Google’s live popularity data.',
+        full_description: 'Google’s "Popular Times" data is locked behind first-party apps, creating a developer wall for independent map tools. This research explores review count as a proxy for characteristic busyness, combining logarithmic scaling with environmental triggers (weather, air quality) to create a custom ranking engine that prioritizes urban "peace" and localized hidden gems.',
+        status: 'Complete',
+        hypothesis: 'Review frequency and sentiment drift can serve as a near-perfect proxy for characteristic urban density.',
+        tech_stack: ['Python', 'Statistical Modeling', 'Maps API', 'Environmental ETL']
     }
 ];

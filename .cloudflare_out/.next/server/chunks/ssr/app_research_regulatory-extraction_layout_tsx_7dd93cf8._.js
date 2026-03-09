@@ -1,0 +1,3 @@
+module.exports=[9810,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Regulatory Extraction | Zero-Shot Law Parsing - Lanchester R&D",description:"Lanchester R&D whitepaper on regulatory extraction: automated zero-shot parsing of maritime, transport, and complex regulatory frameworks using AI-driven intelligence.",keywords:["regulatory extraction","law parsing","maritime regulation","AI automation","lanchester research"]}])}];
+
+//# sourceMappingURL=app_research_regulatory-extraction_layout_tsx_7dd93cf8._.js.map

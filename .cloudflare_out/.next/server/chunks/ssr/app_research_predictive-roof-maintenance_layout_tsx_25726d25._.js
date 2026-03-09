@@ -1,0 +1,3 @@
+module.exports=[32667,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"Predictive Roof Maintenance | Lanchester R&D Intelligence",description:"Lanchester R&D research on predictive maintenance systems for roofing infrastructure using data-driven deterioration modeling and predictive analytics.",keywords:["predictive maintenance","roof maintenance","lanchester research","predictive analytics","infrastructure"]}])}];
+
+//# sourceMappingURL=app_research_predictive-roof-maintenance_layout_tsx_25726d25._.js.map

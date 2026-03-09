@@ -1,0 +1,3 @@
+module.exports=[32829,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"About Lanchester R&D | Research and Design Lab",description:"Learn about Lanchester R&D's five-day sprint methodology, problem-solving framework, and the principles that define our approach to Research and Design for complex systems.",keywords:["Lanchester","research and design","problem solving methodology","tactical execution","systems thinking"]}])}];
+
+//# sourceMappingURL=app_about_layout_tsx_ab919c80._.js.map

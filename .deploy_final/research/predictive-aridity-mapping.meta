@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/research/layout,_N_T_/research/predictive-aridity-mapping/layout,_N_T_/research/predictive-aridity-mapping/page,_N_T_/research/predictive-aridity-mapping"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/research/predictive-aridity-mapping/__PAGE__",
+    "/research/predictive-aridity-mapping",
+    "/research",
+    "/_index",
+    "/_head"
+  ]
+}

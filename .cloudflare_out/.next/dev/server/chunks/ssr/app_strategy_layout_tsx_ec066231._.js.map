@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/strategy/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'Lanchester R&D Methodology | Strategic Framework',\n  description: 'Discover the Lanchester R&D four-pillar strategic framework: Intellectual, Tactical, Human, and AI-Forward approaches to problem-solving and systems design.',\n  keywords: ['Lanchester methodology', 'strategic framework', 'problem-solving', 'research methodology', 'intellectual strategy'],\n}\n\nexport default function StrategyLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","StrategyLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,kDAAkD;IACzDC,WAAW,EAAE,8JAA8J;IAC3KC,QAAQ,EAAE;QAAC,wBAAwB;QAAE,qBAAqB;QAAE,iBAAiB;QAAE,sBAAsB;QAAE,uBAAuB;KAAA;AAChI,CAAC;AAEc,SAASC,cAAcA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC5E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

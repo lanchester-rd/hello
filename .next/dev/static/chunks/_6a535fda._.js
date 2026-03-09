@@ -815,177 +815,190 @@ const projects = [
         slug: 'roofdraft',
         name: 'Roofdraft',
         category: 'Operational Intelligence',
-        one_liner: 'LiDAR drafting system for automated technical surveys.',
-        core_problem: 'Manual drafting latency delays projects and compounds material waste.',
-        strategic_context: 'Architectural surveys are slow, dangerous, and error-prone.',
-        competitive_imbalance: 'Survey-to-draft latency creates bottlenecks and waste.',
-        system_hypothesis: 'On-device LiDAR processing converts geometry into blueprints instantly.',
-        product_architecture: 'LiDAR engine, on-device generation, defect detection.',
+        one_liner: 'Professional roofing inspection, estimation, and project management platform.',
+        core_problem: 'Roofing contractors rely on fragmented workflows—disconnected scanning, manual estimation, and unclear project tracking—extending project cycles and delaying client acceptance.',
+        strategic_context: 'Roofing contractors need end-to-end visibility from initial site capture through client-accepted estimates to reduce friction and accelerate project completion.',
+        competitive_imbalance: 'Existing tools lack integrated AR capture, AI-powered estimation, and professional project management in a single contractor-friendly workflow.',
+        system_hypothesis: 'Combining AR LiDAR scanning, AI-assisted estimation, and integrated project management in a unified mobile-first platform accelerates contractor decision velocity and client handoff.',
+        product_architecture: 'DreamFlow Pipeline: 7-step guided workflow (Capture → Transcript → Measure → Estimate → Review → Send → Complete). Features include AR LiDAR 3D scanning, video import with AI transcription, photogrammetry processing, AI-powered work order generation, professional PDF estimation, issue tracking with severity levels, peer-to-peer device sync, and full project lifecycle management across iOS, iPad (with LiDAR), and macOS.',
         process_architecture: {
             design_sequence: {
                 define: {
-                    objective: 'Identify drafting bottlenecks and material waste in surveying.',
+                    objective: 'Identify workflow friction in roofing contractor estimation and project management.',
                     what_we_did: [
-                        'Conducted time-motion studies on survey crews',
-                        'Audited manual drafting errors',
-                        'Mapped project delays'
+                        'Conducted time-motion studies with roofing crews',
+                        'Audited estimation accuracy and client acceptance patterns',
+                        'Mapped project handoff delays'
                     ],
                     what_failed: [
-                        'Focused solely on drafting speed, ignored on-site safety risks'
+                        'Focused solely on capture speed, ignored estimation quality and client communication'
                     ],
                     what_learned: [
-                        'The true friction is the delay between site visit and blueprint availability'
+                        'The true friction is the gap between site data and client-ready estimates; client acceptance is the critical milestone'
                     ],
                     what_adjusted: [
-                        'Pivoted to a real-time on-device generation model'
+                        'Reframed project around complete workflow from capture through estimate acceptance'
                     ],
                     tokens: [
-                        'Time-Motion Study',
-                        'Error Audit',
-                        'Operational Research'
+                        'Contractor Interviews',
+                        'Workflow Audit',
+                        'Client Acceptance Research'
                     ]
                 },
                 map: {
-                    objective: 'Visualize the LiDAR to CAD data pipeline.',
+                    objective: 'Visualize the integrated capture-to-estimate pipeline.',
                     what_we_did: [
-                        'Mapped geometry extraction logic',
-                        'Identified structural defect detection nodes'
+                        'Mapped AR capture workflow to estimate generation',
+                        'Identified AI decision nodes for work order creation',
+                        'Traced project status handoff points'
                     ],
                     what_failed: [
-                        'Initial maps assumed perfect lighting and clean scans'
+                        'Initial maps treated estimation as post-capture step rather than integrated process'
                     ],
                     what_learned: [
-                        'Real-world surveys are noisy; system must be resilient to occlusion'
+                        'Estimation quality directly impacts client acceptance; must be embedded in workflow, not bolted on'
                     ],
                     what_adjusted: [
-                        'Added probabilistic filling for occluded structural nodes'
+                        'Integrated AI-assisted estimation directly into capture review and measurement steps'
                     ],
                     tokens: [
-                        'CAD Modeling',
-                        'LiDAR Pipeline',
-                        'Resilience Logic'
+                        'Pipeline Design',
+                        'AI Integration',
+                        'UX Flow Mapping'
                     ]
                 },
                 validate: {
-                    objective: 'Test on-site blueprint generation accuracy.',
+                    objective: 'Test estimate accuracy and client acceptance impact.',
                     what_we_did: [
-                        'Ran side-by-side tests with traditional tools',
-                        'Measured survey velocity vs manual drafting'
+                        'Ran side-by-side tests with traditional estimation methods',
+                        'Measured client acceptance rates for AI-generated vs manual estimates',
+                        'Validated multi-platform capture consistency'
                     ],
                     what_failed: [
-                        'Early prototypes lacked the precision for complex roofing angles'
+                        'Early prototypes generated estimates that contractors found difficult to customize; client feedback mixed'
                     ],
                     what_learned: [
-                        'Automation must be verifiable by the operator on-site'
+                        'Contractors need rapid AI suggestions but also need intuitive control to adjust and verify before sending to clients'
                     ],
                     what_adjusted: [
-                        'Integrated immediate visual feedback for captured geometry'
+                        'Built flexible estimate builder allowing contractors to review, modify, and refine AI-generated line items'
                     ],
                     tokens: [
-                        'Field Testing',
-                        'Precision Audit',
-                        'Operator UX'
+                        'A/B Testing',
+                        'Contractor Feedback',
+                        'Client Acceptance Metrics'
                     ]
                 },
                 execute: {
-                    objective: 'Engineer the LiDAR processing engine.',
+                    objective: 'Engineer the integrated platform across iOS, iPad, and macOS.',
                     what_we_did: [
-                        'On-device LiDAR pipeline',
-                        'Blueprinting engine',
-                        'Defect detection model'
+                        'AR LiDAR scanning pipeline with real-time feedback',
+                        'AI-powered work order generator',
+                        'Professional PDF estimate engine',
+                        'Project lifecycle management',
+                        'Peer-to-peer device sync with encryption'
                     ],
                     what_failed: [
-                        'Over-engineered the materials estimation early on'
+                        'Initial estimator relied too heavily on capture data, didn\'t account for contractor expertise'
                     ],
                     what_learned: [
-                        'Geometry precision is the foundation; the rest is downstream'
+                        'AI assistance works best when contractors remain the decision-maker; visibility and control are critical'
                     ],
                     what_adjusted: [
-                        'Focused on sub-mm accuracy for point-cloud-to-mesh conversion'
+                        'Prioritized contractor agency over full automation; AI suggests, contractor decides'
                     ],
                     tokens: [
-                        'C++',
-                        'Metal API',
-                        'Point Cloud',
-                        'Geometry Engine'
+                        'SwiftUI',
+                        'ARKit',
+                        'LiDAR',
+                        'OpenAI',
+                        'MultipeerConnectivity',
+                        'Photogrammetry'
                     ]
                 },
                 measure: {
-                    objective: 'Calculate throughput and material waste reduction.',
+                    objective: 'Calculate impact on project velocity and client conversion.',
                     what_we_did: [
-                        'Survey velocity',
-                        'Estimate accuracy',
-                        'Defect precision'
+                        'Capture time reduction',
+                        'Estimate generation speed',
+                        'Client acceptance rate',
+                        'Project completion time'
                     ],
                     what_failed: [
-                        'Calculated waste solely as material, ignored labor time loss'
+                        'Initially measured only capture speed, missed the importance of estimate-to-acceptance conversion'
                     ],
                     what_learned: [
-                        '3x throughput is the primary driver of project profitability'
+                        'Time-to-accepted-estimate is the primary driver of project profitability and contractor satisfaction'
                     ],
                     what_adjusted: [
-                        'Introduced project lifecycle tracking for holistic ROI'
+                        'Introduced comprehensive pipeline metrics from capture through client acceptance'
                     ],
                     tokens: [
-                        'Throughput',
-                        'ROI Modeling',
-                        'Precision Metrics'
+                        'Project KPIs',
+                        'Client Conversion',
+                        'Time-to-Value'
                     ]
                 }
             },
             rule_application: {
                 intellectual_rigor: {
                     applied_by: [
-                        'Stressing assumptions on LiDAR precision',
-                        'Mapping structural logic before building'
+                        'Stress-testing AR capture accuracy on complex roof geometries',
+                        'Validating AI-generated work orders against contractor expertise'
                     ],
-                    evidence: '98% defect detection accuracy achieved in blind trials'
+                    evidence: 'Estimates achieve 95%+ accuracy against contractor-reviewed baselines'
                 },
                 tactical_execution: {
                     applied_by: [
-                        'Shipping on-device viewer before full automation',
-                        'Prioritizing core geometry engine'
+                        'Shipping core capture and estimation features first',
+                        'Prioritizing client PDF export over advanced analytics'
                     ],
-                    evidence: 'Core survey tool deployed before cloud sync features'
+                    evidence: 'Core roofing workflow operational before cloud collaboration features'
                 },
                 human_calibration: {
                     applied_by: [
-                        'Designing for one-handed on-site operation',
-                        'Reducing cognitive load for surveyors'
+                        'Designing for one-handed on-site scanning',
+                        'Preserving contractor judgment in estimate generation and project decisions'
                     ],
-                    evidence: 'Interface optimized for high-glare environments and glove usage'
+                    evidence: 'Contractors complete full workflow on-site in single session; AI suggestions accepted 75% of the time'
                 },
                 machine_leverage: {
                     applied_by: [
-                        'Using AI for structural defect detection',
-                        'Automated geometry synthesis'
+                        'Using AI for speech-to-work-orders from site walkthroughs',
+                        'Automating estimate line-item generation and professional PDF production'
                     ],
-                    evidence: 'AI eliminates manual drafting bottlenecks by auto-filling mesh data'
+                    evidence: 'AI eliminates manual estimation bottlenecks, enabling contractors to scale from 3 to 8 projects per week'
                 }
             }
         },
-        ai_leverage: 'Model inference for structural defect detection.',
-        outcomes_or_learnings: 'Accelerated survey cycles and increased estimate accuracy.',
+        ai_leverage: 'Voice-to-work-orders via transcription and GPT integration. AI-assisted estimate generation with itemized scope, labor estimates, and materials lists. Automated PDF estimate production with professional formatting.',
+        outcomes_or_learnings: 'Unified platform accelerates contractor workflows from site capture through client-accepted estimates. AI-powered estimation increases accuracy and reduces manual work. Professional PDF generation and peer-to-peer sync enable faster project completion and team collaboration.',
         tags: [
+            'AR',
             'LiDAR',
-            'CV',
-            'Engineering',
-            'Automation'
+            'Roofing',
+            'AI',
+            'iOS',
+            'macOS',
+            'Estimation',
+            'Project Management'
         ],
         hero_image: '/images/portfolio/roofdraft/roofdraft_hero.webp',
         thumbnail_image: '/images/portfolio/roofdraft/roofdraft_thumbnail.webp',
         cover_image: '/images/portfolio/roofdraft/roofdraft_cover.webp',
         measures_of_success: [
-            'Survey velocity',
+            'Project velocity',
             'Estimate accuracy',
-            'Defect precision'
+            'Client acceptance rate',
+            'Workflow completion time'
         ],
         measurable_impact: [
-            '3x survey throughput',
-            '98% defect detection accuracy',
-            '12% reduction in material waste'
+            '5x faster estimate generation',
+            '95% estimate accuracy',
+            'Same-day project handoff to clients'
         ],
-        featured: true
+        featured: true,
+        link: 'https://roofdraft-website.pages.dev/'
     },
     {
         slug: 'a2x-global',
@@ -2551,6 +2564,181 @@ const projects = [
         ],
         featured: false,
         link: 'https://fluffyb-e5eab.web.app/'
+    },
+    {
+        slug: 'quiet-place',
+        name: 'Quiet Place',
+        category: 'Behavioral & Wellbeing',
+        one_liner: 'A personalized map application designed to discover the perfect "vibe" by recalculating the city map based on individual personality.',
+        core_problem: 'Standard search results are cluttered with tourist-heavy spots, burying the quiet, local "hidden gems" people actually need.',
+        strategic_context: 'Urban residents and travelers often face sensory overload and struggle to find spaces that match their immediate psychological or productivity needs.',
+        competitive_imbalance: 'Mainstream maps prioritize commercial prevalence and high-volume popularity over individual comfort and atmospheric quality.',
+        system_hypothesis: 'By using review counts as a proxy for busyness and weighting environmental factors (weather, air quality), we can algorithmically surface high-quality, low-friction urban spaces.',
+        product_architecture: 'Google Maps search tool with a custom "Ranking Brain," batch-search parallelization for data density, and environmental penalty layers.',
+        process_architecture: {
+            design_sequence: {
+                define: {
+                    objective: 'Identify what makes a "quiet" spot versus a crowded one using available public data.',
+                    what_we_did: [
+                        'Analyzed Google Places API limitations',
+                        'Identified review count as a reliable proxy for live busyness',
+                        'Interviewed students and remote workers'
+                    ],
+                    what_failed: [
+                        'Trying to access real-time occupancy data directly (not public)',
+                        'Relying on "Quiet" tags which are often missing or outdated'
+                    ],
+                    what_learned: [
+                        'Popularity is the inverse of peace; small review counts are a feature, not a bug'
+                    ],
+                    what_adjusted: [
+                        'Designed a ranking algorithm that penalizes high review counts for "Quiet" searches'
+                    ],
+                    tokens: [
+                        'API Audit',
+                        'User Archetypes',
+                        'Heuristic Design'
+                    ]
+                },
+                map: {
+                    objective: 'Create a scoring system that translates abstract user "vibes" into map rankings.',
+                    what_we_did: [
+                        'Mapped 1-100 scoring logic including star ratings and busyness penalties',
+                        'Developed environment-based penalty layers for weather and air quality'
+                    ],
+                    what_failed: [
+                        'Initial weightings were too aggressive on star ratings, surfacing noisy 5-star spots'
+                    ],
+                    what_learned: [
+                        'Environmental context (like rain) drastically changes the value of outdoor versus indoor quiet spots'
+                    ],
+                    what_adjusted: [
+                        'Added dynamic environmental penalties to the scoring engine'
+                    ],
+                    tokens: [
+                        'Algorithm Design',
+                        'Context Mapping',
+                        'Penalty Weighting'
+                    ]
+                },
+                validate: {
+                    objective: 'Ensure the "Hidden Gems" surfaced are actually high-quality locations.',
+                    what_we_did: [
+                        'Beta test with local users in 5 major cities',
+                        'A/B testing standard search vs QuietFinder results'
+                    ],
+                    what_failed: [
+                        'Surfacing spots with very low reviews that were actually low quality/closed'
+                    ],
+                    what_learned: [
+                        'A minimum review threshold (e.g., >10) and minimum rating are necessary filters'
+                    ],
+                    what_adjusted: [
+                        'Implemented a multi-factor quality "floor" before ranking'
+                    ],
+                    tokens: [
+                        'Beta Testing',
+                        'Quality Assurance',
+                        'Search Logic'
+                    ]
+                },
+                execute: {
+                    objective: 'Build a high-performance search experience that bypasses API limitations.',
+                    what_we_did: [
+                        'Implemented parallel background batching for search queries',
+                        'Built the 5-person visual busyness scale UX'
+                    ],
+                    what_failed: [
+                        'Serial searching was too slow, leading to user drop-off'
+                    ],
+                    what_learned: [
+                        'Parallel API queries are essential for analyzing 60+ spots in sub-2-second response times'
+                    ],
+                    what_adjusted: [
+                        'Refactored search engine for high-concurrency execution'
+                    ],
+                    tokens: [
+                        'Parallelization',
+                        'Next.js',
+                        'Maps API'
+                    ]
+                },
+                measure: {
+                    objective: 'Track user satisfaction and map "fit" for reported vibes.',
+                    what_we_did: [
+                        'Implemented post-visit vibe confirmation',
+                        'Tracked "Save" rates for surfaced hidden gems'
+                    ],
+                    what_failed: [
+                        'Initial metrics ignored how long people stayed at the suggested spots'
+                    ],
+                    what_learned: [
+                        'Dwell time is the primary indicator of a successful "vibe match"'
+                    ],
+                    what_adjusted: [
+                        'Added anonymous dwell-time tracking to measure space utility'
+                    ],
+                    tokens: [
+                        'Usage Analytics',
+                        'Retention Metrics',
+                        'Success Mapping'
+                    ]
+                }
+            },
+            rule_application: {
+                intellectual_rigor: {
+                    applied_by: [
+                        'Using review count as a statistical proxy for density',
+                        'Designing multi-factor penalty layers'
+                    ],
+                    evidence: '92% correlation between low review counts (under 100) and user-perceived "quiet" in field tests.'
+                },
+                tactical_execution: {
+                    applied_by: [
+                        'Implementing parallel search batching to beat Latency',
+                        'Automating env-data integration'
+                    ],
+                    evidence: 'Reduced search result latency from 8s to 1.8s while increasing data scan depth by 300%.'
+                },
+                human_calibration: {
+                    applied_by: [
+                        'Designing the 5-person busyness scale',
+                        'Simplifying complex scoring into "vibe" presets'
+                    ],
+                    evidence: 'UX testing showed 85% preferred icons over raw busyness data.'
+                },
+                machine_leverage: {
+                    applied_by: [
+                        'Algorithmic ranking vs manual curation',
+                        'Automated environmental filtering'
+                    ],
+                    evidence: 'The "Scoring Brain" handles 10+ variables per location across 60+ locations instantly.'
+                }
+            }
+        },
+        ai_leverage: 'Dynamic scoring engine with environmental penalty layers and parallel search optimization.',
+        outcomes_or_learnings: 'Successfully transformed noisy public map data into a personalized psychological tool.',
+        tags: [
+            'Google Maps API',
+            'Algorithmic Ranking',
+            'Personalization',
+            'Wellbeing'
+        ],
+        hero_image: '/images/portfolio/quiet-place/quiet_hero.webp',
+        thumbnail_image: '/images/portfolio/quiet-place/quiet_thumbnail.webp',
+        cover_image: '/images/portfolio/quiet-place/quiet_architecture.webp',
+        measures_of_success: [
+            'Search latency',
+            'Vibe accuracy',
+            'User retention'
+        ],
+        measurable_impact: [
+            '<2s Latency',
+            '85% Search satisfaction',
+            '3x increase in hidden gem discovery'
+        ],
+        featured: true,
+        link: 'https://kenopsia-map.web.app/'
     }
 ];
 const __TURBOPACK__default__export__ = projects;

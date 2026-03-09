@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/hello/app/founder/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\nimport { ReactNode } from 'react'\n\nexport const metadata: Metadata = {\n  title: 'Principal Founder | Lanchester R&D Leadership',\n  description: 'Meet the founder and vision behind Lanchester R&D. Learn about the principal\\'s experience in research, design, and building resilient systems.',\n  keywords: ['Lanchester founder', 'leadership', 'research director', 'product strategy'],\n}\n\nexport default function FounderLayout({ children }: { children: ReactNode }) {\n  return children\n}\n"],"names":["metadata","title","description","keywords","FounderLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,+CAA+C;IACtDC,WAAW,EAAE,iJAAiJ;IAC9JC,QAAQ,EAAE;QAAC,oBAAoB;QAAE,YAAY;QAAE,mBAAmB;QAAE,kBAAkB;KAAA;AACxF,CAAC;AAEc,SAASC,aAAaA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC3E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}
