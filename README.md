@@ -2,7 +2,7 @@
 
 Master of Design (MDes) - Amsterdam, Netherlands 
 <br><br>
-[Portfolio Website]([https://lanchester-rd.vercel.app/]) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
+[[Portfolio Website]([https://lanchester-rd.vercel.app/])](https://lanchester-rd.vercel.app/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
 <br>
 More links at the bottom. 
 
