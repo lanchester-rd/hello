@@ -1,0 +1,3 @@
+module.exports=[16544,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"The LEARN Launchpad | Product Engineering Case Study",description:"How Lanchester built LEARN: a unified identity and onboarding gateway for early-access products, with lessons from ten system-level failures.",path:"/research/learn-launchpad",keywords:["LEARN launchpad","product engineering case study","identity architecture","early access platform"],type:"article"});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_research_learn-launchpad_layout_tsx_7d419d8d._.js.map

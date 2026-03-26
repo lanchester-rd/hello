@@ -1,7 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const portfolioDir = '/Users/tdr/Documents/GitHub/hello/public/images/portfolio';
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const portfolioDir = process.env.PORTFOLIO_DIR || path.join(scriptDir, 'public/images/portfolio');
 
 const files = fs.readdirSync(portfolioDir).filter(f => f.endsWith('.webp'));
 

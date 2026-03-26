@@ -1,8 +1,4 @@
-"use client"
 import Link from 'next/link'
-import { motion } from 'framer-motion'
-import { useRef, useEffect } from 'react'
-import SectionHeader from '../../../components/SectionHeader'
 
 export default function PredictiveAridityPage() {
     return (
@@ -39,8 +35,11 @@ export default function PredictiveAridityPage() {
                             <div className="relative aspect-video border border-orange-500/20 bg-black overflow-hidden group shadow-2xl">
                                 <img
                                     src="/images/research/aridity_mapping_hero.png"
-                                    alt="Satellite Aridity Analysis"
+                                    alt="Satellite-driven aridity analysis heatmap for agricultural risk forecasting"
                                     className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-1000 grayscale-[0.5] hover:grayscale-0"
+                                    loading="eager"
+                                    decoding="async"
+                                    fetchPriority="high"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0b] to-transparent opacity-40" />
                                 <div className="absolute top-4 right-4 font-mono text-[8px] text-orange-400 uppercase tracking-widest bg-black/40 px-2 py-1">

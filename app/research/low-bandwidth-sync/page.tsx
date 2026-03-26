@@ -1,7 +1,5 @@
-"use client"
 import Link from 'next/link'
-import { motion } from 'framer-motion'
-import { useRef, useEffect } from 'react'
+import MeshAnimationCanvas from '../../../components/research/MeshAnimationCanvas'
 
 export default function LowBandwidthSyncPage() {
     return (
@@ -11,7 +9,7 @@ export default function LowBandwidthSyncPage() {
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#333_1px,transparent_1px),linear-gradient(to_bottom,#333_1px,transparent_1px)] bg-[size:50px_50px]" />
             </div>
 
-            <MeshAnimation />
+            <MeshAnimationCanvas />
 
             {/* 1. HERO SECTION */}
             <header className="relative pt-32 pb-24 px-6 md:px-12 border-b border-white/5 z-10">
@@ -37,8 +35,11 @@ export default function LowBandwidthSyncPage() {
                         <div className="relative aspect-video border border-emerald-500/20 bg-black overflow-hidden group">
                             <img
                                 src="/images/research/low_bandwidth_hero.png"
-                                alt="Tactical Mesh Device"
+                                alt="Low-bandwidth mesh coordination interface and device visualization"
                                 className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-all duration-1000 hue-rotate-[10deg]"
+                                loading="eager"
+                                decoding="async"
+                                fetchPriority="high"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent opacity-40" />
                         </div>
@@ -192,65 +193,6 @@ export default function LowBandwidthSyncPage() {
             </div>
         </div>
     )
-}
-
-function MeshAnimation() {
-    const canvasRef = useRef<HTMLCanvasElement>(null)
-
-    useEffect(() => {
-        const canvas = canvasRef.current
-        if (!canvas) return
-        const ctx = canvas.getContext('2d')
-        if (!ctx) return
-
-        let width = canvas.width = window.innerWidth
-        let height = canvas.height = window.innerHeight
-
-        const nodes: any[] = []
-        for (let i = 0; i < 40; i++) {
-            nodes.push({
-                x: Math.random() * width,
-                y: Math.random() * height,
-                vx: (Math.random() - 0.5) * 0.2,
-                vy: (Math.random() - 0.5) * 0.2
-            })
-        }
-
-        function draw() {
-            ctx!.clearRect(0, 0, width, height)
-            ctx!.strokeStyle = 'rgba(16, 185, 129, 0.05)'
-            ctx!.lineWidth = 0.5
-
-            nodes.forEach((n, i) => {
-                n.x += n.vx
-                n.y += n.vy
-                if (n.x < 0 || n.x > width) n.vx *= -1
-                if (n.y < 0 || n.y > height) n.vy *= -1
-
-                for (let j = i + 1; j < nodes.length; j++) {
-                    const m = nodes[j]
-                    const dist = Math.hypot(n.x - m.x, n.y - m.y)
-                    if (dist < 250) {
-                        ctx!.beginPath()
-                        ctx!.moveTo(n.x, n.y)
-                        ctx!.lineTo(m.x, m.y)
-                        ctx!.stroke()
-                    }
-                }
-            })
-            requestAnimationFrame(draw)
-        }
-        draw()
-
-        const handleResize = () => {
-            width = canvas.width = window.innerWidth
-            height = canvas.height = window.innerHeight
-        }
-        window.addEventListener('resize', handleResize)
-        return () => window.removeEventListener('resize', handleResize)
-    }, [])
-
-    return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none opacity-40" />
 }
 
 function MeshProtocolVisual() {

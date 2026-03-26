@@ -1,14 +1,23 @@
 import type { Metadata } from 'next'
+import { buildPageMetadata } from '../../../lib/seo'
 import Link from 'next/link'
 import { Playfair_Display } from 'next/font/google'
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: 'Values - Abbey Fields Foundation NGO Technology Principles',
-  description: 'Core values driving Abbey Fields Foundation\'s approach to nonprofit app development, charity software solutions, and ethical technology for mission-driven organizations.',
-  keywords: ['nonprofit values', 'charity technology ethics', 'NGO-centered design', 'mission-driven principles', 'compassionate technology'],
-}
+  description:
+    'Core values driving Abbey Fields Foundation\'s approach to nonprofit app development, charity software solutions, and ethical technology for mission-driven organizations.',
+  path: '/foundation/values',
+  keywords: [
+    'nonprofit values',
+    'charity technology ethics',
+    'NGO-centered design',
+    'mission-driven principles',
+    'compassionate technology',
+  ],
+})
 
 export default function ValuesPage() {
   const values = [

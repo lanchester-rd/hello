@@ -1,5 +1,30 @@
 User-Agent: *
 Allow: /
-Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /profile
 
-Sitemap: https://lanchester-rd.vercel.app/sitemap.xml
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: DuckDuckBot
+User-Agent: Applebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /profile
+
+User-Agent: GPTBot
+User-Agent: Google-Extended
+User-Agent: CCBot
+User-Agent: ClaudeBot
+User-Agent: anthropic-ai
+User-Agent: PerplexityBot
+User-Agent: Bytespider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /profile
+Crawl-delay: 10
+
+Host: www.lanchesterresearchanddesign.com
+Sitemap: https://www.lanchesterresearchanddesign.com/sitemap.xml

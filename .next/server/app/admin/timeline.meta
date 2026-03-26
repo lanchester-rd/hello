@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/timeline/layout,_N_T_/admin/timeline/page,_N_T_/admin/timeline"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/timeline/__PAGE__",
+    "/admin/timeline",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

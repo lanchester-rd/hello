@@ -1,0 +1,3 @@
+module.exports=[41624,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"Battlefield Brief | Lanchester R&D",description:"Turn a raw business idea into a structured market-entry Battlefield Brief using Lanchester R&D doctrine.",path:"/battlefield-brief",keywords:["battlefield brief","lanchester","market entry strategy","startup strategy","systems mapping"]});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_battlefield-brief_layout_tsx_265337e9._.js.map

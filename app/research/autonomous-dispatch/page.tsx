@@ -1,14 +1,12 @@
-"use client"
 import Link from 'next/link'
-import { motion } from 'framer-motion'
-import { useEffect, useState, useRef } from 'react'
+import NetworkBackgroundCanvas from '../../../components/research/NetworkBackgroundCanvas'
 
 export default function AutonomousDispatchPage() {
     return (
         <div className="min-h-screen bg-[#0f0f0f] text-[#e5e5e5] font-sans selection:bg-amber-500/30 selection:text-white">
             {/* 1. HERO SECTION with Animated Network Node Background */}
             <section className="relative h-[80vh] flex flex-col justify-center px-6 md:px-12 overflow-hidden border-b border-white/5">
-                <NetworkBackground />
+                <NetworkBackgroundCanvas />
 
                 <div className="max-w-7xl mx-auto w-full relative z-10">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -36,8 +34,11 @@ export default function AutonomousDispatchPage() {
                         <div className="relative aspect-video border border-white/10 bg-black overflow-hidden group">
                             <img
                                 src="/images/research/autonomous_dispatch_hero.png"
-                                alt="Autonomous Dispatch System"
+                                alt="Dispatch simulation interface showing multi-incident priority weighting"
                                 className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-all duration-1000 grayscale hover:grayscale-0 scale-110 group-hover:scale-100"
+                                loading="eager"
+                                decoding="async"
+                                fetchPriority="high"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] to-transparent opacity-60" />
                         </div>
@@ -100,8 +101,11 @@ export default function AutonomousDispatchPage() {
                                 <div className="aspect-square w-full border border-white/10 bg-black overflow-hidden group">
                                     <img
                                         src="/images/research/autonomous_dispatch_method.png"
-                                        alt="LLM Triage Reasoning Framework"
+                                        alt="Autonomous dispatch LLM triage reasoning framework diagram"
                                         className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-1000"
+                                        loading="lazy"
+                                        decoding="async"
+                                        fetchPriority="low"
                                     />
                                     <div className="absolute bottom-4 left-6 font-mono text-[9px] text-white/40 uppercase tracking-[0.2em] bg-black/60 px-2 py-1">
                                         FIG_02: LLM Reasoning Framework
@@ -228,82 +232,6 @@ export default function AutonomousDispatchPage() {
             </div>
         </div>
     )
-}
-
-function NetworkBackground() {
-    const canvasRef = useRef<HTMLCanvasElement>(null)
-
-    useEffect(() => {
-        const canvas = canvasRef.current
-        if (!canvas) return
-
-        const ctx = canvas.getContext('2d')
-        if (!ctx) return
-
-        let width = canvas.width = window.innerWidth
-        let height = canvas.height = window.innerHeight
-
-        const nodes: any[] = []
-        const nodeCount = 60
-        const connectionDistance = 200
-
-        for (let i = 0; i < nodeCount; i++) {
-            nodes.push({
-                x: Math.random() * width,
-                y: Math.random() * height,
-                vx: (Math.random() - 0.5) * 0.4,
-                vy: (Math.random() - 0.5) * 0.4
-            })
-        }
-
-        function animate() {
-            ctx!.clearRect(0, 0, width, height)
-            ctx!.strokeStyle = 'rgba(255, 255, 255, 0.05)'
-            ctx!.fillStyle = 'rgba(255, 255, 255, 0.2)'
-
-            nodes.forEach((node, i) => {
-                node.x += node.vx
-                node.y += node.vy
-
-                if (node.x < 0 || node.x > width) node.vx *= -1
-                if (node.y < 0 || node.y > height) node.vy *= -1
-
-                ctx!.beginPath()
-                ctx!.arc(node.x, node.y, 1, 0, Math.PI * 2)
-                ctx!.fill()
-
-                for (let j = i + 1; j < nodes.length; j++) {
-                    const other = nodes[j]
-                    const dx = node.x - other.x
-                    const dy = node.y - other.y
-                    const distance = Math.sqrt(dx * dx + dy * dy)
-
-                    if (distance < connectionDistance) {
-                        ctx!.beginPath()
-                        ctx!.globalAlpha = 1 - (distance / connectionDistance)
-                        ctx!.moveTo(node.x, node.y)
-                        ctx!.lineTo(other.x, other.y)
-                        ctx!.stroke()
-                        ctx!.globalAlpha = 1
-                    }
-                }
-            })
-
-            requestAnimationFrame(animate)
-        }
-
-        animate()
-
-        const handleResize = () => {
-            width = canvas.width = window.innerWidth
-            height = canvas.height = window.innerHeight
-        }
-
-        window.addEventListener('resize', handleResize)
-        return () => window.removeEventListener('resize', handleResize)
-    }, [])
-
-    return <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none opacity-40" />
 }
 
 function SystemDiagramOutline() {

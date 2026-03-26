@@ -15,8 +15,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="w-full h-full relative overflow-hidden group-hover:scale-[1.02] transition-transform duration-700">
           <img
             src={project.thumbnail_image}
-            alt={project.name}
+            alt={`${project.name} case study preview image`}
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 opacity-40 group-hover:opacity-70 transition-all duration-700"
+            loading="lazy"
+            decoding="async"
+            fetchPriority="low"
           />
           {/* Scanline effect on hover */}
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-accent/5 to-transparent h-1/2 w-full -translate-y-full group-hover:translate-y-[200%] transition-transform duration-[1.5s] ease-in-out pointer-events-none" />

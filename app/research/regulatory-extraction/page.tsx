@@ -1,7 +1,4 @@
-"use client"
 import Link from 'next/link'
-import { motion } from 'framer-motion'
-import SectionHeader from '../../../components/SectionHeader'
 
 export default function RegulatoryExtractionPage() {
     return (
@@ -31,8 +28,11 @@ export default function RegulatoryExtractionPage() {
                         <div className="relative aspect-[16/5] border border-black/10 bg-white shadow-lg overflow-hidden group">
                             <img
                                 src="/images/research/regulatory_extraction_hero.png"
-                                alt="Maritime Law Boundaries"
+                                alt="Regulatory extraction research visual for maritime and transport law parsing"
                                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-1000 grayscale hover:grayscale-0"
+                                loading="eager"
+                                decoding="async"
+                                fetchPriority="high"
                             />
                             <div className="absolute inset-0 border-[20px] border-white/20 pointer-events-none" />
                         </div>

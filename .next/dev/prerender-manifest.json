@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/systems/imediate-app":{},"/systems/shootatlas":{},"/systems/iru-assistant":{},"/systems/roofdraft":{},"/systems/a2x-global":{},"/systems/imediate-whatsapp":{},"/systems/leaf":{},"/systems/supergramp":{},"/systems/extra-ticket":{},"/systems/photosell":{},"/systems/gk-mvp":{},"/systems/five-things":{},"/systems/fluffybutt":{},"/systems/quiet-place":{}},"dynamicRoutes":{"/systems/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/systems/[slug]","routeRegex":"^\\/systems\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"9837b77824207b45056a9671c6ff7624","previewModeSigningKey":"3afa655fb2e379c45d9b8c9d3bb43305e70e2f4f6fc993d67d06c31219897a92","previewModeEncryptionKey":"398c72dcccea90ef76cc36ef053a454272a7ca47fed35c1f15068aeadab65aae"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "4466af30485e240ea429f8b619b92786",
+    "previewModeSigningKey": "62e72e7ee3a56e0ac96074ce519721019e52c3a7dea0739bdc6125fdb8161e16",
+    "previewModeEncryptionKey": "4099ddf7ded3f23d9b52f41f4477f7903d65fe4b9dcfadacccac2233437fb4f2"
+  }
+}

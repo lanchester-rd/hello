@@ -1,12 +1,23 @@
-import type { Metadata } from 'next'
-import { ReactNode } from 'react'
+import type { Metadata } from "next";
+import { ReactNode } from "react";
+import { buildPageMetadata } from "../../lib/seo";
 
-export const metadata: Metadata = {
-  title: 'Partner with Lanchester R&D | Engagement Models',
-  description: 'Work with Lanchester R&D through our Lab Sprint, Systems Audit, or Network Build offerings. Tailored research and design services for complex organizational challenges.',
-  keywords: ['Lanchester partnership', 'engagement models', 'lab sprint', 'systems audit', 'consulting'],
-}
+export const metadata: Metadata = buildPageMetadata({
+  title: "Partner With Lanchester R&D | Product Strategy and Systems Engagements",
+  description:
+    "Engage Lanchester R&D for product strategy consultancy, systems audits, AI workflow design, and custom application development.",
+  path: "/partner",
+  keywords: [
+    "product strategy consultancy",
+    "systems audit",
+    "AI workflow design",
+    "custom application development",
+    "Lanchester partnership",
+    "engagement models",
+    "operational design consulting",
+  ],
+});
 
 export default function PartnerLayout({ children }: { children: ReactNode }) {
-  return children
+  return children;
 }

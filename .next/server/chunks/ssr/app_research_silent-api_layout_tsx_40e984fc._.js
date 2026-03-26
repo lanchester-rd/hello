@@ -1,0 +1,3 @@
+module.exports=[41838,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"Solving the Silent API | Lanchester R&D",description:"Case study on building a busyness index and ranking engine when Google Popular Times data is inaccessible to independent products.",path:"/research/silent-api",keywords:["silent API","ranking engine case study","maps data product","busyness index"],type:"article"});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_research_silent-api_layout_tsx_40e984fc._.js.map

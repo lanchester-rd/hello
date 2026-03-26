@@ -1,14 +1,23 @@
 import type { Metadata } from 'next'
+import { buildPageMetadata } from '../../../lib/seo'
 import Link from 'next/link'
 import { Playfair_Display } from 'next/font/google'
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: '5-Year Plan for NGO App Development - Abbey Fields Foundation',
-  description: 'How Abbey Fields Foundation scales nonprofit technology and charity software development. Strategic roadmap for digital transformation in the NGO sector.',
-  keywords: ['nonprofit app development roadmap', 'NGO technology scaling', 'charity software expansion', 'nonprofit digital transformation strategy', '5-year NGO tech plan'],
-}
+  description:
+    'How Abbey Fields Foundation scales nonprofit technology and charity software development. Strategic roadmap for digital transformation in the NGO sector.',
+  path: '/foundation/five-year-plan',
+  keywords: [
+    'nonprofit app development roadmap',
+    'NGO technology scaling',
+    'charity software expansion',
+    'nonprofit digital transformation strategy',
+    '5-year NGO tech plan',
+  ],
+})
 
 function YearBlock({ year, title, goal, items }: { year: string, title: string, goal: string, items: string[] }) {
   return (

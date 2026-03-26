@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { projects } from '../../../data/projects'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import ProjectCard from '../../../components/ProjectCard'
 import SectionHeader from '../../../components/SectionHeader'
+import { absoluteUrl, buildPageMetadata, getBaseUrl } from '../../../lib/seo'
 
 interface Props {
     params: Promise<{ slug: string }>
@@ -20,17 +20,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const project = projects.find(p => p.slug === slug)
     
     if (!project) {
-        return {
+        return buildPageMetadata({
             title: 'System Not Found - Lanchester R&D',
             description: 'The system project you are looking for could not be found.',
-        }
+            path: '/systems',
+            noIndex: true,
+        })
     }
 
-    return {
+    return buildPageMetadata({
         title: `${project.name} | Lanchester R&D Systems`,
         description: project.one_liner || project.core_problem,
+        path: `/systems/${slug}`,
         keywords: ['lanchester systems', project.category, 'product intelligence', 'systems design'],
-    }
+        type: 'article',
+        images: [project.hero_image],
+    })
 }
 
 export default async function SystemPage({ params }: Props) {
@@ -40,6 +45,69 @@ export default async function SystemPage({ params }: Props) {
 
     const currentIndex = projects.findIndex(p => p.slug === slug)
     const nextProject = projects[(currentIndex + 1) % projects.length]
+    const baseUrl = getBaseUrl()
+    const pageUrl = absoluteUrl(`/systems/${slug}`)
+
+    const relatedServiceByCategory: Record<string, string> = {
+        'Coordination Systems': '/services/systems-audit',
+        'Operational Intelligence': '/services/ai-workflow-design',
+        'Market & Asset Optimization': '/services/product-strategy',
+        'Behavioral & Wellbeing': '/services/app-development',
+    }
+
+    const relatedResearchBySlug: Record<string, string> = {
+        'imediate-app': '/research/learn-launchpad',
+        shootatlas: '/research/low-bandwidth-sync',
+        roofdraft: '/research/predictive-roof-maintenance',
+        'iru-assistant': '/research/autonomous-dispatch',
+        'quiet-place': '/research/silent-api',
+    }
+
+    const relatedServiceLink = relatedServiceByCategory[project.category] || '/services'
+    const relatedResearchLink = relatedResearchBySlug[project.slug] || '/research'
+
+    const caseStudySchema = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'CreativeWork',
+                '@id': `${pageUrl}#case-study`,
+                name: `${project.name} case study`,
+                headline: project.name,
+                description: project.one_liner || project.core_problem,
+                keywords: project.tags.join(', '),
+                url: pageUrl,
+                image: absoluteUrl(project.hero_image),
+                creator: {
+                    '@id': `${baseUrl}/#organization`,
+                },
+                about: project.category,
+            },
+            {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                    {
+                        '@type': 'ListItem',
+                        position: 1,
+                        name: 'Home',
+                        item: `${baseUrl}/`,
+                    },
+                    {
+                        '@type': 'ListItem',
+                        position: 2,
+                        name: 'Systems',
+                        item: `${baseUrl}/systems`,
+                    },
+                    {
+                        '@type': 'ListItem',
+                        position: 3,
+                        name: project.name,
+                        item: pageUrl,
+                    },
+                ],
+            },
+        ],
+    }
 
     const mainSections = [
         { id: '01', title: 'Strategic Context', content: project.strategic_context },
@@ -53,6 +121,10 @@ export default async function SystemPage({ params }: Props) {
 
     return (
         <div className="min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 relative overflow-hidden">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(caseStudySchema) }}
+            />
             {/* Visual Overlays */}
             <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none">
                 <div className="absolute inset-0 bg-grid" />
@@ -86,8 +158,11 @@ export default async function SystemPage({ params }: Props) {
                             <div className="aspect-[4/3] w-full bg-background-layer1 border border-white/10 overflow-hidden relative group">
                                 <img
                                     src={project.hero_image}
-                                    alt={`${project.name} Diagnostic`}
+                                    alt={`${project.name} case study hero visual`}
                                     className="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-80 transition-all duration-1000"
+                                    loading="eager"
+                                    decoding="async"
+                                    fetchPriority="high"
                                 />
                                 <div className="absolute inset-0 border border-accent/20 transition-all group-hover:border-accent group-hover:inset-4 pointer-events-none" />
                                 <div className="absolute bottom-4 left-6 font-mono text-[9px] text-accent tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
@@ -257,8 +332,11 @@ export default async function SystemPage({ params }: Props) {
                                                 <div className="relative aspect-[16/9] w-full bg-background-layer1 overflow-hidden border border-white/5 p-4 group/img">
                                                     <img
                                                         src={project.cover_image}
-                                                        alt={`${project.name} Architecture`}
+                                                        alt={`${project.name} product architecture diagram`}
                                                         className="w-full h-full object-contain grayscale opacity-40 group-hover/img:opacity-70 transition-opacity duration-1000"
+                                                        loading="lazy"
+                                                        decoding="async"
+                                                        fetchPriority="low"
                                                     />
                                                     <div className="absolute inset-0 bg-grid opacity-10" />
                                                     <div className="absolute top-4 left-4 analytical-label text-[8px] opacity-40">System Schematic // V-01</div>
@@ -322,6 +400,21 @@ export default async function SystemPage({ params }: Props) {
                             <Link href="/partner" className="btn-primary w-full text-center group">
                                 Initiate Collaboration Mission
                             </Link>
+
+                            <div className="p-8 border border-white/5 bg-background-layer1/30 space-y-4">
+                                <h4 className="analytical-label text-accent">Related Paths</h4>
+                                <div className="space-y-3 text-[10px] uppercase tracking-widest font-bold">
+                                    <Link href={relatedServiceLink} className="block text-white/70 hover:text-accent transition-colors">
+                                        Related Service
+                                    </Link>
+                                    <Link href={relatedResearchLink} className="block text-white/70 hover:text-accent transition-colors">
+                                        Related Research
+                                    </Link>
+                                    <Link href="/strategy" className="block text-white/70 hover:text-accent transition-colors">
+                                        Methodology
+                                    </Link>
+                                </div>
+                            </div>
                         </aside>
                     </div>
 
@@ -336,7 +429,14 @@ export default async function SystemPage({ params }: Props) {
                                     <p className="text-muted uppercase tracking-widest text-[9px] font-mono">Mission Ref // {nextProject.slug.toUpperCase()}</p>
                                 </div>
                                 <div className="absolute inset-0 grayscale opacity-0 group-hover:opacity-10 transition-opacity duration-1000 flex items-center justify-center">
-                                    <img src={nextProject.hero_image} className="w-full h-full object-cover" alt="" />
+                                    <img
+                                        src={nextProject.hero_image}
+                                        className="w-full h-full object-cover"
+                                        alt={`${nextProject.name} case study preview`}
+                                        loading="lazy"
+                                        decoding="async"
+                                        fetchPriority="low"
+                                    />
                                 </div>
                             </Link>
                         </div>

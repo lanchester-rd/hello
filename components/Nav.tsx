@@ -4,9 +4,11 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const navItems = [
+  { href: '/services', label: 'Services' },
   { href: '/strategy', label: 'Method' },
   { href: '/systems', label: 'Systems' },
   { href: '/founder', label: 'Principal' },
+  { href: '/founder/timeline', label: 'Timeline' },
   { href: '/research', label: 'Intelligence' },
   { href: '/about', label: 'Lab' },
   { href: '/foundation', label: 'Foundation' },

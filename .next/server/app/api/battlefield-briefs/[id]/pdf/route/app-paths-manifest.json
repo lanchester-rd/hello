@@ -1,0 +1,3 @@
+{
+  "/api/battlefield-briefs/[id]/pdf/route": "app/api/battlefield-briefs/[id]/pdf/route.js"
+}

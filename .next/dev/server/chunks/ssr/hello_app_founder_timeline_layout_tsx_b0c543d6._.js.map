@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/Lanchester-rd/hello/app/founder/timeline/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { ReactNode } from \"react\";\n\nexport const metadata: Metadata = {\n  title: \"Timeline | Lanchester R&D\",\n  description:\n    \"An autobiographical timeline charting the journey from early exploration to Lanchester R&D — research, design, and venture building.\",\n  keywords: [\n    \"Lanchester timeline\",\n    \"founder journey\",\n    \"autobiographical\",\n    \"research and design history\",\n  ],\n};\n\nexport default function TimelineLayout({ children }: { children: ReactNode }) {\n  return children;\n}\n"],"names":["metadata","title","description","keywords","TimelineLayout","children"],"mappings":";;;;;;AAGO,MAAMA,QAAkB,GAAG;IAChCC,KAAK,EAAE,2BAA2B;IAClCC,WAAW,EACT,sIAAsI;IACxIC,QAAQ,EAAE;QACR,qBAAqB;QACrB,iBAAiB;QACjB,kBAAkB;QAClB,6BAA6B;KAAA;AAEjC,CAAC;AAEc,SAASC,cAAcA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC5E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

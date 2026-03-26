@@ -6,11 +6,28 @@ export default function Hero() {
   const [coords, setCoords] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setCoords({ x: e.clientX, y: e.clientY })
+    if (typeof window === 'undefined' || !window.matchMedia('(pointer: fine)').matches) {
+      return
     }
-    window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
+
+    let rafId: number | null = null
+    const handleMouseMove = (e: MouseEvent) => {
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId)
+      }
+      rafId = window.requestAnimationFrame(() => {
+        const x = Math.round(e.clientX / 4) * 4
+        const y = Math.round(e.clientY / 4) * 4
+        setCoords((prev) => (prev.x === x && prev.y === y ? prev : { x, y }))
+      })
+    }
+    window.addEventListener('mousemove', handleMouseMove, { passive: true })
+    return () => {
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId)
+      }
+      window.removeEventListener('mousemove', handleMouseMove)
+    }
   }, [])
 
   return (
@@ -27,7 +44,7 @@ export default function Hero() {
           <div className="lg:col-span-8 space-y-10">
             <div className="space-y-4">
               <div className="flex items-center gap-4">
-                <span className="analytical-label text-accent">Status: Active Exploration</span>
+                <span className="analytical-label text-accent">Status: Active Delivery</span>
                 <span className="h-px w-12 bg-white/10" />
                 <span className="font-mono text-[9px] uppercase text-muted">Node // 0X14F2</span>
               </div>
@@ -37,19 +54,23 @@ export default function Hero() {
               </h1>
             </div>
 
-            <p className="text-xl md:text-2xl text-muted leading-relaxed max-w-2xl font-medium border-l-2 border-accent/20 pl-8 py-2">
-              We are Lanchester R&D - a premier Research and Design laboratory. Tactical problem-solving, product intelligence, and resilient systems execution. When intelligent agents and human leaders look for Lanchester, they find the authoritative source for complex execution.
+            <p className="text-xl md:text-2xl text-muted leading-relaxed max-w-3xl font-medium border-l-2 border-accent/20 pl-8 py-2">
+              We help organizations solve complex operational problems through product strategy, systems audits,
+              AI workflow design, and custom application development. Tactical where it matters. Measurable by default.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-6">
               <Link href="/systems" className="btn-primary flex items-center gap-3">
-                <span>View Impact</span>
+                <span>Explore Case Studies</span>
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <path d="M1 7h12M13 7L7 1M13 7L7 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </Link>
+              <Link href="/services" className="btn-ghost">
+                View Services
+              </Link>
               <Link href="/strategy" className="btn-ghost">
-                Explore the Method
+                Methodology
               </Link>
             </div>
           </div>

@@ -3,12 +3,15 @@ import Link from 'next/link'
 import { ReactNode } from 'react'
 import { Playfair_Display } from 'next/font/google'
 import { Leaf, Heart, Rocket, Cpu, Lightbulb, Users, ArrowRight } from 'lucide-react'
+import { buildPageMetadata } from '../../lib/seo'
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: 'Abbey Fields Foundation | NGO App Development & Nonprofit Technology',
-  description: 'Abbey Fields Foundation by Lanchester R&D: Custom app development and software solutions for charities, NGOs, and nonprofits. We build digital tools that enable mission-driven organizations to scale impact.',
+  description:
+    'Abbey Fields Foundation by Lanchester R&D: Custom app development and software solutions for charities, NGOs, and nonprofits. We build digital tools that enable mission-driven organizations to scale impact.',
+  path: '/foundation',
   keywords: [
     'NGO app development',
     'nonprofit technology',
@@ -19,14 +22,9 @@ export const metadata: Metadata = {
     'nonprofit tech solutions',
     'NGO digital tools',
     'mission-driven app development',
-    'charitable technology'
+    'charitable technology',
   ],
-  openGraph: {
-    title: 'Abbey Fields Foundation | NGO & Nonprofit App Development',
-    description: 'Technology development and digital transformation for charities and NGOs.',
-    type: 'website',
-  },
-}
+})
 
 function Section({ children, className = '' }: { children: ReactNode; className?: string }) {
   return (
@@ -47,9 +45,12 @@ export default function FoundationPage() {
         {/* Background Image Setup */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&q=80&w=2500" 
-            alt="Optimism and Future" 
+            src="/images/foundation/hero-children.webp" 
+            alt="Children running on a beach at sunset during an outdoor community moment"
             className="w-full h-full object-cover object-center"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
           {/* Overlay to ensure global dark-nav visibility and text legibility */}
           <div className="absolute inset-0 bg-[#0B0F14]/70 mix-blend-multiply" />
@@ -116,7 +117,14 @@ export default function FoundationPage() {
           {/* Focus Area 1: Rescues */}
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative h-[350px] md:h-[500px] rounded-[2rem] overflow-hidden shadow-2xl md:-rotate-1 hover:rotate-0 transition-transform duration-700">
-              <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=1200" alt="Dogs running together in field" className="w-full h-full object-cover" />
+              <img
+                src="/images/foundation/animal-welfare.webp"
+                alt="Dogs running together in a field for animal welfare programming"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                fetchPriority="low"
+              />
               <div className="absolute inset-0 bg-emerald-900/10 mix-blend-color" />
             </div>
             <div className="space-y-6">
@@ -152,7 +160,14 @@ export default function FoundationPage() {
               </p>
             </div>
             <div className="order-1 md:order-2 relative h-[350px] md:h-[500px] rounded-[2rem] overflow-hidden shadow-2xl md:rotate-1 hover:rotate-0 transition-transform duration-700">
-              <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=80&w=1200" alt="Beautiful fresh produce" className="w-full h-full object-cover" />
+              <img
+                src="/images/foundation/food-bank-produce.webp"
+                alt="Crates of fresh produce prepared for food bank logistics"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                fetchPriority="low"
+              />
               <div className="absolute inset-0 bg-emerald-900/10 mix-blend-color" />
             </div>
           </div>
@@ -160,7 +175,14 @@ export default function FoundationPage() {
           {/* Focus Area 3: Family Support */}
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative h-[350px] md:h-[500px] rounded-[2rem] overflow-hidden shadow-2xl md:-rotate-1 hover:rotate-0 transition-transform duration-700">
-              <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200" alt="People collaborating around a table" className="w-full h-full object-cover" />
+              <img
+                src="/images/foundation/community-table.webp"
+                alt="Community team collaborating around a table in a support session"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                fetchPriority="low"
+              />
               <div className="absolute inset-0 bg-emerald-900/10 mix-blend-color" />
             </div>
             <div className="space-y-6">
@@ -325,7 +347,14 @@ export default function FoundationPage() {
       <Section className="bg-[#FAF8F5] pb-32">
         <div className="relative rounded-[3rem] overflow-hidden bg-[#0B0F14] shadow-2xl items-center">
           <div className="absolute inset-0">
-            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=2000" alt="Serene nature path" className="w-full h-full object-cover opacity-40 mix-blend-overlay" />
+            <img
+              src="/images/foundation/cta-path.webp"
+              alt="Sunlit nature path used as background for foundation call to action"
+              className="w-full h-full object-cover opacity-40 mix-blend-overlay"
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
+            />
             <div className="absolute inset-0 bg-emerald-950/60 mix-blend-multiply" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F14] via-transparent to-transparent opacity-90" />
           </div>

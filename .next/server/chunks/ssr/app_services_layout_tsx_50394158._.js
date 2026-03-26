@@ -1,0 +1,3 @@
+module.exports=[49630,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"Services | Product Strategy, Systems Audit and AI Workflow Design",description:"Explore Lanchester R&D services in product strategy, systems audits, AI workflow design, custom app development, and nonprofit app development.",path:"/services",keywords:["product strategy consultancy","systems audit","AI workflow design","custom application development","nonprofit app development"]});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_services_layout_tsx_50394158._.js.map

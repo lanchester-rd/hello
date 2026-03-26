@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Hide scrollbars globally (the page scrolls via JS, not native scrollbar) ── */
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE/Edge */
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;                /* Chrome/Safari/Opera */
+  }
+}
+
+/* Apply to the html element so the Tailwind class added by timeline page works */
+html.scrollbar-none,
+html.scrollbar-none body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html.scrollbar-none::-webkit-scrollbar,
+html.scrollbar-none body::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --background: #0B0F14;
   --foreground: #FFFFFF;
@@ -45,6 +67,10 @@
   .analytical-label {
     @apply text-[10px] font-bold uppercase tracking-[0.3em] text-muted;
   }
+
+  .admin-input {
+    @apply w-full bg-background-layer1 border border-white/10 rounded px-3 py-2 text-sm text-foreground placeholder:text-muted/40 focus:outline-none focus:border-accent/50 transition-colors;
+  }
 }
 
 /* Custom Tactical Backgrounds */
@@ -76,6 +102,21 @@
 
 .animate-drift {
   animation: drift 60s linear infinite;
+}
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
 }
 
 @keyframes pulse-coordinate {

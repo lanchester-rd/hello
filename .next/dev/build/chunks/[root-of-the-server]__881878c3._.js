@@ -1,12 +1,9 @@
 module.exports = [
 "[project]/postcss.config.cjs [postcss] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-module.exports = {
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {}
-    }
-};
+const e = new Error("Could not parse module '[project]/postcss.config.cjs', file not found");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[externals]/path [external] (path, cjs)", ((__turbopack_context__, module, exports) => {
 

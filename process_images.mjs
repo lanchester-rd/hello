@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import sharp from 'sharp';
 
-const inputDir = '/Users/tdr/Documents/GitHub/hello/public/images/highres';
-const outputDir = '/Users/tdr/Documents/GitHub/hello/public/images/portfolio';
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const inputDir = process.env.INPUT_DIR || path.join(scriptDir, 'public/images/highres');
+const outputDir = process.env.OUTPUT_DIR || path.join(scriptDir, 'public/images/portfolio');
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(outputDir)) {

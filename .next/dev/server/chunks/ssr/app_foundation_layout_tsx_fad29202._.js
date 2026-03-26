@@ -8,28 +8,24 @@ __turbopack_context__.s([
     "metadata",
     ()=>metadata
 ]);
-const metadata = {
-    title: 'Abbey Fields Foundation | NGO App Development & Nonprofit Technology',
-    description: 'Abbey Fields Foundation by Lanchester R&D provides software development, app creation, and digital transformation for charities, NGOs, and nonprofits. Custom technology for mission-driven organizations.',
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/seo.ts [app-rsc] (ecmascript)");
+;
+const metadata = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["buildPageMetadata"])({
+    title: "Abbey Fields Foundation | Nonprofit App Development",
+    description: "Abbey Fields Foundation by Lanchester R&D provides software development, app creation, and digital transformation for charities, NGOs, and nonprofits.",
+    path: "/foundation",
     keywords: [
-        'NGO app development',
-        'nonprofit technology',
-        'charity software development',
-        'nonprofit app',
-        'NGO software',
-        'charity digital transformation',
-        'nonprofit tech solutions',
-        'NGO digital tools',
-        'mission-driven app development',
-        'charitable technology',
-        'Abbey Fields Foundation'
-    ],
-    openGraph: {
-        title: 'Abbey Fields Foundation | NGO & Nonprofit App Development',
-        description: 'Technology development and digital transformation for charities and NGOs.',
-        type: 'website'
-    }
-};
+        "NGO app development",
+        "nonprofit technology",
+        "charity software development",
+        "nonprofit app",
+        "NGO software",
+        "charity digital transformation",
+        "nonprofit tech solutions",
+        "mission-driven app development",
+        "Abbey Fields Foundation"
+    ]
+});
 function FoundationLayout({ children }) {
     return children;
 }

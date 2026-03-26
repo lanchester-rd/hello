@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { experiments } from '../../../data/research'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import SectionHeader from '../../../components/SectionHeader'
+import { buildPageMetadata } from '../../../lib/seo'
 
 interface Props {
     params: Promise<{ slug: string }>
@@ -19,17 +19,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const exp = experiments.find(e => e.slug === slug)
     
     if (!exp) {
-        return {
+        return buildPageMetadata({
             title: 'Research Not Found - Lanchester R&D',
             description: 'The research article you are looking for could not be found.',
-        }
+            path: '/research',
+            noIndex: true,
+        })
     }
 
-    return {
+    return buildPageMetadata({
         title: `${exp.target} | Lanchester R&D Intelligence Research`,
         description: exp.note,
+        path: `/research/${slug}`,
         keywords: ['lanchester research', 'intelligence', exp.focus, 'technical investigation'],
-    }
+        type: 'article',
+    })
 }
 
 export default async function ExperimentPage({ params }: Props) {

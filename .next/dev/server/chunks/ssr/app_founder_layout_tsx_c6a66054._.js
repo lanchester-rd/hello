@@ -8,16 +8,22 @@ __turbopack_context__.s([
     "metadata",
     ()=>metadata
 ]);
-const metadata = {
-    title: 'Principal Founder | Lanchester R&D Leadership',
-    description: 'Meet the founder and vision behind Lanchester R&D. Learn about the principal\'s experience in research, design, and building resilient systems.',
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/seo.ts [app-rsc] (ecmascript)");
+;
+const metadata = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["buildPageMetadata"])({
+    title: "Thomas David Richardson | Founder of Lanchester R&D",
+    description: "Thomas David Richardson is the founder of Lanchester R&D, focused on product strategy, systems design consulting, and AI workflow architecture for complex organizations.",
+    path: "/founder",
     keywords: [
-        'Lanchester founder',
-        'leadership',
-        'research director',
-        'product strategy'
+        "Thomas David Richardson",
+        "Lanchester R&D founder",
+        "product design leader",
+        "product strategy consultant",
+        "systems design consultant",
+        "AI workflow design",
+        "product research and design leader"
     ]
-};
+});
 function FounderLayout({ children }) {
     return children;
 }

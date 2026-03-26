@@ -1,14 +1,23 @@
 import type { Metadata } from 'next'
+import { buildPageMetadata } from '../../../lib/seo'
 import Link from 'next/link'
 import { Playfair_Display } from 'next/font/google'
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: 'Concept Note - Abbey Fields Foundation NGO Technology Strategy',
-  description: 'Abbey Fields Foundation\'s strategic approach to nonprofit app development, charity technology solutions, and digital transformation for mission-driven organizations.',
-  keywords: ['NGO strategy', 'nonprofit technology', 'charity technology innovation', 'nonprofit app strategy', 'digital transformation for charities'],
-}
+  description:
+    'Abbey Fields Foundation\'s strategic approach to nonprofit app development, charity technology solutions, and digital transformation for mission-driven organizations.',
+  path: '/foundation/concept-note',
+  keywords: [
+    'NGO strategy',
+    'nonprofit technology',
+    'charity technology innovation',
+    'nonprofit app strategy',
+    'digital transformation for charities',
+  ],
+})
 
 export default function ConceptNotePage() {
   return (

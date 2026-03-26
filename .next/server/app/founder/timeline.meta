@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/founder/layout,_N_T_/founder/timeline/layout,_N_T_/founder/timeline/page,_N_T_/founder/timeline"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/founder/timeline/__PAGE__",
+    "/founder/timeline",
+    "/founder",
+    "/_index",
+    "/_head"
+  ]
+}

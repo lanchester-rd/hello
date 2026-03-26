@@ -1,0 +1,3 @@
+module.exports=[81031,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"Timeline | Lanchester R&D",description:"An autobiographical timeline charting the journey from early exploration to Lanchester R&D — research, design, and venture building.",path:"/founder/timeline",keywords:["Lanchester timeline","founder journey","autobiographical","research and design history"]});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_founder_timeline_layout_tsx_6ef1b01d._.js.map

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/tdr/Documents/GitHub/Lanchester-rd/hello/app/founder/timeline/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { ReactNode } from \"react\";\nimport { buildPageMetadata } from \"../../../lib/seo\";\n\nexport const metadata: Metadata = buildPageMetadata({\n  title: \"Timeline | Lanchester R&D\",\n  description:\n    \"An autobiographical timeline charting the journey from early exploration to Lanchester R&D — research, design, and venture building.\",\n  path: \"/founder/timeline\",\n  keywords: [\n    \"Lanchester timeline\",\n    \"founder journey\",\n    \"autobiographical\",\n    \"research and design history\",\n  ],\n});\n\nexport default function TimelineLayout({ children }: { children: ReactNode }) {\n  return children;\n}\n"],"names":["buildPageMetadata","metadata","title","description","path","keywords","TimelineLayout","children"],"mappings":";;;;;;AAEA,SAASA,iBAAiB,QAAQ,kBAAkB;;AAE7C,MAAMC,QAAkB,OAAGD,+HAAiB,EAAC;IAClDE,KAAK,EAAE,2BAA2B;IAClCC,WAAW,EACT,sIAAsI;IACxIC,IAAI,EAAE,mBAAmB;IACzBC,QAAQ,EAAE;QACR,qBAAqB;QACrB,iBAAiB;QACjB,kBAAkB;QAClB,6BAA6B;KAAA;AAEjC,CAAC,CAAC;AAEa,SAASC,cAAcA,CAAC,EAAEC,QAAAA,EAAmC,EAAE;IAC5E,OAAOA,QAAQ;AACjB","ignoreList":[]}}]
+}

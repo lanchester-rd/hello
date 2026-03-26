@@ -1,0 +1,3 @@
+module.exports=[89112,a=>{"use strict";let b=(0,a.i(94474).buildPageMetadata)({title:"Predictive Aridity Mapping | Lanchester R&D",description:"Satellite and computer vision research for forecasting agricultural resource scarcity and supply-chain shifts before market pricing moves.",path:"/research/predictive-aridity-mapping",keywords:["predictive aridity mapping","satellite computer vision","environmental intelligence","resource scarcity forecasting"],type:"article",images:["/images/research/aridity_mapping_hero.png"]});function c({children:a}){return a}a.s(["default",()=>c,"metadata",0,b])}];
+
+//# sourceMappingURL=app_research_predictive-aridity-mapping_layout_tsx_76e5af2b._.js.map

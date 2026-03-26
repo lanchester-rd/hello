@@ -22,12 +22,68 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/admin/battlefield-briefs/[id]",
+      "regex": "^/admin/battlefield\\-briefs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/battlefield\\-briefs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/admin/battlefield-briefs/[id]",
+      "regex": "^/api/admin/battlefield\\-briefs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/admin/battlefield\\-briefs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/battlefield-briefs/[id]",
+      "regex": "^/api/battlefield\\-briefs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/battlefield\\-briefs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/battlefield-briefs/[id]/pdf",
+      "regex": "^/api/battlefield\\-briefs/([^/]+?)/pdf(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/battlefield\\-briefs/(?<nxtPid>[^/]+?)/pdf(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/events/[id]",
+      "regex": "^/api/timeline/events/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/timeline/events/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/battlefield-brief/[id]",
+      "regex": "^/battlefield\\-brief/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/battlefield\\-brief/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/research/[slug]",
       "regex": "^/research/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
       "namedRegex": "^/research/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/services/[slug]",
+      "regex": "^/services/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/services/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
       "page": "/systems/[slug]",
@@ -64,6 +120,114 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/battlefield-briefs",
+      "regex": "^/admin/battlefield\\-briefs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/battlefield\\-briefs(?:/)?$"
+    },
+    {
+      "page": "/admin/timeline",
+      "regex": "^/admin/timeline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/timeline(?:/)?$"
+    },
+    {
+      "page": "/admin/timeline/preview",
+      "regex": "^/admin/timeline/preview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/timeline/preview(?:/)?$"
+    },
+    {
+      "page": "/api/admin/battlefield-briefs",
+      "regex": "^/api/admin/battlefield\\-briefs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/battlefield\\-briefs(?:/)?$"
+    },
+    {
+      "page": "/api/battlefield-briefs",
+      "regex": "^/api/battlefield\\-briefs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/battlefield\\-briefs(?:/)?$"
+    },
+    {
+      "page": "/api/learn/idea-claims",
+      "regex": "^/api/learn/idea\\-claims(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/learn/idea\\-claims(?:/)?$"
+    },
+    {
+      "page": "/api/learn/project-events",
+      "regex": "^/api/learn/project\\-events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/learn/project\\-events(?:/)?$"
+    },
+    {
+      "page": "/api/learn/project-seeds",
+      "regex": "^/api/learn/project\\-seeds(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/learn/project\\-seeds(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/events",
+      "regex": "^/api/timeline/events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/timeline/events(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/events/reorder",
+      "regex": "^/api/timeline/events/reorder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/timeline/events/reorder(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/export",
+      "regex": "^/api/timeline/export(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/timeline/export(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/import",
+      "regex": "^/api/timeline/import(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/timeline/import(?:/)?$"
+    },
+    {
+      "page": "/api/timeline/media/upload",
+      "regex": "^/api/timeline/media/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/timeline/media/upload(?:/)?$"
+    },
+    {
+      "page": "/api/user/consent",
+      "regex": "^/api/user/consent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/consent(?:/)?$"
+    },
+    {
+      "page": "/api/user/export",
+      "regex": "^/api/user/export(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/export(?:/)?$"
+    },
+    {
+      "page": "/api/user/profile",
+      "regex": "^/api/user/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/profile(?:/)?$"
+    },
+    {
+      "page": "/battlefield-brief",
+      "regex": "^/battlefield\\-brief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/battlefield\\-brief(?:/)?$"
+    },
+    {
       "page": "/foundation",
       "regex": "^/foundation(?:/)?$",
       "routeKeys": {},
@@ -94,10 +258,34 @@
       "namedRegex": "^/founder(?:/)?$"
     },
     {
+      "page": "/founder/timeline",
+      "regex": "^/founder/timeline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/founder/timeline(?:/)?$"
+    },
+    {
+      "page": "/opengraph-image",
+      "regex": "^/opengraph\\-image(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/opengraph\\-image(?:/)?$"
+    },
+    {
       "page": "/partner",
       "regex": "^/partner(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/partner(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
     },
     {
       "page": "/research",
@@ -110,6 +298,12 @@
       "regex": "^/research/autonomous\\-dispatch(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/research/autonomous\\-dispatch(?:/)?$"
+    },
+    {
+      "page": "/research/learn-launchpad",
+      "regex": "^/research/learn\\-launchpad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research/learn\\-launchpad(?:/)?$"
     },
     {
       "page": "/research/low-bandwidth-sync",
@@ -148,6 +342,12 @@
       "namedRegex": "^/robots\\.txt(?:/)?$"
     },
     {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
@@ -164,6 +364,18 @@
       "regex": "^/systems(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/systems(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/twitter-image",
+      "regex": "^/twitter\\-image(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/twitter\\-image(?:/)?$"
     }
   ],
   "dataRoutes": [],

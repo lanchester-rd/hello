@@ -13,24 +13,24 @@ export default function PartnerCTA() {
             <div className="max-w-4xl mx-auto text-center space-y-12 relative z-10">
                 <SectionHeader
                     label="Activation"
-                    title="Initiate Exploration."
+                    title="Initiate Engagement."
                     align="center"
                 />
 
                 <p className="text-xl md:text-2xl text-muted leading-relaxed font-medium">
-                    Ready to define the terrain and solve the right problem? <br className="hidden md:block" />
-                    We are currently selecting strategic partners for the next cycle.
+                    Ready to solve a high-cost operational bottleneck? <br className="hidden md:block" />
+                    We work on product strategy, systems audits, AI workflow design, and custom application delivery.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
                     <Link href="/partner" className="btn-primary flex items-center gap-4 group w-full sm:w-auto px-12">
-                        <span>Initiate Mission</span>
+                        <span>Start Engagement</span>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="group-hover:translate-x-1 transition-transform">
                             <path d="M1 8h14M15 8l-6-6M15 8l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </Link>
-                    <Link href="/systems" className="btn-ghost w-full sm:w-auto px-12">
-                        View System Impact
+                    <Link href="/services" className="btn-ghost w-full sm:w-auto px-12">
+                        Explore Services
                     </Link>
                 </div>
 

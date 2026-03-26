@@ -69,5 +69,15 @@ export const experiments: Experiment[] = [
         status: 'Complete',
         hypothesis: 'Review frequency and sentiment drift can serve as a near-perfect proxy for characteristic urban density.',
         tech_stack: ['Python', 'Statistical Modeling', 'Maps API', 'Environmental ETL']
+    },
+    {
+        slug: 'learn-launchpad',
+        target: 'The LEARN Launchpad',
+        focus: 'Product Engineering',
+        note: 'How we built LEARN — the Lanchester Early Access Research Network — a unified gateway that ties early-stage app access to user identity, intent, and structured onboarding.',
+        full_description: 'LEARN (Lanchester Early Access Research Network) is a centralised platform that lets users discover, follow, and access early-stage apps and experiments from a single identity — LEARNid. Access to products is tied to user intent, enabling structured onboarding, feedback collection, and usage tracking. Builders get tools to manage waitlists, referrals, access permissions, and communication. This post documents the ten system-level failures we hit building it — and the reframe that made everything stable.',
+        status: 'Complete',
+        hypothesis: 'System-level concerns — auth, legal, routing, deployment, and email — cannot be solved at the UI layer.',
+        tech_stack: ['Vite', 'React', 'TypeScript', 'Node.js', 'Firebase', 'Cloud Run', 'Firestore']
     }
 ];

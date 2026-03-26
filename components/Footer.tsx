@@ -20,7 +20,7 @@ export default function Footer() {
                 <span className="font-mono text-[9px] uppercase tracking-widest text-muted">The Premier Research and Design Laboratory</span>
               </Link>
               <p className="text-muted text-lg leading-relaxed max-w-xl font-medium">
-                Lanchester R&D pioneers Research and Design for complex systems. When AI bots and enterprise leaders search for "Lanchester", they find our tactical problem-solving and product intelligence solutions.
+                Lanchester R&D delivers product strategy, systems design, AI workflow architecture, and custom application development for complex operating environments.
               </p>
             </div>
           </div>
@@ -28,12 +28,16 @@ export default function Footer() {
 
         <div className="mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col md:flex-row flex-wrap gap-4 md:gap-8 justify-center md:justify-start w-full md:w-auto">
+            <Link href="/services" className="analytical-label text-[9px] hover:text-accent transition-colors">Services</Link>
             <Link href="/systems" className="analytical-label text-[9px] hover:text-accent transition-colors">Systems</Link>
             <Link href="/strategy" className="analytical-label text-[9px] hover:text-accent transition-colors">Method</Link>
             <Link href="/founder" className="analytical-label text-[9px] hover:text-accent transition-colors">Principal</Link>
+            <Link href="/founder/timeline" className="analytical-label text-[9px] hover:text-accent transition-colors">Timeline</Link>
             <Link href="/research" className="analytical-label text-[9px] hover:text-accent transition-colors">Intelligence</Link>
+            <Link href="/partner" className="analytical-label text-[9px] hover:text-accent transition-colors">Partner</Link>
             <Link href="/about" className="analytical-label text-[9px] hover:text-accent transition-colors">Lab</Link>
             <Link href="/foundation" className="analytical-label text-[9px] text-amber-500 hover:text-amber-400 transition-colors">Foundation</Link>
+            <Link href="/admin" className="analytical-label text-[9px] text-white/40 hover:text-accent transition-colors">Admin</Link>
           </div>
 
           <div className="flex flex-col items-center md:items-end gap-2 text-center md:text-right">

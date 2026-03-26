@@ -8,17 +8,22 @@ __turbopack_context__.s([
     "metadata",
     ()=>metadata
 ]);
-const metadata = {
-    title: 'Systems Archive | Lanchester R&D Project Portfolio',
-    description: 'Explore Lanchester R&D\'s portfolio of complex systems projects in coordination systems, operational intelligence, market optimization, and behavioral wellbeing.',
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/seo.ts [app-rsc] (ecmascript)");
+;
+const metadata = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["buildPageMetadata"])({
+    title: "Systems Archive | Product, AI and Operational Design Case Studies",
+    description: "Explore Lanchester R&D case studies in product systems, app design, coordination workflows, systems audits, and AI-enabled operational design.",
+    path: "/systems",
     keywords: [
-        'Lanchester systems',
-        'project portfolio',
-        'coordination systems',
-        'operational intelligence',
-        'product systems'
+        "product systems",
+        "app design case studies",
+        "systems audit",
+        "product design portfolio",
+        "AI systems portfolio",
+        "coordination systems",
+        "workflow design case studies"
     ]
-};
+});
 function SystemsLayout({ children }) {
     return children;
 }
