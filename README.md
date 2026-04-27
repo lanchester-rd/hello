@@ -3,7 +3,7 @@
 **Product Designer · Founder · Apple-native App Builder**  
 **Master of Design (MDes) — Amsterdam, Netherlands**
 
-[Portfolio Website](https://lanchester-rd.vercel.app/) — currently being updated.
+[Portfolio Website](https://learn.lanchesterresearchanddesign.com/)) — currently being updated.
 
 ---
 
